@@ -8,13 +8,13 @@ const Midlinks = () => {
     <div className="flex justify-between mb-20">
       {/* Brand + Newsletter */}
       <div className="space-y-4">
-        <Link href="/" className="flex items-center gap-2 font-bold text-lg">
+        <Link href="/" className="flex items-center gap-2 font-bold text-md">
           <div className="grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-primary to-primary/60 text-primary-foreground">
             ✨
           </div>
           YourBrand
         </Link>
-        <p className="text-lg text-muted-foreground">
+        <p className="text-md text-muted-foreground">
           Building amazing experiences with Shadcn + Tailwind.
         </p>
         <form className="flex w-full max-w-sm items-center space-x-2">
@@ -31,7 +31,7 @@ const Midlinks = () => {
 
       {/* Navigation */}
       <div>
-        <ul className="space-y-4 text-lg text-muted-foreground">
+        <ul className="space-y-4 text-md">
           <li>
             <Link href="#features">Features</Link>
           </li>
@@ -48,7 +48,7 @@ const Midlinks = () => {
       </div>
 
       <div>
-        <ul className="space-y-4 text-lg text-muted-foreground">
+        <ul className="space-y-4 text-md">
           <li>
             <Link href="#about">About Us</Link>
           </li>
@@ -65,7 +65,7 @@ const Midlinks = () => {
       </div>
 
       <div className="max-w-min inline">
-        <ul className="space-y-4 text-lg text-muted-foreground">
+        <ul className="space-y-4 text-md">
           <li>
             <Link href="#help" className="whitespace-nowrap">
               Help Center
