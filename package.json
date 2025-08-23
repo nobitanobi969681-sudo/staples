@@ -21,7 +21,8 @@
     "motion": "^12.23.12",
     "next": "15.5.0",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "simplex-noise": "^4.0.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
