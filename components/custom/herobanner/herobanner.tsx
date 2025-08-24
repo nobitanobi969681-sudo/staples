@@ -59,7 +59,7 @@ export default function UniqueHeroWithSidebar() {
 
       {/* Hero Section */}
       <main className="flex-1 flex items-center justify-center px-6 py-20 bg-gradient-to-br from-background to-muted/40">
-        <div className="max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Text Content */}
           <div className="space-y-6 text-center md:text-left">
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">

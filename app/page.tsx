@@ -5,10 +5,12 @@ import Servicecards from "@/components/custom/cards/acard";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col items-center justify-start bg-gray-50 p-6">
+    <>
       <Herobanner />
-      <Servicecards />
-      <Testimonials />
-    </main>
+      <main className="flex flex-col items-center justify-start bg-gray-50 p-6">
+        <Servicecards />
+        <Testimonials />
+      </main>
+    </>
   );
 }
