@@ -102,9 +102,9 @@ export default function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 items-center justify-between gap-3 px-4">
+      <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-8">
         {/* Left: Logo + Mobile Menu */}
-        <div className="flex items-center gap-2">
+        <div className="min-w-[300px] flex items-center gap-2">
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild className="md:hidden">
               <Button variant="ghost" size="icon" aria-label="Open menu">
@@ -231,7 +231,7 @@ export default function SiteHeader() {
         </div>
 
         {/* Right: Actions */}
-        <div className="flex items-center gap-2">
+        <div className="min-w-[300px] flex justify-end items-center gap-2">
           <div className="hidden items-center gap-2 sm:flex">
             <ThemeToggle />
           </div>
