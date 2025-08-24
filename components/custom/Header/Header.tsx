@@ -187,7 +187,13 @@ export default function SiteHeader() {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Products</NavigationMenuTrigger>
+                <NavLink href="#features">Home</NavLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavLink href="#features">About</NavLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger>Servcies</NavigationMenuTrigger>
                 <NavigationMenuContent className="p-4">
                   <div className="grid w-[500px] grid-cols-2 gap-3">
                     <ProductCard
@@ -213,18 +219,8 @@ export default function SiteHeader() {
                   </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-
               <NavigationMenuItem>
-                <NavLink href="#features">Features</NavLink>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavLink href="#use-cases">Use Cases</NavLink>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavLink href="#pricing">Pricing</NavLink>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
-                <NavLink href="#docs">Docs</NavLink>
+                <NavLink href="#docs">Contact</NavLink>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
