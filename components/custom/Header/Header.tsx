@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import * as React from "react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -64,15 +64,34 @@ function ThemeToggle() {
     }
   };
   return (
-    <Button variant="ghost" size="icon" onClick={toggle} aria-label="Toggle theme">
+    <Button
+      variant="ghost"
+      size="icon"
+      onClick={toggle}
+      aria-label="Toggle theme"
+    >
       {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
     </Button>
   );
 }
 
-const NavLink = ({ href, children, className }: { href: string; children: React.ReactNode; className?: string }) => (
+const NavLink = ({
+  href,
+  children,
+  className,
+}: {
+  href: string;
+  children: React.ReactNode;
+  className?: string;
+}) => (
   <NavigationMenuLink asChild>
-    <Link href={href} className={cn("rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors", className)}>
+    <Link
+      href={href}
+      className={cn(
+        "rounded-md px-3 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors",
+        className
+      )}
+    >
       {children}
     </Link>
   </NavigationMenuLink>
@@ -104,14 +123,42 @@ export default function SiteHeader() {
                   <Input placeholder="Search…" className="h-10" />
                 </div>
                 <nav className="grid gap-1 text-sm">
-                  <MobileItem href="#features" icon={<Boxes className="h-4 w-4" />}>Features</MobileItem>
-                  <MobileItem href="#use-cases" icon={<BookOpen className="h-4 w-4" />}>Use Cases</MobileItem>
-                  <MobileItem href="#resources" icon={<Headphones className="h-4 w-4" />}>Support</MobileItem>
-                  <MobileItem href="#pricing" icon={<ShoppingBag className="h-4 w-4" />}>Pricing</MobileItem>
+                  <MobileItem
+                    href="#features"
+                    icon={<Boxes className="h-4 w-4" />}
+                  >
+                    Features
+                  </MobileItem>
+                  <MobileItem
+                    href="#use-cases"
+                    icon={<BookOpen className="h-4 w-4" />}
+                  >
+                    Use Cases
+                  </MobileItem>
+                  <MobileItem
+                    href="#resources"
+                    icon={<Headphones className="h-4 w-4" />}
+                  >
+                    Support
+                  </MobileItem>
+                  <MobileItem
+                    href="#pricing"
+                    icon={<ShoppingBag className="h-4 w-4" />}
+                  >
+                    Pricing
+                  </MobileItem>
                 </nav>
                 <div className="mt-6 flex items-center gap-2">
-                  <Button className="flex-1" onClick={() => setOpen(false)}>Get Started</Button>
-                  <Button variant="outline" className="flex-1" onClick={() => setOpen(false)}>Sign In</Button>
+                  <Button className="flex-1" onClick={() => setOpen(false)}>
+                    Get Started
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="flex-1"
+                    onClick={() => setOpen(false)}
+                  >
+                    Sign In
+                  </Button>
                 </div>
               </div>
             </SheetContent>
@@ -122,8 +169,15 @@ export default function SiteHeader() {
               <Sparkles className="h-4 w-4" />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className="text-base font-bold tracking-tight">YourBrand</span>
-              <Badge variant="secondary" className="hidden text-[10px] md:inline-flex">New</Badge>
+              <span className="text-base font-bold tracking-tight">
+                Ankush Tripathi & Media
+              </span>
+              <Badge
+                variant="secondary"
+                className="hidden text-[10px] md:inline-flex"
+              >
+                ⚡Bolt
+              </Badge>
             </div>
           </Link>
         </div>
@@ -179,38 +233,8 @@ export default function SiteHeader() {
         {/* Right: Actions */}
         <div className="flex items-center gap-2">
           <div className="hidden items-center gap-2 sm:flex">
-            <div className="relative w-48">
-              <Search className="pointer-events-none absolute left-2 top-1/2 h-4 w-4 -translate-y-1/2 opacity-60" />
-              <Input placeholder="Search…" className="pl-8 h-9" />
-            </div>
             <ThemeToggle />
           </div>
-
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" className="gap-2">
-                <Avatar className="h-7 w-7">
-                  <AvatarImage src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=120&auto=format&fit=crop" alt="User" />
-                  <AvatarFallback>YU</AvatarFallback>
-                </Avatar>
-                <ChevronRight className="h-4 w-4 md:hidden" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-56">
-              <DropdownMenuLabel className="text-xs text-muted-foreground">Signed in as</DropdownMenuLabel>
-              <div className="px-2 pb-2 text-sm font-medium">you@brand.com</div>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem asChild>
-                <Link href="#dashboard">Dashboard</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="#settings">Settings</Link>
-              </DropdownMenuItem>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>Sign out</DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-
           <Button className="hidden sm:inline-flex">Get Started</Button>
         </div>
       </div>
@@ -218,7 +242,15 @@ export default function SiteHeader() {
   );
 }
 
-function ProductCard({ title, description, href }: { title: string; description: string; href: string }) {
+function ProductCard({
+  title,
+  description,
+  href,
+}: {
+  title: string;
+  description: string;
+  href: string;
+}) {
   return (
     <Link
       href={href}
@@ -226,7 +258,9 @@ function ProductCard({ title, description, href }: { title: string; description:
     >
       <div className="flex items-start justify-between">
         <div>
-          <h4 className="text-sm font-semibold leading-none tracking-tight">{title}</h4>
+          <h4 className="text-sm font-semibold leading-none tracking-tight">
+            {title}
+          </h4>
           <p className="mt-1 text-xs text-muted-foreground">{description}</p>
         </div>
         <div className="grid h-8 w-8 place-items-center rounded-lg bg-muted/70">
@@ -241,7 +275,15 @@ function ProductCard({ title, description, href }: { title: string; description:
   );
 }
 
-function MobileItem({ href, children, icon }: { href: string; children: React.ReactNode; icon?: React.ReactNode }) {
+function MobileItem({
+  href,
+  children,
+  icon,
+}: {
+  href: string;
+  children: React.ReactNode;
+  icon?: React.ReactNode;
+}) {
   return (
     <Link
       href={href}
