@@ -31,7 +31,7 @@ const Midlinks = () => {
 
       {/* Navigation */}
       <div>
-        <ul className="space-y-4 text-md">
+        <ul className="space-y-4 text-md text-white">
           <li>
             <Link href="#features">Features</Link>
           </li>
@@ -48,7 +48,7 @@ const Midlinks = () => {
       </div>
 
       <div>
-        <ul className="space-y-4 text-md">
+        <ul className="space-y-4 text-md text-white">
           <li>
             <Link href="#about">About Us</Link>
           </li>
@@ -65,7 +65,7 @@ const Midlinks = () => {
       </div>
 
       <div className="max-w-min inline">
-        <ul className="space-y-4 text-md">
+        <ul className="space-y-4 text-md text-white">
           <li>
             <Link href="#help" className="whitespace-nowrap">
               Help Center

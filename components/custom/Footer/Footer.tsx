@@ -8,7 +8,7 @@ import Bottomlinks from "./Bottomlinks";
 
 export default function SiteFooter() {
   return (
-    <footer className="border-t bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <footer className="border-t bg-gray-600 backdrop-blur supports-[backdrop-filter]:bg-black">
       <div className="container mx-auto px-4 py-32">
         <Toptext />
         <Midlinks />
