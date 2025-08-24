@@ -8,8 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Github, Linkedin, Mail } from "lucide-react";
-
-export default function aboutPage() {
+export default function AboutPage() {
   return (
     <AuroraBackground className="relative min-h-screen flex flex-col items-center justify-center px-6 py-16">
       {/* Hero Section */}
