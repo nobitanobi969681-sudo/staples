@@ -7,7 +7,11 @@ import { SparklesCore } from "@/components/magicui/sparkles";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
 
 export default function ServicesPage() {
   return (
@@ -38,19 +42,38 @@ export default function ServicesPage() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="mt-6 text-lg md:text-xl text-muted-foreground relative z-10"
         >
-          Cutting-edge solutions tailored for startups, enterprises, and innovators 🚀
+          Cutting-edge solutions tailored for startups, enterprises, and
+          innovators 🚀
         </motion.p>
       </div>
 
       {/* ✅ Services Grid Section */}
       <div className="mt-16 grid gap-8 md:grid-cols-3 max-w-6xl w-full">
         {[
-          { title: "Web Development", desc: "Next.js, React, and modern frontend stacks." },
-          { title: "UI/UX Design", desc: "Clean, modern, and user-centered design systems." },
-          { title: "AI Integrations", desc: "Smart AI-powered features for your apps." },
-          { title: "Cloud Solutions", desc: "Scalable infrastructure on AWS, GCP, Azure." },
-          { title: "Mobile Apps", desc: "iOS & Android with React Native / Flutter." },
-          { title: "Tech Consulting", desc: "Helping you choose the right tools & strategy." },
+          {
+            title: "Web Development",
+            desc: "Next.js, React, and modern frontend stacks.",
+          },
+          {
+            title: "UI/UX Design",
+            desc: "Clean, modern, and user-centered design systems.",
+          },
+          {
+            title: "AI Integrations",
+            desc: "Smart AI-powered features for your apps.",
+          },
+          {
+            title: "Cloud Solutions",
+            desc: "Scalable infrastructure on AWS, GCP, Azure.",
+          },
+          {
+            title: "Mobile Apps",
+            desc: "iOS & Android with React Native / Flutter.",
+          },
+          {
+            title: "Tech Consulting",
+            desc: "Helping you choose the right tools & strategy.",
+          },
         ].map((service, i) => (
           <motion.div
             key={i}
@@ -62,7 +85,11 @@ export default function ServicesPage() {
               <CardContent className="p-6 flex flex-col items-start">
                 <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
                 <p className="text-muted-foreground mb-4">{service.desc}</p>
-                <Button variant="outline" size="sm" className="flex items-center gap-2">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="flex items-center gap-2"
+                >
                   Learn More <ArrowRight className="w-4 h-4" />
                 </Button>
               </CardContent>
@@ -85,14 +112,28 @@ export default function ServicesPage() {
         <Carousel className="w-full">
           <CarouselContent>
             {[
-              { name: "John Doe", text: "The web app they built scaled to 1M users flawlessly!" },
-              { name: "Sarah Lee", text: "Our startup UI/UX now looks stunning thanks to their design team." },
-              { name: "Mark Chan", text: "AI features integrated seamlessly into our workflow!" },
+              {
+                name: "John Doe",
+                text: "The web app they built scaled to 1M users flawlessly!",
+              },
+              {
+                name: "Sarah Lee",
+                text: "Our startup UI/UX now looks stunning thanks to their design team.",
+              },
+              {
+                name: "Mark Chan",
+                text: "AI features integrated seamlessly into our workflow!",
+              },
             ].map((testimonial, i) => (
-              <CarouselItem key={i} className="basis-full md:basis-1/2 lg:basis-1/3 p-4">
+              <CarouselItem
+                key={i}
+                className="basis-full md:basis-1/2 lg:basis-1/3 p-4"
+              >
                 <Card className="rounded-2xl shadow-lg bg-background/70 backdrop-blur">
                   <CardContent className="p-6">
-                    <p className="text-muted-foreground mb-4">"{testimonial.text}"</p>
+                    <p className="text-muted-foreground mb-4">
+                      "{testimonial.text}"
+                    </p>
                     <h4 className="font-semibold">{testimonial.name}</h4>
                   </CardContent>
                 </Card>
@@ -104,159 +145,6 @@ export default function ServicesPage() {
     </AuroraBackground>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // "use client";
 // import React from "react";
@@ -285,23 +173,6 @@ export default function ServicesPage() {
 //   );
 // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // "use client";
 // import React from "react";
 // import { WavyBackground } from "@/components/ui/wavy-background";
@@ -317,8 +188,3 @@ export default function ServicesPage() {
 //     </WavyBackground>
 //   );
 // }
-
-
-
-
-
