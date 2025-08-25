@@ -10,13 +10,10 @@ import Servicegrid from "@/components/custom/Servicegrid/Servicegrid";
 export default function HomePage() {
   return (
     <>
-      <Marqueetext />
       <Herobanner />
-      <Servicegrid />
+      <Marqueetext />
 
-      <main className="">
-        <Prefooter />
-      </main>
+      <Servicegrid />
     </>
   );
 }
