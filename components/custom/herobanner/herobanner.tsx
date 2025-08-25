@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Card, CardContent } from "@/components/ui/card";
 import { Menu, Sparkles, ArrowRight, CheckCircle2 } from "lucide-react";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
 export default function UniqueHeroWithSidebar() {
   return (
@@ -58,12 +59,12 @@ export default function UniqueHeroWithSidebar() {
       </div>
 
       {/* Hero Section */}
-      <main className="flex-1 flex items-center justify-center px-6 py-16 bg-gradient-to-br from-background to-muted/40">
+      <main className="flex-1 flex items-center justify-center px-6 mt-8 pb-12 bg-gradient-to-br from-background to-muted/40">
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Text Content */}
-          <div className="max-w-[600px] space-y-6 text-center md:text-left">
-            <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              From Vision to Digital Reality,{" "}
+          <div className="max-w-[600px] space-y-6 text-center md:text-left ml-20">
+            <h1 className="text-5xl sm:text-5xl font-medium tracking-tight leading-tight">
+              From Vision to Reality,{" "}
               <span className="text-primary">Seamlessly...</span>
             </h1>
             <p className="text-lg text-muted-foreground">
@@ -84,13 +85,7 @@ export default function UniqueHeroWithSidebar() {
               </li>
             </ul>
             <div className="flex flex-col sm:flex-row items-center gap-3 justify-center md:justify-start">
-              <Button size="lg" className="gap-2">
-                Get Started
-                <ArrowRight className="h-4 w-4" />
-              </Button>
-              <Button size="lg" variant="outline">
-                Learn More
-              </Button>
+              <ShimmerButton>Shimmer Button</ShimmerButton>
             </div>
           </div>
 

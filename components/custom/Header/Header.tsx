@@ -42,6 +42,8 @@ import {
   BookOpen,
   Headphones,
 } from "lucide-react";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
 // Simple theme toggle without providers. Adds/removes the `dark` class on <html>.
 function ThemeToggle() {
@@ -102,7 +104,7 @@ export default function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-8">
+      <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-8 py-10">
         {/* Left: Logo + Mobile Menu */}
         <div className="min-w-[300px] flex items-center gap-2">
           <Sheet open={open} onOpenChange={setOpen}>
@@ -164,18 +166,15 @@ export default function SiteHeader() {
             </SheetContent>
           </Sheet>
 
-          <Link href="/" className="group inline-flex items-center gap-2">
+          <Link href="/" className="group inline-flex items-center gap-4">
             <div className="relative grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-primary to-primary/60 text-primary-foreground shadow-sm">
               <Sparkles className="h-4 w-4" />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className="text-base font-bold tracking-tight">
+              <span className="text-xl font-bold tracking-tight">
                 Ankush Tripathi & Media
               </span>
-              <Badge
-                variant="secondary"
-                className="hidden text-[10px] md:inline-flex"
-              >
+              <Badge variant="secondary" className="hidden text-[10px]  ">
                 ⚡Bolt
               </Badge>
             </div>
@@ -187,13 +186,19 @@ export default function SiteHeader() {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavLink href="#features">Home</NavLink>
+                <NavLink href="#features" className="tracking-widest">
+                  HOME
+                </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink href="#features">About</NavLink>
+                <NavLink href="#features" className="tracking-widest">
+                  ABOUT
+                </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Servcies</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="tracking-widest">
+                  SERVICES
+                </NavigationMenuTrigger>
                 <NavigationMenuContent className="p-4">
                   <div className="grid w-[500px] grid-cols-2 gap-3">
                     <ProductCard
@@ -220,7 +225,9 @@ export default function SiteHeader() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink href="#docs">Contact</NavLink>
+                <NavLink href="#docs" className="tracking-widest">
+                  CONTACT
+                </NavLink>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
@@ -231,7 +238,7 @@ export default function SiteHeader() {
           <div className="hidden items-center gap-2 sm:flex">
             <ThemeToggle />
           </div>
-          <Button className="hidden sm:inline-flex">Get Started</Button>
+          <ShimmerButton>Get a Quote</ShimmerButton>
         </div>
       </div>
     </header>

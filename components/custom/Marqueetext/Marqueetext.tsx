@@ -5,12 +5,9 @@ import {
 
 export default function ScrollBasedVelocityDemo() {
   return (
-    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden mt-4">
       <ScrollVelocityContainer className="text-4xl md:text-7xl md:leading-[5rem] font-bold tracking-[-0.02em]">
         <ScrollVelocityRow baseVelocity={20} direction={1}>
-          Velocity Scroll
-        </ScrollVelocityRow>
-        <ScrollVelocityRow baseVelocity={20} direction={-1}>
           Velocity Scroll
         </ScrollVelocityRow>
       </ScrollVelocityContainer>
