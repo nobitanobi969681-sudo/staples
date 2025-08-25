@@ -11,6 +11,9 @@ export default function HomePage() {
   return (
     <>
       <Herobanner />
+      <div className="bg-[url('/favicon.svg')] bg-cover bg-center h-screen">
+        test
+      </div>
       <Servicegrid />
     </>
   );

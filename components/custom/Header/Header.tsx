@@ -44,6 +44,7 @@ import {
 } from "lucide-react";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import Image from "next/image";
 
 // Simple theme toggle without providers. Adds/removes the `dark` class on <html>.
 function ThemeToggle() {
@@ -168,7 +169,12 @@ export default function SiteHeader() {
 
           <Link href="/" className="group inline-flex items-center gap-4">
             <div className="relative grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-primary to-primary/60 text-primary-foreground shadow-sm">
-              <Sparkles className="h-4 w-4" />
+              <Image
+                src="favicon.svg"
+                alt="Company Logo"
+                width={200}
+                height={80}
+              />
             </div>
             <div className="flex items-baseline gap-2">
               <span className="text-xl font-bold tracking-tight">
