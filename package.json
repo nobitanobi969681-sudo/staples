@@ -17,6 +17,7 @@
     "@radix-ui/react-navigation-menu": "^1.2.14",
     "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.2.3",
+    "@react-three/fiber": "^9.0.0-alpha.8",
     "@tabler/icons-react": "^3.34.1",
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
@@ -33,7 +34,8 @@
     "react-dom": "19.1.0",
     "react-element-to-jsx-string": "^17.0.1",
     "shadcn-typography": "^1.1.2",
-    "simplex-noise": "^4.0.3"
+    "simplex-noise": "^4.0.3",
+    "three": "^0.179.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -41,6 +43,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.179.0",
     "clsx": "^2.1.1",
     "eslint": "^9",
     "eslint-config-next": "15.5.0",
