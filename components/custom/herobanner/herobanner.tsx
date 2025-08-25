@@ -10,7 +10,7 @@ export default function UniqueHeroWithSidebar() {
   return (
     <div className=" mx-auto relative flex flex-col md:flex-row">
       {/* Hero Section */}
-      <main className="flex-1 flex items-center justify-center px-6 py-12 bg-gradient-to-br from-background to-muted/40">
+      <main className="flex-1 flex items-center justify-center px-6 py-12 ">
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Text Content */}
           <div className="max-w-[800px] space-y-6 text-center md:text-left ml-20">
@@ -33,12 +33,14 @@ export default function UniqueHeroWithSidebar() {
               </li>
             </ul>
             <div className="flex flex-col sm:flex-row items-center gap-3 justify-center md:justify-start">
-              <ShimmerButton>Shimmer Button</ShimmerButton>
+              <ShimmerButton className="text-white dark:text-white">
+                Get A Quote
+              </ShimmerButton>
             </div>
           </div>
 
           {/* Visual / Image Block */}
-          <Card className="shadow-lg overflow-hidden rounded-full">
+          <Card className="shadow-lg overflow-hidden rounded-4xl ml-20">
             <CardContent className="p-0">
               <img
                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"

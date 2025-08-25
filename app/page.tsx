@@ -11,8 +11,6 @@ export default function HomePage() {
   return (
     <>
       <Herobanner />
-      <Marqueetext />
-
       <Servicegrid />
     </>
   );

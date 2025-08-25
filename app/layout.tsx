@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/custom/Header/Header";
 import Footer from "@/components/custom/Footer/Footer";
+import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${geistSans.variable} ${geistMono.variable} antiliased`}
+        className={` ${geistSans.variable} ${geistMono.variable} antiliased bg-[url('/images/fullbg.jpg')] bg-cover bg-center`}
       >
         <Header />
         {children}

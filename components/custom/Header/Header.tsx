@@ -103,7 +103,7 @@ export default function SiteHeader() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/99">
       <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-8 py-10">
         {/* Left: Logo + Mobile Menu */}
         <div className="min-w-[300px] flex items-center gap-2">
@@ -238,7 +238,9 @@ export default function SiteHeader() {
           <div className="hidden items-center gap-2 sm:flex">
             <ThemeToggle />
           </div>
-          <ShimmerButton>Get a Quote</ShimmerButton>
+          <ShimmerButton className="text-white dark:text-white">
+            Get a Quote
+          </ShimmerButton>
         </div>
       </div>
     </header>
