@@ -19,7 +19,7 @@ const Midlinks = () => {
             contact@atm.online
           </span>
         </ShimmerButton>
-        <p className="text-white min-w-[220px] text-center mt-8">
+        <p className="min-w-[220px] text-center mt-8 text-black dark:text-white">
           Bhopal, India 🇮🇳
         </p>
       </div>
