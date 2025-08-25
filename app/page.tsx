@@ -7,14 +7,17 @@ import Marqueetext from "@/components/custom/Marqueetext/Marqueetext";
 import Prefooter from "@/components/custom/Prefooter/Prefooter";
 import Servicegrid from "@/components/custom/Servicegrid/Servicegrid";
 import Appleslider from "@/components/custom/Appleslider/Appleslider";
+import Movingcards from "@/components/custom/Movingcards/Movingcards";
 
 export default function HomePage() {
   return (
     <>
       <Herobanner />
       <Appleslider />
-
-      <Servicegrid />
+      <div className="mt-7">
+        <Servicegrid />
+      </div>
+      <Movingcards />
     </>
   );
 }
