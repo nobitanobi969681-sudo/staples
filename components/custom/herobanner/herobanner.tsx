@@ -67,7 +67,7 @@ export default function UniqueHeroWithSidebar() {
               From Vision to Reality,{" "}
               <span className="text-primary">Seamlessly...</span>
             </h1>
-            <p className="text-lg text-muted-foreground">
+            <p className="max-w-[400px] text-lg text-muted-foreground">
               We craft scalable, responsive, and user-friendly platforms to grow
               your digital presence.
             </p>

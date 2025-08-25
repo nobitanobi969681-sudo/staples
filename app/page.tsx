@@ -15,9 +15,6 @@ export default function HomePage() {
       <Servicegrid />
 
       <main className="">
-        <Cardsgrid />
-        <Servicecards />
-        <Testimonials />
         <Prefooter />
       </main>
     </>
