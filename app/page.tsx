@@ -6,14 +6,14 @@ import Cardsgrid from "@/components/custom/Cardsgrid/Cardsgrid";
 import Marqueetext from "@/components/custom/Marqueetext/Marqueetext";
 import Prefooter from "@/components/custom/Prefooter/Prefooter";
 import Servicegrid from "@/components/custom/Servicegrid/Servicegrid";
+import Appleslider from "@/components/custom/Appleslider/Appleslider";
 
 export default function HomePage() {
   return (
     <>
       <Herobanner />
-      <div className="bg-[url('/favicon.svg')] bg-cover bg-center h-screen">
-        test
-      </div>
+      <Appleslider />
+
       <Servicegrid />
     </>
   );
