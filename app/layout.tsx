@@ -32,7 +32,9 @@ export default function RootLayout({
       >
         <Header />
         {children}
-        <Footer />
+        <div className="hidden">
+          <Footer />
+        </div>
       </body>
     </html>
   );

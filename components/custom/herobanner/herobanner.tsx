@@ -10,31 +10,19 @@ export default function UniqueHeroWithSidebar() {
   return (
     <div className=" mx-auto relative flex flex-col md:flex-row">
       {/* Hero Section */}
-      <main className="flex-1 flex items-center justify-center px-6 py-12 ">
-        <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <main className="flex-1 flex items-center justify-center px-2 sm:px-6 py-12 ">
+        <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
           {/* Text Content */}
 
-          <div className="flex justify-end">
-            <div className="max-w-[800px] space-y-6 text-center md:text-left">
+          <div className="flex justify-center xl:justify-end">
+            <div className="max-w-[800px] space-y-6 text-center xl:text-left">
               <Prefooter />
-              <p className="max-w-[400px] text-lg text-muted-foreground">
+              <p className="mx-auto xl:mx-0 max-w-[560px] text-xl text-muted-foreground mb-8">
                 We craft scalable, responsive, and user-friendly platforms to
                 grow your digital presence.
               </p>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="h-4 w-4 text-primary" /> Seamless
-                  integration
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="h-4 w-4 text-primary" /> Scalable
-                  architecture
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="h-4 w-4 text-primary" /> 24/7 support
-                </li>
-              </ul>
-              <div className="flex flex-col sm:flex-row items-center gap-3 justify-center md:justify-start">
+
+              <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
                 <ShimmerButton className="text-white dark:text-white">
                   Get A Quote
                 </ShimmerButton>
@@ -43,7 +31,7 @@ export default function UniqueHeroWithSidebar() {
           </div>
 
           {/* Visual / Image Block */}
-          <Card className="shadow-lg overflow-hidden rounded-4xl ml-20">
+          <Card className="shadow-lg overflow-hidden rounded-4xl 2xl:ml-20 mx-4 sm:mx-0">
             <CardContent className="p-0">
               <img
                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
