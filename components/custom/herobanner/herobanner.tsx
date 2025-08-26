@@ -8,9 +8,9 @@ import Prefooter from "@/components/custom/Prefooter/Prefooter";
 
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className=" mx-auto relative flex flex-col md:flex-row">
+    <div className="dark:bg-black mx-auto relative flex flex-col md:flex-row">
       {/* Hero Section */}
-      <main className="flex-1 flex items-center justify-center px-2 sm:px-6 py-12 ">
+      <main className="flex-1 flex items-center justify-center px-2 sm:px-6 py-16">
         <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
           {/* Text Content */}
 

@@ -8,6 +8,7 @@ import Prefooter from "@/components/custom/Prefooter/Prefooter";
 import Servicegrid from "@/components/custom/Servicegrid/Servicegrid";
 import Appleslider from "@/components/custom/Appleslider/Appleslider";
 import Movingcards from "@/components/custom/Movingcards/Movingcards";
+import Typewritereffect from "@/components/custom/Typewritereffect/Typewritereffect";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <div className="mt-7 max-w-[420px] sm:max-w-full mx-auto">
         <Servicegrid />
       </div>
+      <Typewritereffect />
       <Movingcards />
     </>
   );

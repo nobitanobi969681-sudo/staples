@@ -132,7 +132,7 @@ export default function SiteHeader() {
         </div>
 
         {/* Center: Desktop Nav */}
-        <div className="hidden md:block">
+        <div className="hidden xl:block">
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
@@ -185,13 +185,15 @@ export default function SiteHeader() {
 
         {/* Right: Actions */}
         <div className="xl:min-w-[300px] flex justify-end items-center gap-2">
-          <div className="hidden items-center gap-2 sm:flex">
+          <div className=" items-center gap-2 flex">
             <ThemeToggle />
           </div>
           <ShimmerButton className="text-white dark:text-white">
             Get a Quote
           </ShimmerButton>
-          <Mobiletoggle />
+          <div className="block xl:hidden">
+            <Mobiletoggle />
+          </div>
         </div>
       </div>
     </header>
