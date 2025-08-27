@@ -6,7 +6,7 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
 const Midlinks = () => {
   return (
-    <div className="flex justify-between mb-20">
+    <div className="text-center flex justify-between mb-20 flex-col md:flex-row">
       {/* Brand + Newsletter */}
       <div className="space-y-4">
         <ShimmerButton className="shadow-2xl min-w-[220px]">
@@ -63,22 +63,22 @@ const Midlinks = () => {
         <ul className="space-y-4 text-md text-black dark:text-white">
           <li>
             <Link href="#help" className="whitespace-nowrap">
-              Help Center
+              FACEBOOK
             </Link>
           </li>
           <li>
             <Link href="#terms" className="whitespace-nowrap">
-              Terms of Service
+              INSTAGRAM
             </Link>
           </li>
           <li>
             <Link href="#privacy" className="whitespace-nowrap">
-              Privacy Policy
+              TWITTER
             </Link>
           </li>
           <li>
             <Link href="#status" className="whitespace-nowrap">
-              System Status
+              LINKEDIN
             </Link>
           </li>
         </ul>
