@@ -1,10 +1,7 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Card, CardContent } from "@/components/ui/card";
-import { Menu, Sparkles, ArrowRight, CheckCircle2 } from "lucide-react";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import Prefooter from "@/components/custom/Prefooter/Prefooter";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import { Card, CardContent } from "@/components/ui/card";
+import { CheckCircle2 } from "lucide-react";
 
 export default function UniqueHeroWithSidebar() {
   return (

@@ -1,9 +1,7 @@
 "use client";
 
-import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heading } from "@/components/ui/heading";
-import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
 const post = {
@@ -25,8 +23,7 @@ const post = {
     },
     {
       type: "quote",
-      content:
-        "The journey of a thousand miles begins with one step.",
+      content: "The journey of a thousand miles begins with one step.",
       author: "Lao Tzu",
     },
     {
@@ -158,7 +155,6 @@ export default function BlogPostPage() {
           Like this post
         </Button>
       </motion.div>
-      
     </main>
   );
 }

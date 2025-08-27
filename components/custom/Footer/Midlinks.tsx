@@ -1,8 +1,5 @@
-import React from "react";
-import Link from "next/link";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import Link from "next/link";
 
 const Midlinks = () => {
   return (

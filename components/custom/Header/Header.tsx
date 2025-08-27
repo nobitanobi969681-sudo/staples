@@ -1,17 +1,16 @@
 "use client";
-import * as React from "react";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import {
   NavigationMenu,
+  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuContent,
 } from "@/components/ui/navigation-menu";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import {
   Sheet,
   SheetContent,
@@ -19,32 +18,22 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import {
-  Menu,
-  Sparkles,
-  ChevronRight,
-  Search,
-  Moon,
-  Sun,
-  ShoppingBag,
-  Boxes,
   BookOpen,
+  Boxes,
+  ChevronRight,
   Headphones,
+  Menu,
+  Moon,
+  ShoppingBag,
+  Sparkles,
+  Sun,
 } from "lucide-react";
-import { RainbowButton } from "@/components/magicui/rainbow-button";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import Image from "next/image";
+import Link from "next/link";
+import * as React from "react";
+import { useEffect, useState } from "react";
 
 // Simple theme toggle without providers. Adds/removes the `dark` class on <html>.
 function ThemeToggle() {

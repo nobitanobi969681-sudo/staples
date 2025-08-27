@@ -1,10 +1,6 @@
-import * as React from "react";
-
-import { Separator } from "@/components/ui/separator";
-
-import Toptext from "./Toptext";
-import Midlinks from "./Midlinks";
 import Bottomlinks from "./Bottomlinks";
+import Midlinks from "./Midlinks";
+import Toptext from "./Toptext";
 
 export default function SiteFooter() {
   return (
