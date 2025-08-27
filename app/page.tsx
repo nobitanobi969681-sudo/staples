@@ -9,6 +9,7 @@ import Servicegrid from "@/components/custom/Servicegrid/Servicegrid";
 import Appleslider from "@/components/custom/Appleslider/Appleslider";
 import Movingcards from "@/components/custom/Movingcards/Movingcards";
 import Typewritereffect from "@/components/custom/Typewritereffect/Typewritereffect";
+import Newquote from "@/components/custom/Newquote/Newquote";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
         <Servicegrid />
       </div>
       <Typewritereffect />
+      <Newquote />
       <Movingcards />
     </>
   );

@@ -11,12 +11,16 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 
 export default function SheetDemo() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="outline">MENU</Button>
+        <Button variant="outline" className="rounded-full">
+          <Menu className="w-6 h-6" />
+          MENU
+        </Button>
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>

@@ -188,12 +188,13 @@ export default function SiteHeader() {
           <div className=" items-center gap-2 flex">
             <ThemeToggle />
           </div>
-          <ShimmerButton className="text-white dark:text-white py-2 px-4 tracking-wider text-md text-sm sm:text-md">
-            NEW QUOTE
-          </ShimmerButton>
+
           <div className="block xl:hidden">
             <Mobiletoggle />
           </div>
+          <ShimmerButton className="text-white dark:text-white py-2 px-4 tracking-wider text-md text-sm sm:text-md">
+            + QUOTE
+          </ShimmerButton>
         </div>
       </div>
     </header>

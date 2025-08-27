@@ -10,14 +10,14 @@ export default function UniqueHeroWithSidebar() {
   return (
     <div className="dark:bg-black mx-auto relative flex flex-col md:flex-row">
       {/* Hero Section */}
-      <main className="flex-1 flex items-center justify-center px-2 sm:px-6 py-16">
+      <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-8 pb-2 sm:py-16">
         <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
           {/* Text Content */}
 
           <div className="flex justify-center xl:justify-end">
             <div className="max-w-[800px] space-y-6 text-center xl:text-left">
               <Prefooter />
-              <p className="mx-auto xl:mx-0 max-w-[560px] text-xl text-muted-foreground mb-8">
+              <p className="mx-auto xl:mx-0 max-w-[560px] text-xl text-muted-foreground mb-8 px-2">
                 We craft scalable, responsive, and user-friendly platforms to
                 grow your digital presence.
               </p>
