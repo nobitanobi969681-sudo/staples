@@ -6,11 +6,7 @@ import { AuroraBackground } from "@/components/ui/aurora-background";
 import { SparklesCore } from "@/components/magicui/sparkles";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import {
-  Input,
-  Textarea,
-  Label,
-} from "@/components/ui/input"; // if you don't have Label/Textarea, create small wrappers
+
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function ContactPage() {
@@ -78,33 +74,7 @@ export default function ContactPage() {
           initial={{ opacity: 0, x: 40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-        >
-          <Card className="rounded-2xl shadow-lg backdrop-blur bg-background/70">
-            <CardContent className="p-8 space-y-6">
-              <form className="space-y-6">
-                <div>
-                  <Label htmlFor="name">Name</Label>
-                  <Input id="name" placeholder="Your name" />
-                </div>
-                <div>
-                  <Label htmlFor="email">Email</Label>
-                  <Input id="email" type="email" placeholder="you@example.com" />
-                </div>
-                <div>
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea
-                    id="message"
-                    placeholder="Write your message..."
-                    className="min-h-[120px]"
-                  />
-                </div>
-                <Button type="submit" className="w-full">
-                  Send Message
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
-        </motion.div>
+        ></motion.div>
       </div>
     </AuroraBackground>
   );
