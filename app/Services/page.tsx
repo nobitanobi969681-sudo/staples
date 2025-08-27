@@ -1,17 +1,16 @@
 "use client";
 
-import React from "react";
-import { motion } from "framer-motion";
-import { AuroraBackground } from "@/components/ui/aurora-background";
 import { SparklesCore } from "@/components/magicui/sparkles";
-import { Card, CardContent } from "@/components/ui/card";
+import { AuroraBackground } from "@/components/ui/aurora-background";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 export default function ServicesPage() {
   return (
@@ -132,7 +131,7 @@ export default function ServicesPage() {
                 <Card className="rounded-2xl shadow-lg bg-background/70 backdrop-blur">
                   <CardContent className="p-6">
                     <p className="text-muted-foreground mb-4">
-                      "{testimonial.text}"
+                      &rdquo;{testimonial.text}&rdquo;
                     </p>
                     <h4 className="font-semibold">{testimonial.name}</h4>
                   </CardContent>

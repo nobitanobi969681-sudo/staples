@@ -1,8 +1,7 @@
 "use client";
 
-import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { motion } from "framer-motion";
 
 const sections = [
@@ -35,7 +34,7 @@ const sections = [
 
 export default function PrivacyPolicyPage() {
   return (
-    <main className="container max-w-3xl px-4 py-20">
+    <main className="container max-w-3xl m-auto px-4 py-20">
       <TextGenerateEffect
         words="Privacy Policy"
         className="text-4xl md:text-5xl font-bold text-center mb-12"
