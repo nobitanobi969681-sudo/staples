@@ -26,7 +26,7 @@ const Midlinks = () => {
 
       {/* Navigation */}
       <div>
-        <ul className="space-y-4 text-md text-black dark:text-white">
+        <ul className="space-y-4 text-sm text-black dark:text-white tracking-wider uppercase">
           <li>
             <Link href="#features">Features</Link>
           </li>
@@ -43,7 +43,7 @@ const Midlinks = () => {
       </div>
 
       <div>
-        <ul className="space-y-4 text-md text-black dark:text-white">
+        <ul className="space-y-4 text-sm text-black dark:text-white tracking-wider uppercase">
           <li>
             <Link href="#about">About Us</Link>
           </li>
@@ -60,7 +60,7 @@ const Midlinks = () => {
       </div>
 
       <div className="max-w-min inline">
-        <ul className="space-y-4 text-md text-black dark:text-white">
+        <ul className="space-y-4 text-sm text-black dark:text-white tracking-wider">
           <li>
             <Link href="#help" className="whitespace-nowrap">
               FACEBOOK
