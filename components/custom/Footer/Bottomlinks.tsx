@@ -9,7 +9,7 @@ const Bottomlinks = () => {
       <p className="">
         © {new Date().getFullYear()} ATM. All rights reserved.
       </p>
-      <div className="flex gap-4 text-sm tracking-wider text-gray-900">
+      <div className="flex gap-4 text-sm tracking-wider text-gray-900 dark:text-white ">
         PRIVACY POLICY | T&C | Legal
       </div>
     </div>
