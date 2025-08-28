@@ -6,15 +6,15 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
 const Midlinks = () => {
   return (
-    <div className="text-center flex justify-between mb-20 flex-col md:flex-row">
+    <div className="flex justify-between mb-20 flex-col md:flex-row">
       {/* Brand + Newsletter */}
       <div className="space-y-4">
-        <ShimmerButton className="shadow-2xl min-w-[220px]">
+        <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
           <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
             +91 8699 81 2196
           </span>
         </ShimmerButton>
-        <ShimmerButton className="shadow-2xl min-w-[220px]">
+        <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
           <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
             contact@atm.online
           </span>
