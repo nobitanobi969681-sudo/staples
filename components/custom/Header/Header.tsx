@@ -136,14 +136,14 @@ export default function SiteHeader() {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavLink href="#features" className="tracking-widest">
+                <NavLink href="/" className="tracking-widest">
                   HOME
                 </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink href="#features" className="tracking-widest">
+                <Link href="/about" className="tracking-widest">
                   ABOUT
-                </NavLink>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="tracking-widest">
@@ -175,7 +175,7 @@ export default function SiteHeader() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink href="#docs" className="tracking-widest">
+                <NavLink href="/contact" className="tracking-widest">
                   CONTACT
                 </NavLink>
               </NavigationMenuItem>
