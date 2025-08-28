@@ -16,8 +16,8 @@ export default function SignupFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="px-4 sm:px-0">
-      <div className="mt-16 mb-16 shadow-input mx-auto w-full max-w-md rounded-none bg-white p-4 md:rounded-2xl md:p-8 dark:bg-black">
+    <div className="px-4 sm:px-0 ">
+      <div className="bg-[url('/images/herobg.jpg')] bg-cover mt-16 mb-16 shadow-input mx-auto w-full max-w-md rounded-none bg-white p-4 md:rounded-2xl md:p-8 px-8 dark:bg-black">
         <form className="my-8" onSubmit={handleSubmit}>
           <div className="mb-4 flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
             <LabelInputContainer>

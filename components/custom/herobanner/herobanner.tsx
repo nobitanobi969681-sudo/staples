@@ -8,8 +8,8 @@ import Prefooter from "@/components/custom/Prefooter/Prefooter";
 
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className="dark:bg-black mx-auto relative flex flex-col md:flex-row bg-[url('/images/herobg.jpg')] bg-center bg-cover">
-      <div className="bg-[rgba(255,255,255,0.92)] dark:bg-[rgba(0,0,0,0.8)]">
+    <div className="dark:bg-black mx-auto relative flex flex-col md:flex-row bg-[url('/images/herobg.jpg')] bg-top bg-cover border-b">
+      <div className="bg-[rgba(255,255,255,0.92)] dark:bg-[rgba(0,0,0,0.8)]  pb-12">
         {/* Hero Section */}
         <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-8 pb-2 sm:py-16">
           <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
