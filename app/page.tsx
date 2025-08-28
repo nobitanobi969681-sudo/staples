@@ -24,7 +24,7 @@ export default function HomePage() {
         <Servicegrid />
       </div>
       <div className="block sm:hidden px-4">
-        <div className="bg-[url('/images/herobg.jpg')] bg-cover h-60 w-full rounded-3xl"></div>
+        <div className="bg-[url('/images/uiux.jpg')] bg-cover h-60 w-full rounded-3xl"></div>
       </div>
       <Typewritereffect />
       <Newquote />
