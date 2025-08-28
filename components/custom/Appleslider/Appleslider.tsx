@@ -44,13 +44,13 @@ const data = [
   {
     category: "Get a stunning website",
     title: "Website Development",
-    src: "/images/herobg.jpg",
+    src: "/services/website-development.jpg",
     content: <DummyContent />,
   },
   {
     category: "Productivity",
     title: "UI/UX & Graphics",
-    src: "/images/herobg.jpg",
+    src: "/services/pr.jpg",
     content: <DummyContent />,
   },
   {
