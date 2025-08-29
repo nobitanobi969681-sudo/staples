@@ -3,27 +3,27 @@ import Link from "next/link";
 
 const Midlinks = () => {
   return (
-    <div className="flex justify-between mb-20">
+    <div className="flex justify-between mb-8 sm:mb-20 flex-col md:flex-row">
       {/* Brand + Newsletter */}
       <div className="space-y-4">
-        <ShimmerButton className="shadow-2xl min-w-[220px]">
+        <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
           <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
             +91 8699 81 2196
           </span>
         </ShimmerButton>
-        <ShimmerButton className="shadow-2xl min-w-[220px]">
+        <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
           <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
             contact@atm.online
           </span>
         </ShimmerButton>
-        <p className="min-w-[220px] text-center mt-8 text-black dark:text-white">
-          Bhopal, India 🇮🇳
+        <p className="tracking-wider font-semibold text-sm sm:text-md mb-8 sm:mb-0 min-w-[220px] text-center mt-8 text-black dark:text-white">
+          BHOPAL, INDIA 🇮🇳
         </p>
       </div>
 
       {/* Navigation */}
       <div>
-        <ul className="space-y-4 text-md text-black dark:text-white">
+        <ul className="mb-8 sm:mb-0 space-y-4 text-sm text-black dark:text-white tracking-wider uppercase text-center sm:text-left">
           <li>
             <Link href="#features">Features</Link>
           </li>
@@ -40,7 +40,7 @@ const Midlinks = () => {
       </div>
 
       <div>
-        <ul className="space-y-4 text-md text-black dark:text-white">
+        <ul className="mb-8 sm:mb-0 space-y-4 text-sm text-black dark:text-white tracking-wider uppercase text-center sm:text-left">
           <li>
             <Link href="#about">About Us</Link>
           </li>
@@ -56,26 +56,26 @@ const Midlinks = () => {
         </ul>
       </div>
 
-      <div className="max-w-min inline">
-        <ul className="space-y-4 text-md text-black dark:text-white">
+      <div className="max-w-min inline mx-auto sm:mx-0">
+        <ul className="flex flex-row sm:flex-col space-x-4 sm:space-x-0 space-y-4 text-sm text-black dark:text-white tracking-wider text-center sm:text-left mx-auto sm:mx-0">
           <li>
-            <Link href="#help" className="whitespace-nowrap">
-              Help Center
+            <Link href="#help" className="whitespace-nowrap mx-auto sm:mx-0">
+              FACEBOOK
             </Link>
           </li>
           <li>
-            <Link href="#terms" className="whitespace-nowrap">
-              Terms of Service
+            <Link href="#terms" className="whitespace-nowrap mx-auto sm:mx-0">
+              INSTAGRAM
             </Link>
           </li>
           <li>
-            <Link href="#privacy" className="whitespace-nowrap">
-              Privacy Policy
+            <Link href="#privacy" className="whitespace-nowrap mx-auto sm:mx-0">
+              TWITTER
             </Link>
           </li>
           <li>
-            <Link href="#status" className="whitespace-nowrap">
-              System Status
+            <Link href="#status" className="whitespace-nowrap mx-auto sm:mx-0">
+              LINKEDIN
             </Link>
           </li>
         </ul>

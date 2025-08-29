@@ -1,16 +1,17 @@
 "use client";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import * as React from "react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  NavigationMenuContent,
 } from "@/components/ui/navigation-menu";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import {
   Sheet,
   SheetContent,
@@ -18,22 +19,35 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import {
-  BookOpen,
-  Boxes,
-  ChevronRight,
-  Headphones,
   Menu,
-  Moon,
-  ShoppingBag,
   Sparkles,
+  ChevronRight,
+  Search,
+  Moon,
   Sun,
+  ShoppingBag,
+  Boxes,
+  BookOpen,
+  Headphones,
 } from "lucide-react";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
+
+import Mobiletoggle from "@/components/custom/Mobiletoggle/Mobiletoggle";
+
 import Image from "next/image";
-import Link from "next/link";
-import * as React from "react";
-import { useEffect, useState } from "react";
 
 // Simple theme toggle without providers. Adds/removes the `dark` class on <html>.
 function ThemeToggle() {
@@ -94,68 +108,9 @@ export default function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/99">
-      <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-8 py-10">
+      <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-4 py-10">
         {/* Left: Logo + Mobile Menu */}
-        <div className="min-w-[300px] flex items-center gap-2">
-          <Sheet open={open} onOpenChange={setOpen}>
-            <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon" aria-label="Open menu">
-                <Menu className="h-5 w-5" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="left" className="w-[85vw] sm:w-[380px] p-0">
-              <SheetHeader className="p-4 pb-2">
-                <SheetTitle className="flex items-center gap-2 text-left">
-                  <Sparkles className="h-5 w-5" />
-                  <span className="font-semibold">YourBrand</span>
-                </SheetTitle>
-              </SheetHeader>
-              <div className="px-4 pb-6">
-                <div className="mb-4">
-                  <Input placeholder="Search…" className="h-10" />
-                </div>
-                <nav className="grid gap-1 text-sm">
-                  <MobileItem
-                    href="#features"
-                    icon={<Boxes className="h-4 w-4" />}
-                  >
-                    Features
-                  </MobileItem>
-                  <MobileItem
-                    href="#use-cases"
-                    icon={<BookOpen className="h-4 w-4" />}
-                  >
-                    Use Cases
-                  </MobileItem>
-                  <MobileItem
-                    href="#resources"
-                    icon={<Headphones className="h-4 w-4" />}
-                  >
-                    Support
-                  </MobileItem>
-                  <MobileItem
-                    href="#pricing"
-                    icon={<ShoppingBag className="h-4 w-4" />}
-                  >
-                    Pricing
-                  </MobileItem>
-                </nav>
-                <div className="mt-6 flex items-center gap-2">
-                  <Button className="flex-1" onClick={() => setOpen(false)}>
-                    Get Started
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="flex-1"
-                    onClick={() => setOpen(false)}
-                  >
-                    Sign In
-                  </Button>
-                </div>
-              </div>
-            </SheetContent>
-          </Sheet>
-
+        <div className="sm:min-w-[300px] flex items-center gap-2">
           <Link href="/" className="group inline-flex items-center gap-4">
             <div className="relative grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-primary to-primary/60 text-primary-foreground shadow-sm">
               <Image
@@ -166,7 +121,7 @@ export default function SiteHeader() {
               />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className="text-xl font-bold tracking-tight">
+              <span className="uppercase tracking-wide text-md font-bold hidden md:block">
                 Ankush Tripathi & Media
               </span>
               <Badge variant="secondary" className="hidden text-[10px]  ">
@@ -177,16 +132,16 @@ export default function SiteHeader() {
         </div>
 
         {/* Center: Desktop Nav */}
-        <div className="hidden md:block">
+        <div className="hidden xl:block">
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavLink href="#features" className="tracking-widest">
+                <NavLink href="/" className="tracking-widest">
                   HOME
                 </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink href="#features" className="tracking-widest">
+                <NavLink href="/about" className="tracking-widest">
                   ABOUT
                 </NavLink>
               </NavigationMenuItem>
@@ -220,7 +175,7 @@ export default function SiteHeader() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink href="#docs" className="tracking-widest">
+                <NavLink href="/contact" className="tracking-widest">
                   CONTACT
                 </NavLink>
               </NavigationMenuItem>
@@ -229,12 +184,16 @@ export default function SiteHeader() {
         </div>
 
         {/* Right: Actions */}
-        <div className="min-w-[300px] flex justify-end items-center gap-2">
-          <div className="hidden items-center gap-2 sm:flex">
+        <div className="xl:min-w-[300px] flex justify-end items-center gap-2">
+          <div className=" items-center gap-2 flex">
             <ThemeToggle />
           </div>
-          <ShimmerButton className="text-white dark:text-white">
-            Get a Quote
+
+          <div className="block xl:hidden">
+            <Mobiletoggle />
+          </div>
+          <ShimmerButton className="text-white dark:text-white py-2 px-4 tracking-wider text-md text-sm sm:text-md">
+            + QUOTE
           </ShimmerButton>
         </div>
       </div>
