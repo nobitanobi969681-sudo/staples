@@ -1,9 +1,8 @@
+import Footer from "@/components/custom/Footer/Footer";
+import Header from "@/components/custom/Header/Header";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/custom/Header/Header";
-import Footer from "@/components/custom/Footer/Footer";
-import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
