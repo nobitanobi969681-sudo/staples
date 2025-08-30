@@ -35,7 +35,7 @@ export default function NavMain({
   return (
     <SidebarProvider className="min-h-0">
       <SidebarGroup>
-        <SidebarGroupLabel>Platform</SidebarGroupLabel>
+        <SidebarGroupLabel className="tracking-wider">MENU</SidebarGroupLabel>
         <SidebarMenu>
           {items.map((item) => (
             <Collapsible
@@ -58,7 +58,9 @@ export default function NavMain({
                       <SidebarMenuSubItem key={subItem.title}>
                         <SidebarMenuSubButton asChild>
                           <a href={subItem.url}>
-                            <span>{subItem.title}</span>
+                            <span className="text-base my-12">
+                              {subItem.title}
+                            </span>
                           </a>
                         </SidebarMenuSubButton>
                       </SidebarMenuSubItem>

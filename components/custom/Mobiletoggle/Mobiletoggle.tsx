@@ -128,7 +128,7 @@ export default function SheetDemo() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle>AT&M</SheetTitle>
+          <SheetTitle className="tracking-widest">AT&M</SheetTitle>
           <SheetDescription>
             We craft bold, refined brands through cutting-edge design, digital
             strategy, and flawless execution.
@@ -138,6 +138,18 @@ export default function SheetDemo() {
           <NavMain items={data.navMain} />
         </div>
         <SheetFooter>
+          <Button
+            variant="outline"
+            className="mb-0 bg-[url('/images/bg.png')] bg-cover border-0 text-white dark:text-black"
+          >
+            Mail Us
+          </Button>
+          <Button
+            variant="outline"
+            className="mb-4 bg-[url('/images/bg.png')] bg-cover border-0 text-white dark:text-black"
+          >
+            Call Us
+          </Button>
           <SheetClose asChild>
             <Button variant="outline">Close</Button>
           </SheetClose>
