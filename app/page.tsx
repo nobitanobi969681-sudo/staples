@@ -11,7 +11,8 @@ import Movingcards from "@/components/custom/Movingcards/Movingcards";
 import Typewritereffect from "@/components/custom/Typewritereffect/Typewritereffect";
 import Newquote from "@/components/custom/Newquote/Newquote";
 import Image from "next/image";
-
+import { Cover } from "@/components/ui/cover";
+import { SparklesText } from "@/components/magicui/sparkles-text";
 export default function HomePage() {
   return (
     <>
@@ -26,7 +27,16 @@ export default function HomePage() {
       <div className="block sm:hidden px-4">
         <div className="bg-[url('/images/uiux.jpg')] bg-cover h-60 w-full rounded-3xl"></div>
       </div>
-      <Typewritereffect />
+
+      <h1 className="mt-16 sm:mt-4 max-w-7xl mx-auto relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+        <SparklesText
+          sparklesCount={0}
+          className="text-center font-medium text-black dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl px-2 sm:px-0"
+        >
+          <span className="leading-relaxed">Let's discuss</span>{" "}
+          <Cover>your brand</Cover>
+        </SparklesText>
+      </h1>
       <Newquote />
       <Movingcards />
     </>
