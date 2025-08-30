@@ -128,9 +128,10 @@ export default function SheetDemo() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle>Edit profile</SheetTitle>
+          <SheetTitle>AT&M</SheetTitle>
           <SheetDescription>
-            Make changes to your profile here. Click save when you&apos;re done.
+            We craft bold, refined brands through cutting-edge design, digital
+            strategy, and flawless execution.
           </SheetDescription>
         </SheetHeader>
         <div className="grid flex-1 auto-rows-min gap-6 px-4">
