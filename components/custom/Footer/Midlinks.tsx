@@ -6,11 +6,13 @@ const Midlinks = () => {
     <div className="flex justify-between mb-8 sm:mb-20 flex-col md:flex-row">
       {/* Brand + Newsletter */}
       <div className="space-y-4">
-        <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
-          <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-            +91 9815 95 1565
-          </span>
-        </ShimmerButton>
+        <Link href="tel:+919815951565" className="flex">
+          <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
+            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+              +91 9815 95 1565
+            </span>
+          </ShimmerButton>
+        </Link>
         <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
           <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
             contact@atm.online
