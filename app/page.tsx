@@ -21,7 +21,7 @@ export default function HomePage() {
       </div>
       <Herobanner />
       <Appleslider />
-      <div className="mt-7 max-w-[360px] sm:max-w-full mx-auto">
+      <div className="mt-7 max-w-[360px]  md:max-w-full mx-auto">
         <Servicegrid />
       </div>
       <div className="block sm:hidden px-4">

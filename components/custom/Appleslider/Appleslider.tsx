@@ -9,7 +9,7 @@ export default function AppleCardsCarouselDemo() {
   ));
 
   return (
-    <div className="w-full h-full pt-12 sm:py-16 pb-0 mb:pb-4">
+    <div className="w-full h-full pt-12 sm:pt-16 pb-0 mb:pb-4">
       <h2 className="text-center xl:text-left max-w-7xl pl-4 mx-auto text-2xl md:text-4xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         Ideas Meet Acceleration
       </h2>
@@ -58,9 +58,9 @@ const data = [
     content: <DummyContent />,
   },
   {
-    category: "Productivity",
-    title: "UI/UX & Graphic Designing",
-    src: "/services/uiux.jpg",
+    category: "Product",
+    title: "Digital Marketing & SEO",
+    src: "/services/digital-marketing.jpg",
     content: <DummyContent />,
   },
   {
@@ -69,19 +69,19 @@ const data = [
     src: "/services/graphic-designing.jpg",
     content: <DummyContent />,
   },
-
   {
-    category: "Product",
-    title: "Digital Marketing & SEO",
-    src: "/services/digital-marketing.jpg",
-    content: <DummyContent />,
-  },
-  {
-    category: "iOS",
-    title: "Building MPVs",
+    category: "R&D",
+    title: "Building MPVs & Prototypes",
     src: "/services/mvp.jpg",
     content: <DummyContent />,
   },
+  {
+    category: "Productivity",
+    title: "UI/UX & Graphic Designing",
+    src: "/services/uiux.jpg",
+    content: <DummyContent />,
+  },
+
   {
     category: "Hiring",
     title: "Branding & PR Management",
