@@ -31,7 +31,7 @@ export default function HomePage() {
       <h1 className="mt-16 sm:mt-4 max-w-7xl mx-auto relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
         <SparklesText
           sparklesCount={0}
-          className="text-center font-medium text-black dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl px-2 sm:px-0"
+          className="text-center font-medium text-black dark:text-white text-[34px] text-2xl md:text-4xl px-2 sm:px-0"
         >
           <span className="leading-relaxed">Let's discuss</span>{" "}
           <Cover>your brand</Cover>

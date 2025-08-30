@@ -9,9 +9,9 @@ export default function AppleCardsCarouselDemo() {
   ));
 
   return (
-    <div className="w-full h-full py-20 pb-0 mb:pb-4">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-        Get to know your iSad.
+    <div className="w-full h-full pt-12 sm:py-16 pb-0 mb:pb-4">
+      <h2 className="text-center xl:text-left max-w-7xl pl-4 mx-auto text-2xl md:text-4xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+        Where Ideas Meet Acceleration
       </h2>
       <Carousel items={cards} />
     </div>
