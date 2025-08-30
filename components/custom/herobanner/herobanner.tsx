@@ -29,7 +29,7 @@ export default function UniqueHeroWithSidebar() {
             </div>
 
             {/* Visual / Image Block */}
-            <Card className="shadow-lg overflow-hidden rounded-4xl 2xl:ml-20 max-w-[720px] mx-4 sm:mx-auto ">
+            <Card className="shadow-lg overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
               <CardContent className="p-0">
                 <img
                   src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
