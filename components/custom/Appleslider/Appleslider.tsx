@@ -62,7 +62,7 @@ const data = [
   {
     category: "Product",
     title: "Digital Marketing",
-    src: "/images/herobg.jpg",
+    src: "/services/digital-marketing.jpg",
     content: <DummyContent />,
   },
   {
