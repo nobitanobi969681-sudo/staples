@@ -49,13 +49,13 @@ const data = [
   {
     category: "Productivity",
     title: "UI/UX & Graphics",
-    src: "/services/pr.jpg",
+    src: "/services/uiux.jpg",
     content: <DummyContent />,
   },
   {
     category: "Product",
     title: "Graphic Designing",
-    src: "/images/herobg.jpg",
+    src: "/services/graphic-designing.jpg",
     content: <DummyContent />,
   },
 
@@ -68,13 +68,13 @@ const data = [
   {
     category: "iOS",
     title: "Building MPVs",
-    src: "/images/herobg.jpg",
+    src: "/services/mvp.jpg",
     content: <DummyContent />,
   },
   {
     category: "Hiring",
     title: "PR Management",
-    src: "/images/herobg.jpg",
+    src: "/services/pr.jpg",
     content: <DummyContent />,
   },
 ];
