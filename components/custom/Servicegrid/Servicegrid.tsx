@@ -13,31 +13,33 @@ import {
 export default function FeaturesSectionDemo() {
   const features = [
     {
-      title: "Built for developers",
+      title: "Transparent Pricing",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
-      icon: <IconTerminal2 />,
-    },
-    {
-      title: "Ease of use",
-      description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
-      icon: <IconEaseInOut />,
-    },
-    {
-      title: "Pricing like no other",
-      description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
+        "Clear, upfront pricing ensures you always know the cost, with no hidden charges or unexpected surprises ever.",
+
       icon: <IconCurrencyDollar />,
     },
     {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
+      title: "Quick Delivery",
+      description:
+        "Fast turnaround on every project, maintaining top quality while ensuring your brand launches right on schedule.",
+      icon: <IconEaseInOut />,
+    },
+    {
+      title: "Tailored Strategies",
+      description:
+        "We design every solution around your goals, ensuring measurable impact and campaigns that deliver real business results.",
+      icon: <IconTerminal2 />,
+    },
+    {
+      title: "End-to-End Support",
+      description:
+        "From planning to execution, we guide every step, ensuring your projects run smoothly, efficiently, and stress-free.",
       icon: <IconCloud />,
     },
   ];
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 xl:grid-cols-4  relative z-10 pb-10 pt-0 sm:py-10 px-8 mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4  relative z-10 pb-10 pt-0 sm:py-10 px-8 mx-auto">
       {features.map((feature, index) => (
         <Feature key={feature.title} {...feature} index={index} />
       ))}
