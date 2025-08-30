@@ -140,18 +140,20 @@ export default function SheetDemo() {
         <SheetFooter>
           <Button
             variant="outline"
-            className="mb-0 bg-[url('/images/bg.png')] bg-cover border-0 text-white dark:text-black"
+            className="mb-0 bg-[url('/images/bg.png')] bg-cover border-0 text-white dark:text-gray-200"
           >
             Mail Us
           </Button>
           <Button
             variant="outline"
-            className="mb-4 bg-[url('/images/bg.png')] bg-cover border-0 text-white dark:text-black"
+            className="mb-4 bg-[url('/images/bg.png')] bg-cover border-0 text-white dark:text-gray-200"
           >
             Call Us
           </Button>
           <SheetClose asChild>
-            <Button variant="outline">Close</Button>
+            <Button variant="outline" className="dark:text-gray-400">
+              Close
+            </Button>
           </SheetClose>
         </SheetFooter>
       </SheetContent>
