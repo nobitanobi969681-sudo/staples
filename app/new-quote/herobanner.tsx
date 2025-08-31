@@ -2,17 +2,11 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { AuroraBackground } from "@/components/ui/aurora-background";
-import { SparklesCore } from "@/components/magicui/sparkles";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
-import { Github, Linkedin, Mail } from "lucide-react";
+
 export default function AboutPage() {
   return (
-    <AuroraBackground className="border-b relative min-h-[320px] sm:min-h-[400px] flex flex-col items-center justify-center px-6 ">
-      {/* Hero Section */}
-      <div className="relative w-full max-w-4xl text-center mx-auto">
+    <>
+      <div className="flex flex-col align-center justify-center relative w-full max-w-4xl text-center mx-auto min-h-[320px] sm:min-h-[400px]">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -32,6 +26,6 @@ export default function AboutPage() {
           and cutting-edge technology.
         </motion.p>
       </div>
-    </AuroraBackground>
+    </>
   );
 }
