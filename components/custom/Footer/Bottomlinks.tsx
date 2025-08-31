@@ -5,11 +5,11 @@ import { cn } from "@/lib/utils";
 
 const Bottomlinks = () => {
   return (
-    <div className="tracking-wider text-gray-900 uppercase flex flex-col items-center justify-between gap-4 text-sm  dark:text-white md:flex-row">
+    <div className="tracking-wider text-gray-900 uppercase flex flex-col items-center justify-between gap-4 text-xs sm:text-sm  dark:text-gray-400 md:flex-row">
       <p className="">
         © {new Date().getFullYear()} ATM. All rights reserved.
       </p>
-      <div className="flex gap-4 text-sm tracking-wider text-gray-900 dark:text-white ">
+      <div className="flex gap-4 text-xs sm:text-sm tracking-wider text-gray-900 dark:text-gray-400 ">
         PRIVACY POLICY | T&C | Legal
       </div>
     </div>
