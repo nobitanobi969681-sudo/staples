@@ -109,7 +109,7 @@ export default function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/99">
-      <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-8 py-10">
+      <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-4 sm:px-8 py-10">
         {/* Left: Logo + Mobile Menu */}
         <div className="sm:min-w-[300px] flex items-center gap-2">
           <Link href="/" className="group inline-flex items-center gap-4">
