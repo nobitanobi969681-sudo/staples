@@ -45,7 +45,7 @@ const data = {
         },
         {
           title: "Contact",
-          url: "/contact",
+          url: "/contact-us",
         },
       ],
     },
