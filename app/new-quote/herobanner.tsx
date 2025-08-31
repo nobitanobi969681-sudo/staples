@@ -26,7 +26,7 @@ export default function AboutPage() {
             className="px-8 sm:px-0 mt-6 text-lg md:text-xl text-muted-foreground relative z-10 max-w-xl mx-auto"
           >
             We build next-gen digital experiences with performance, aesthetics,
-            and cutting-edge technology. resr
+            and cutting-edge technology.
           </motion.p>
         </div>
       </div>
