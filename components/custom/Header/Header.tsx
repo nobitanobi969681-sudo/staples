@@ -192,7 +192,7 @@ export default function SiteHeader() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink href="/contact" className="tracking-widest">
+                <NavLink href="/contact-us" className="tracking-widest">
                   CONTACT
                 </NavLink>
               </NavigationMenuItem>

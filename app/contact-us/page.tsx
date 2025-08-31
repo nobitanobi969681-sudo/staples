@@ -1,5 +1,5 @@
 import React from "react";
-import Map from "./map";
+import Map from "@/app/contact-us/map";
 
 const page = () => {
   return (
