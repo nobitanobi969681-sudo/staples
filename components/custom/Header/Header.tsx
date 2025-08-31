@@ -152,24 +152,40 @@ export default function SiteHeader() {
                 <NavigationMenuContent className="p-4">
                   <div className="grid w-[500px] grid-cols-2 gap-3">
                     <ProductCard
-                      title="Starter"
-                      description="Everything you need to kick off."
+                      title="Website & App Development"
+                      description=""
                       href="#starter"
+                      outerstyle="border-l"
                     />
                     <ProductCard
-                      title="Pro Suite"
-                      description="Advanced tools for teams."
+                      title="Digital Marketing & SEO"
+                      description=""
                       href="#pro"
+                      outerstyle="border-l"
                     />
                     <ProductCard
-                      title="Automation"
-                      description="Save time with workflows."
+                      title="Photograpy & Video Editing"
+                      description=""
                       href="#automation"
+                      outerstyle="border-l"
                     />
                     <ProductCard
-                      title="Integrations"
-                      description="Connect your favorite apps."
+                      title="Building MVPs & Prototypes"
+                      description=""
                       href="#integrations"
+                      outerstyle="border-l"
+                    />
+                    <ProductCard
+                      title="UI/UX & Graphic Designing"
+                      description=""
+                      href="#automation"
+                      outerstyle="border-l"
+                    />
+                    <ProductCard
+                      title="Branding & PR Management"
+                      description=""
+                      href="#integrations"
+                      outerstyle="border-l"
                     />
                   </div>
                 </NavigationMenuContent>
@@ -205,15 +221,17 @@ function ProductCard({
   title,
   description,
   href,
+  outerstyle,
 }: {
   title: string;
   description: string;
   href: string;
+  outerstyle: string;
 }) {
   return (
     <Link
       href={href}
-      className="group rounded-xl border p-4 transition-all hover:shadow-sm"
+      className={`${outerstyle} group rounded-md  p-4 transition-all hover:shadow-sm`}
     >
       <div className="flex items-start justify-between">
         <div>
@@ -221,9 +239,6 @@ function ProductCard({
             {title}
           </h4>
           <p className="mt-1 text-xs text-muted-foreground">{description}</p>
-        </div>
-        <div className="grid h-8 w-8 place-items-center rounded-lg bg-muted/70">
-          <Sparkles className="h-4 w-4" />
         </div>
       </div>
       <div className="mt-3 inline-flex items-center text-xs font-medium text-primary">
