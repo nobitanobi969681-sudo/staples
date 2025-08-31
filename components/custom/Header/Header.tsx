@@ -48,6 +48,7 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import Mobiletoggle from "@/components/custom/Mobiletoggle/Mobiletoggle";
 
 import Image from "next/image";
+import { MagicCard } from "@/components/magicui/magic-card";
 
 // Simple theme toggle without providers. Adds/removes the `dark` class on <html>.
 function ThemeToggle() {
@@ -229,23 +230,51 @@ function ProductCard({
   outerstyle: string;
 }) {
   return (
-    <Link
-      href={href}
-      className={`${outerstyle} group rounded-md  p-4 transition-all hover:shadow-sm`}
-    >
-      <div className="flex items-start justify-between">
-        <div>
-          <h4 className="text-sm font-semibold leading-none tracking-tight">
-            {title}
-          </h4>
-          <p className="mt-1 text-xs text-muted-foreground">{description}</p>
-        </div>
+    <div>
+      <div className="hidden dark:flex">
+        <MagicCard
+          className={`${outerstyle} group rounded-md  p-4 transition-all hover:shadow-sm w-[240px]`}
+        >
+          <Link href={href} className="">
+            <div className="flex items-start justify-between">
+              <div>
+                <h4 className="text-sm font-medium leading-none tracking-tight">
+                  {title}
+                </h4>
+                <p className="mt-1 text-xs text-muted-foreground">
+                  {description}
+                </p>
+              </div>
+            </div>
+            <div className="mt-3 inline-flex items-center text-xs font-light text-primary">
+              Learn more
+              <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+            </div>
+          </Link>
+        </MagicCard>
       </div>
-      <div className="mt-3 inline-flex items-center text-xs font-medium text-primary">
-        Learn more
-        <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+      <div className="flex dark:hidden">
+        <Link
+          href={href}
+          className={`${outerstyle} group rounded-md  p-4 transition-all hover:shadow-sm w-[240px]`}
+        >
+          <div className="flex items-start justify-between">
+            <div>
+              <h4 className="text-sm font-medium leading-none tracking-tight">
+                {title}
+              </h4>
+              <p className="mt-1 text-xs text-muted-foreground">
+                {description}
+              </p>
+            </div>
+          </div>
+          <div className="mt-3 inline-flex items-center text-xs font-light text-primary">
+            Learn more
+            <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+          </div>
+        </Link>
       </div>
-    </Link>
+    </div>
   );
 }
 

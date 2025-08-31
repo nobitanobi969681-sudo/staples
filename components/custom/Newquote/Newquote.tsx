@@ -18,7 +18,7 @@ export default function SignupFormDemo() {
   return (
     <div className="px-4 sm:px-0 ">
       <div className="bg-[url('/images/herobg.jpg')] bg-cover mt-16 mb-16 shadow-input mx-auto w-full max-w-md rounded-3xl   ">
-        <div className="bg-[rgba(255,255,255,0.9)] dark:bg-[rgba(0,0,0,0.4)] p-4 md:p-8 px-8 rounded-3xl">
+        <div className="bg-[rgba(255,255,255,0.98)] dark:bg-[rgba(0,0,0,0.4)] p-4 md:p-8 px-8 rounded-3xl border">
           <form className="my-8 " onSubmit={handleSubmit}>
             <div className="mb-4 flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
               <LabelInputContainer>
@@ -40,10 +40,7 @@ export default function SignupFormDemo() {
             </LabelInputContainer>
             <LabelInputContainer className="mb-4">
               <Label htmlFor="textarea">Describe the project</Label>
-              <Textarea
-                id="textarea"
-                className="shadow-input dark:placeholder-text-neutral-600 flex h-10 w-full rounded-md border-none bg-gray-50 px-3 py-2 text-sm text-black transition duration-400 group-hover/input:shadow-none file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-neutral-400 focus-visible:ring-[2px] focus-visible:ring-neutral-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-800 dark:text-white dark:shadow-[0px_0px_1px_1px_#404040] dark:focus-visible:ring-neutral-600"
-              />
+              <Textarea id="textarea" className="" />
             </LabelInputContainer>
 
             <button
