@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Herobanner from "./herobanner";
 import HerobannerTwo from "./HerobannerTwo";
