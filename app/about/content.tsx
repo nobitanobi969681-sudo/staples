@@ -6,12 +6,12 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export default function TracingBeamDemo() {
   return (
-    <div className="my-16 mb-20 mx-auto max-w-2xl px-0 md:px-8">
+    <div className="my-16 mx-auto max-w-2xl px-0 md:px-8">
       <TracingBeam className="px-6">
         <div className="max-w-2xl mx-auto antialiased pt-4 relative pl-5 sm:pl-0">
           {dummyContent.map((item, index) => (
             <div key={`content-${index}`} className="mb-10">
-              <p className="mb-4">{item.title}</p>
+              <p className="mb-4 font-bold">{item.title}</p>
 
               <div className="text-base  prose prose-sm dark:prose-invert">
                 {item?.image && (
@@ -39,27 +39,9 @@ const dummyContent = [
     description: (
       <>
         <p>
-          Sit duis est minim proident non nisi velit non consectetur. Esse
-          adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-          Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-          incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-          fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-          nisi velit exercitation Lorem qui do enim culpa. Aliqua eiusmod in
-          occaecat reprehenderit laborum nostrud fugiat voluptate do Lorem culpa
-          officia sint labore. Tempor consectetur excepteur ut fugiat veniam
-          commodo et labore dolore commodo pariatur.
-        </p>
-        <p>
           Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
           veniam in commodo id reprehenderit adipisicing. Proident duis
           exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
-        </p>
-        <p>
-          Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-          reprehenderit deserunt amet laborum consequat adipisicing officia qui
-          irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-          Amet culpa officia aliquip deserunt veniam deserunt officia
-          adipisicing aliquip proident officia sunt.
         </p>
       </>
     ),
@@ -86,6 +68,5 @@ const dummyContent = [
         </p>
       </>
     ),
-    badge: "Changelog",
   },
 ];

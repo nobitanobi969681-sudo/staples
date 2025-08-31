@@ -122,7 +122,7 @@ export default function SiteHeader() {
               />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className="uppercase tracking-wide text-md font-bold hidden md:block">
+              <span className="uppercase tracking-wide text-md font-medium hidden md:block">
                 Ankush Tripathi & Media
               </span>
               <Badge variant="secondary" className="hidden text-[10px]  ">
