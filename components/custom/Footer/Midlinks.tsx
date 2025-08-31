@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Midlinks = () => {
   return (
-    <div className="hidden sm:hidden justify-between mb-8 sm:mb-20 flex-col md:flex-row">
+    <div className=" hidden sm:flex justify-between mb-8 sm:mb-20 flex-col md:flex-row">
       {/* Brand + Newsletter */}
       <div className="space-y-4">
         <Link href="tel:+919815951565" className="flex">
