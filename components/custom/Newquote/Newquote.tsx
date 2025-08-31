@@ -17,8 +17,8 @@ export default function SignupFormDemo() {
   };
   return (
     <div className="px-4 sm:px-0 ">
-      <div className="bg-[url('/images/herobg.jpg')] bg-cover mt-16 mb-16 shadow-input mx-auto w-full max-w-md rounded-3xl   ">
-        <div className="bg-[rgba(255,255,255,0.98)] dark:bg-[rgba(0,0,0,0.4)] p-4 md:p-8 px-8 rounded-3xl border">
+      <div className="bg-[url('/images/herobg.jpg')] bg-cover mt-16 mb-16 shadow-input mx-auto w-full max-w-md rounded-0   ">
+        <div className="bg-[rgba(255,255,255,0.98)] dark:bg-[rgba(0,0,0,0.4)] p-4 md:p-8 px-8 rounded-0 ">
           <form className="my-8 " onSubmit={handleSubmit}>
             <div className="mb-4 flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
               <LabelInputContainer>

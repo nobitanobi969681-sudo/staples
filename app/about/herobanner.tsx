@@ -10,7 +10,7 @@ import { Separator } from "@/components/ui/separator";
 import { Github, Linkedin, Mail } from "lucide-react";
 export default function AboutPage() {
   return (
-    <AuroraBackground className="border-b relative min-h-[320px] sm:min-h-[400px] flex flex-col items-center justify-center px-6 ">
+    <AuroraBackground className="relative min-h-[320px] sm:min-h-[400px] flex flex-col items-center justify-center px-6 ">
       {/* Hero Section */}
       <div className="relative w-full max-w-4xl text-center mx-auto">
         <motion.h1
