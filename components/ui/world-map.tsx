@@ -6,7 +6,6 @@ import DottedMap from "dotted-map";
 
 import { useTheme } from "next-themes";
 import Image from "next/image";
-
 interface MapProps {
   dots?: Array<{
     start: { lat: number; lng: number; label?: string };
@@ -49,13 +48,14 @@ export default function WorldMap({
   return (
     <div className="w-full aspect-[2/1] dark:bg-black bg-white rounded-lg  relative font-sans">
       <Image
-        src="/map.png"
+        src={`/map.png`}
         className="h-full w-full [mask-image:linear-gradient(to_bottom,transparent,white_10%,white_90%,transparent)] pointer-events-none select-none"
         alt="world map"
         height="495"
         width="1056"
         draggable={false}
       />
+
       <svg
         ref={svgRef}
         viewBox="0 0 800 400"
