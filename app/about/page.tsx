@@ -12,25 +12,15 @@ export default function AboutPage() {
   return (
     <AuroraBackground className="relative min-h-screen flex flex-col items-center justify-center px-6 py-16">
       {/* Hero Section */}
-      <div className="relative w-full max-w-4xl text-center">
+      <div className="relative w-full max-w-4xl text-center mx-auto">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold tracking-tight relative z-10"
         >
-          About <span className="text-primary">Us</span>
+          Crafting Digital Excellence
         </motion.h1>
-
-        {/* Sparkles behind text */}
-        <SparklesCore
-          className="-z-10"
-          background="transparent"
-          particleDensity={140}
-          minSize={1}
-          maxSize={2.5}
-          particleColor="rgba(255,255,255,0.85)"
-        />
 
         <motion.p
           initial={{ opacity: 0 }}
