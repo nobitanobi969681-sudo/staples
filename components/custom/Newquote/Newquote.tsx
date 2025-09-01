@@ -17,7 +17,7 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 export default function ShineBorderDemo() {
   return (
     <div className="mx-4">
-      <Card className="relative overflow-hidden max-w-[480px] w-full mx-auto mb-16 sm:mb-32 py-8">
+      <Card className="relative overflow-hidden max-w-[480px] w-full mx-auto mb-16 mt-16 py-8">
         <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
         <CardHeader>
           <CardTitle>Start Here</CardTitle>

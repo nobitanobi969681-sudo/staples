@@ -28,8 +28,8 @@ export default function HomePage() {
           sparklesCount={0}
           className="text-center font-medium text-black dark:text-white text-[34px] text-2xl md:text-4xl px-2 sm:px-0"
         >
-          <span className="leading-relaxed">Let's discuss</span>{" "}
-          <Cover>your brand</Cover>
+          <span className="leading-relaxed">Get a</span>{" "}
+          <Cover>Free Quote</Cover>
         </SparklesText>
       </h1>
       <Newquote />
