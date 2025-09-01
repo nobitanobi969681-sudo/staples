@@ -8,13 +8,13 @@ const Midlinks = () => {
       <div className="space-y-4">
         <Link href="tel:+919815951565" className="flex">
           <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
-            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+            <span className="whitespace-pre-wrap text-center text-sm font-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
               +91 9815 95 1565
             </span>
           </ShimmerButton>
         </Link>
         <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
-          <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+          <span className="whitespace-pre-wrap text-center text-sm font-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
             contact@atm.online
           </span>
         </ShimmerButton>
