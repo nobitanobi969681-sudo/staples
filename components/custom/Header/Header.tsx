@@ -155,7 +155,7 @@ export default function SiteHeader() {
                     <ProductCard
                       title="Website & App Development"
                       description=""
-                      href="#starter"
+                      href="/services/website-and-app-development"
                       outerstyle="border-l"
                     />
                     <ProductCard

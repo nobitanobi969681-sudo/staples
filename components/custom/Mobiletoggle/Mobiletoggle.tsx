@@ -30,22 +30,26 @@ import {
 const data = {
   navMain: [
     {
-      title: "Playground",
+      title: "Company",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
-          title: "Home",
+          title: "Home Page",
           url: "/",
         },
         {
-          title: "About",
+          title: "About Us",
           url: "/about",
         },
         {
           title: "Contact",
           url: "/contact-us",
+        },
+        {
+          title: "New Quote",
+          url: "/new-quote",
         },
       ],
     },
