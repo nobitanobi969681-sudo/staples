@@ -6,7 +6,7 @@ import { CheckCircle2 } from "lucide-react";
 export default function UniqueHeroWithSidebar() {
   return (
     <div className=" dark:bg-black mx-auto relative flex justify-center flex-col md:flex-row bg-[url('/images/herobg.jpg')] bg-top bg-cover border-b">
-      <div className="bg-[rgba(255,255,255,0.92)] dark:bg-[rgba(0,0,0,0.8)] pb-12 sm:pb-8 xl:pb-0 w-full min-h-[74vh] flex">
+      <div className="bg-[rgba(255,255,255,0.92)] dark:bg-[rgba(0,0,0,0.8)] w-full min-h-[74vh] flex">
         {/* Hero Section */}
         <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-8 pb-2 sm:py-16">
           <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">

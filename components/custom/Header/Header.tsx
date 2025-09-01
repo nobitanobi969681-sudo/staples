@@ -115,7 +115,7 @@ export default function SiteHeader() {
           <Link href="/" className="group inline-flex items-center gap-4">
             <div className="relative grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-primary to-primary/60 text-primary-foreground shadow-sm">
               <Image
-                src="favicon.svg"
+                src="/favicon.svg"
                 alt="Company Logo"
                 width={200}
                 height={80}
