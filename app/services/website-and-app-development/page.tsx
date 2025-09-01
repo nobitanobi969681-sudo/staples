@@ -8,7 +8,9 @@ const page = () => {
     <div>
       <Herobanner />
       <Content />
-      <CtaButton />
+      <div className="max-w-4xl mx-auto mb-0 sm:mb-16">
+        <CtaButton />
+      </div>
     </div>
   );
 };
