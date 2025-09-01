@@ -10,8 +10,11 @@ export default function AboutPage() {
           <h1 className="px-4 sm:px-0  text-white dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold tracking-tight relative z-10">
             Contact Us
           </h1>
-          We build next-gen digital experiences with performance, aesthetics,
-          and cutting-edge technology.
+
+          <p className="text-white px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto">
+            We build next-gen digital experiences with performance, aesthetics,
+            and cutting-edge technology.
+          </p>
         </div>
       </div>
     </div>

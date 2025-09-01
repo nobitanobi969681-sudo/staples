@@ -1,13 +1,13 @@
 import React from "react";
-import Map from "@/app/contact-us/map";
+import Features from "@/app/contact-us/features";
 import Herobanner from "./herobanner";
 
 const page = () => {
   return (
     <div className="dark:bg-black">
       <Herobanner />
-      <div className="max-w-4xl mx-auto">
-        <Map />
+      <div className="mt-16 max-w-5xl mx-auto">
+        <Features />
       </div>
     </div>
   );
