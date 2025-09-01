@@ -8,6 +8,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { ShineBorder } from "@/components/magicui/shine-border";
 
@@ -27,12 +29,52 @@ export default function ShineBorderDemo() {
           <form>
             <div className="grid gap-4">
               <div className="grid gap-2">
+                <Label htmlFor="name">Name</Label>
+                <Input id="name" type="text" />
+              </div>
+
+              <div className="grid gap-2">
                 <Label htmlFor="email">Email</Label>
                 <Input id="email" type="email" placeholder="name@example.com" />
               </div>
+
               <div className="grid gap-2">
-                <Label htmlFor="password">Password</Label>
-                <Input id="password" type="password" />
+                <Label htmlFor="phone">Phone</Label>
+                <Input id="phone" type="number" />
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="phone">Service</Label>
+                <RadioGroup defaultValue="test1">
+                  <div className="flex items-center gap-3">
+                    <RadioGroupItem value="test1" id="r1" />
+                    <Label htmlFor="r1">Default</Label>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <RadioGroupItem value="test2" id="r2" />
+                    <Label htmlFor="r2">Comfortable</Label>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <RadioGroupItem value="test3" id="r3" />
+                    <Label htmlFor="r3">Compact</Label>
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <RadioGroupItem value="test4" id="r4" />
+                    <Label htmlFor="r4">Default</Label>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <RadioGroupItem value="test5" id="r5" />
+                    <Label htmlFor="r5">Comfortable</Label>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <RadioGroupItem value="test6" id="r6" />
+                    <Label htmlFor="r6">Compact</Label>
+                  </div>
+                </RadioGroup>
+              </div>
+              <div className="grid gap-2">
+                <Label htmlFor="phone">Message</Label>
+                <Textarea id="phone" />
               </div>
             </div>
           </form>
