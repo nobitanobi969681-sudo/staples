@@ -12,6 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { ShineBorder } from "@/components/magicui/shine-border";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
 export default function ShineBorderDemo() {
   return (
@@ -80,7 +81,11 @@ export default function ShineBorderDemo() {
           </form>
         </CardContent>
         <CardFooter>
-          <Button className="max-w-min mx-auto">REQUEST A QUOTE</Button>
+          <ShimmerButton className="shadow-2xl">
+            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-relaxed text-white dark:from-white dark:to-slate-900/10 lg:text-md">
+              Request Quote
+            </span>
+          </ShimmerButton>
         </CardFooter>
       </Card>
     </div>
