@@ -4,7 +4,7 @@ import { useId } from "react";
 export default function FeaturesSectionDemo() {
   return (
     <div className="pb-20 px-4">
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-2 max-w-5xl mx-auto">
+      <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-2 max-w-5xl mx-auto">
         {grid.map((feature) => (
           <div
             key={feature.title}
@@ -26,15 +26,15 @@ export default function FeaturesSectionDemo() {
 
 const grid = [
   {
-    title: "HIPAA and SOC2 Compliant",
+    title: "Precision",
     description: "",
   },
   {
-    title: "Automated Social Media Posting",
+    title: "Speed",
     description: "",
   },
   {
-    title: "Advanced Analytics",
+    title: "Integrity",
     description: "",
   },
 ];
