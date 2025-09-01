@@ -1,13 +1,14 @@
 import React from "react";
 import Herobanner from "./herobanner";
 import Content from "./content";
-import Ctabutton from "./cta-banner";
+import CtaButton from "./cta-banner";
 
 const page = () => {
   return (
     <div>
       <Herobanner />
       <Content />
+      <CtaButton />
     </div>
   );
 };
