@@ -49,6 +49,7 @@ import Mobiletoggle from "@/components/custom/Mobiletoggle/Mobiletoggle";
 
 import Image from "next/image";
 import { MagicCard } from "@/components/magicui/magic-card";
+import { AnimatedThemeToggler } from "@/components/magicui/animated-theme-toggler";
 
 // Simple theme toggle without providers. Adds/removes the `dark` class on <html>.
 function ThemeToggle() {
@@ -202,8 +203,8 @@ export default function SiteHeader() {
 
         {/* Right: Actions */}
         <div className="xl:min-w-[300px] flex justify-end items-center gap-2">
-          <div className=" items-center gap-2 flex">
-            <ThemeToggle />
+          <div className=" items-center gap-2 flex pr-4">
+            <AnimatedThemeToggler />
           </div>
 
           <div className="block xl:hidden">
