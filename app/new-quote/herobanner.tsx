@@ -14,7 +14,7 @@ export default function AboutPage() {
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="px-4 sm:px-0 text-4xl md:text-6xl font-medium tracking-tight relative z-10"
+            className="px-4 sm:px-0   text-black dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold relative z-10"
           >
             Crafting Digital Excellence
           </motion.h1>

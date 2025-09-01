@@ -28,17 +28,17 @@ const grid = [
   {
     title: "Call Us",
     description:
-      "Our applications are HIPAA and SOC2 compliant, your data is safe with us, always.",
+      "Speak directly with our team for quick guidance on projects, collaborations, or services — real people, real solutions.",
   },
   {
     title: "Mail Us",
     description:
-      "Schedule and automate your social media posts across multiple platforms to save time.",
+      "Drop us an email anytime to discuss ideas, request proposals, or share requirements. We respond fast, with clarity.",
   },
   {
     title: "Address",
     description:
-      "Gain insights into your social media performance with detailed analytics and reporting.",
+      "Visit our workspace to explore strategies, brainstorm campaigns, or simply meet the minds shaping your brand’s future.",
   },
 ];
 
