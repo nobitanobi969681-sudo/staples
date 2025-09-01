@@ -1,7 +1,8 @@
 "use client";
 
 import { ChevronRight, type LucideIcon } from "lucide-react";
-
+import Link from "next/link";
+import { useState } from "react";
 import {
   Collapsible,
   CollapsibleContent,
@@ -20,6 +21,7 @@ import {
 import { SidebarProvider } from "@/components/ui/sidebar";
 export default function NavMain({
   items,
+  setOpen,
 }: {
   items: {
     title: string;
@@ -31,6 +33,7 @@ export default function NavMain({
       url: string;
     }[];
   }[];
+  setOpen: (open: boolean) => void;
 }) {
   return (
     <SidebarProvider className="min-h-0">
@@ -57,11 +60,14 @@ export default function NavMain({
                     {item.items?.map((subItem) => (
                       <SidebarMenuSubItem key={subItem.title}>
                         <SidebarMenuSubButton asChild>
-                          <a href={subItem.url}>
+                          <Link
+                            href={subItem.url}
+                            onClick={() => setOpen(false)}
+                          >
                             <span className="text-base my-12">
                               {subItem.title}
                             </span>
-                          </a>
+                          </Link>
                         </SidebarMenuSubButton>
                       </SidebarMenuSubItem>
                     ))}

@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -33,7 +36,7 @@ const data = {
       title: "Company",
       url: "#",
       icon: SquareTerminal,
-      isActive: true,
+      isActive: false,
       items: [
         {
           title: "Home Page",
@@ -57,17 +60,30 @@ const data = {
       title: "Services",
       url: "#",
       icon: Bot,
+      isActive: true,
       items: [
         {
           title: "Website & App Development",
           url: "/services/website-and-app-development",
         },
         {
-          title: "Explorer",
+          title: "Digital Marketing & SEO",
           url: "#",
         },
         {
-          title: "Quantum",
+          title: "Photograpy & Video Editing",
+          url: "#",
+        },
+        {
+          title: "Building MPVs & Prototypes",
+          url: "#",
+        },
+        {
+          title: "UI/UX & Graphic Designing",
+          url: "#",
+        },
+        {
+          title: "Branding & PR Management",
           url: "#",
         },
       ],
@@ -78,42 +94,7 @@ const data = {
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
-          url: "#",
-        },
-        {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: Settings2,
-      items: [
-        {
-          title: "General",
-          url: "#",
-        },
-        {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
+          title: "Business Model",
           url: "#",
         },
       ],
@@ -122,8 +103,9 @@ const data = {
 };
 
 export default function SheetDemo() {
+  const [open, setOpen] = useState(false);
   return (
-    <Sheet>
+    <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
         <Button variant="outline" className="rounded-full">
           <Menu className="w-6 h-6" />
@@ -139,7 +121,7 @@ export default function SheetDemo() {
           </SheetDescription>
         </SheetHeader>
         <div className="grid flex-1 auto-rows-min gap-6 px-4">
-          <NavMain items={data.navMain} />
+          <NavMain setOpen={setOpen} items={data.navMain} />
         </div>
         <SheetFooter>
           <Button

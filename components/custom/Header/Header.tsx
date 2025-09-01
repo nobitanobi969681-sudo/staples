@@ -203,11 +203,11 @@ export default function SiteHeader() {
 
         {/* Right: Actions */}
         <div className="xl:min-w-[300px] flex justify-end items-center gap-2">
-          <div className=" items-center gap-2 flex pr-4">
-            <AnimatedThemeToggler />
+          <div className=" items-center gap-2 flex pr-4 cursor-pointer">
+            <AnimatedThemeToggler className="cursor-pointer" />
           </div>
 
-          <div className="block xl:hidden">
+          <div className="block xl:hidden ">
             <Mobiletoggle />
           </div>
 

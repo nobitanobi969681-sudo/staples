@@ -6,7 +6,7 @@ export default function SiteFooter() {
   return (
     <footer className="bg-[url('/images/herobg.jpg')] bg-top bg-cover bt-1 bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/99">
       <div className="bg-[rgba(255,255,255,0.96)] dark:bg-[rgba(0,0,0,0.92)]">
-        <div className=" mx-auto px-8 py-20">
+        <div className=" mx-auto px-8 sm:px-20 py-20">
           <Toptext />
           <Midlinks />
           <Bottomlinks />
