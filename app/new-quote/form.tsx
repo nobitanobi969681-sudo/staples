@@ -20,9 +20,9 @@ export default function ShineBorderDemo() {
       <Card className="relative overflow-hidden max-w-[480px] w-full mx-auto mb-16 py-8">
         <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
         <CardHeader>
-          <CardTitle>Login</CardTitle>
+          <CardTitle>Start Here</CardTitle>
           <CardDescription>
-            Enter your credentials to access your account
+            Tell us your plan and know the cost to build it.
           </CardDescription>
         </CardHeader>
 
