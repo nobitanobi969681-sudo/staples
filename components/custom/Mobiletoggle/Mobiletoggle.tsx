@@ -54,13 +54,13 @@ const data = {
       ],
     },
     {
-      title: "Models",
+      title: "Services",
       url: "#",
       icon: Bot,
       items: [
         {
-          title: "Genesis",
-          url: "#",
+          title: "Website & App Development",
+          url: "/services/website-and-app-development",
         },
         {
           title: "Explorer",
