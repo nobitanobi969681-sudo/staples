@@ -16,17 +16,17 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="px-4 sm:px-0   text-black dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold relative z-10"
           >
-            Crafting Digital Excellence
+            Quote. Decide. Build.
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="px-8 sm:px-0 mt-6 text-lg md:text-xl text-muted-foreground relative z-10 max-w-xl mx-auto"
+            className="px-8 sm:px-0 mt-6 text-lg md:text-xl text-muted-foreground relative z-10 max-w-md mx-auto"
           >
-            We build next-gen digital experiences with performance, aesthetics,
-            and cutting-edge technology.
+            See the numbers first, then decide confidently if we should move
+            ahead together.
           </motion.p>
         </div>
       </div>
