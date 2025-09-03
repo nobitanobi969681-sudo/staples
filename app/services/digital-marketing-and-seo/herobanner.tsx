@@ -23,7 +23,7 @@ export default function UniqueHeroWithSidebar() {
             </div>
 
             {/* Visual / Image Block */}
-            <Card className="shadow-lg overflow-hidden  2xl:ml-20 max-w-[580px] rounded-none sm:mx-auto order-1 sm:order-2">
+            <Card className="shadow-lg overflow-hidden border-none 2xl:ml-20 max-w-[580px] rounded-none sm:mx-auto order-1 sm:order-2">
               <CardContent className="p-0 rounded-none">
                 <img
                   src="/services/digital-marketing-full.jpg"
