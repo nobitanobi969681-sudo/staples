@@ -29,16 +29,16 @@ const Midlinks = () => {
       <div>
         <ul className="mb-8 sm:mb-0 space-y-4 text-sm text-black dark:text-white tracking-wider uppercase text-center sm:text-left">
           <li>
-            <Link href="#about">About Us</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="#careers">Careers</Link>
+            <Link href="/about">About Us</Link>
           </li>
           <li>
-            <Link href="#blog">Blog</Link>
+            <Link href="/contact-us">Contact</Link>
           </li>
           <li>
-            <Link href="#contact">Contact</Link>
+            <Link href="/new-quote">New Quote</Link>
           </li>
         </ul>
       </div>
@@ -69,17 +69,32 @@ const Midlinks = () => {
       <div className="max-w-min inline mx-auto sm:mx-0">
         <ul className="flex flex-row sm:flex-col space-x-4 sm:space-x-0 space-y-4 text-sm text-black dark:text-white tracking-wider text-center sm:text-left mx-auto sm:mx-0">
           <li>
-            <Link href="#help" className="whitespace-nowrap mx-auto sm:mx-0">
+            <Link
+              href="www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whitespace-nowrap mx-auto sm:mx-0"
+            >
               FACEBOOK
             </Link>
           </li>
           <li>
-            <Link href="#terms" className="whitespace-nowrap mx-auto sm:mx-0">
+            <Link
+              href="www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whitespace-nowrap mx-auto sm:mx-0"
+            >
               INSTAGRAM
             </Link>
           </li>
           <li>
-            <Link href="#status" className="whitespace-nowrap mx-auto sm:mx-0">
+            <Link
+              href="www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whitespace-nowrap mx-auto sm:mx-0"
+            >
               LINKEDIN
             </Link>
           </li>
