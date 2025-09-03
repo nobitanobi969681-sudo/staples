@@ -162,31 +162,31 @@ export default function SiteHeader() {
                     <ProductCard
                       title="Digital Marketing & SEO"
                       description="We craft campaigns boosting brand reach and business ROI."
-                      href="#pro"
+                      href="/services/digital-marketing-and-seo"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="Photograpy & Video Editing"
                       description="Photography and videography that tell powerful stories."
-                      href="#automation"
+                      href="/services/photography-and-video-editing"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="Building MVPs & Prototypes"
                       description="Building MVPs and prototypes to test ideas and launch faster."
-                      href="#integrations"
+                      href="/services/mvps-and-prototypes"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="UI/UX & Graphic Designing"
                       description="Seamless UI/UX and graphics that enhance brand presence."
-                      href="#automation"
+                      href="/services/ui-ux-and-graphics-designing"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="Branding & PR Management"
                       description="We build brands, & manage PR that shape public perception."
-                      href="#integrations"
+                      href="/services/branding-and-pr-management"
                       outerstyle="border-l"
                     />
                   </div>
