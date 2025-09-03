@@ -46,22 +46,34 @@ const Midlinks = () => {
       <div>
         <ul className="mb-8 sm:mb-0 space-y-4 text-sm text-black dark:text-white tracking-wider uppercase text-center sm:text-left">
           <li>
-            <Link href="/">Website & App Development</Link>
+            <Link href="/services/website-and-app-development">
+              Website & App Development
+            </Link>
           </li>
           <li>
-            <Link href="/about">Digital Marketing & SEO</Link>
+            <Link href="/services/digital-marketing-and-seo">
+              Digital Marketing & SEO
+            </Link>
           </li>
           <li>
-            <Link href="/contact-us">Photograpy & Video Editing</Link>
+            <Link href="/services/photography-and-video-editing">
+              Photograpy & Video Editing
+            </Link>
           </li>
           <li>
-            <Link href="/">Building MPVs & Prototypes</Link>
+            <Link href="/services/mvps-and-prototypes">
+              Building MPVs & Prototypes
+            </Link>
           </li>
           <li>
-            <Link href="/about">UI/UX & Graphic Designing</Link>
+            <Link href="/services/ui-ux-and-graphics-designing">
+              UI/UX & Graphic Designing
+            </Link>
           </li>
           <li>
-            <Link href="/contact-us">Branding & PR Management</Link>
+            <Link href="/services/branding-and-pr-management">
+              Branding & PR Management
+            </Link>
           </li>
         </ul>
       </div>
