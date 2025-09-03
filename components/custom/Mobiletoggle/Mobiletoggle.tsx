@@ -36,7 +36,7 @@ const data = {
       title: "Company",
       url: "#",
       icon: SquareTerminal,
-      isActive: false,
+      isActive: true,
       items: [
         {
           title: "Home Page",
@@ -60,7 +60,7 @@ const data = {
       title: "Services",
       url: "#",
       icon: Bot,
-      isActive: true,
+      isActive: false,
       items: [
         {
           title: "Website & App Development",
