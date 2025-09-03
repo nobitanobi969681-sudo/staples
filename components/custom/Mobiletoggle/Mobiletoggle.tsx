@@ -28,8 +28,8 @@ import {
   Settings2,
   SquareTerminal,
 } from "lucide-react";
+import Link from "next/link";
 
-// This is sample data.
 const data = {
   navMain: [
     {
@@ -124,18 +124,19 @@ export default function SheetDemo() {
           <NavMain setOpen={setOpen} items={data.navMain} />
         </div>
         <SheetFooter>
-          <Button
-            variant="outline"
-            className="mb-0 bg-[url('/images/bg.png')] bg-cover border-0 text-white dark:text-gray-200"
+          <Link
+            href="mailto:contact@ankushtripathi.com?subject=Contacting%20from%20ATM%20website&body=Hi%20Ankush%2C%0A%0AI%E2%80%99d%20like%20to%20learn%20more%20about%20the%20services%20your%20agency%20offers.%0A%0ALet%E2%80%99s%20get%20in%20touch.%0A%0AThanks!
+"
           >
-            Mail Us
-          </Button>
-          <Button
-            variant="outline"
-            className="mb-4 bg-[url('/images/bg.png')] bg-cover border-0 text-white dark:text-gray-200"
-          >
-            Call Us
-          </Button>
+            <Button variant="outline" className="mb-0 w-full">
+              Mail Us
+            </Button>
+          </Link>
+          <Link href="tel:+919815951565">
+            <Button variant="outline" className="mb-4 w-full">
+              Call Us
+            </Button>
+          </Link>
           <SheetClose asChild>
             <Button variant="outline" className="dark:text-gray-400">
               Close
