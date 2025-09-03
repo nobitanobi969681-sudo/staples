@@ -70,7 +70,7 @@ const Midlinks = () => {
         <ul className="flex flex-row sm:flex-col space-x-4 sm:space-x-0 space-y-4 text-sm text-black dark:text-white tracking-wider text-center sm:text-left mx-auto sm:mx-0">
           <li>
             <Link
-              href="www.facebook.com"
+              href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
               className="whitespace-nowrap mx-auto sm:mx-0"
@@ -80,7 +80,7 @@ const Midlinks = () => {
           </li>
           <li>
             <Link
-              href="www.instagram.com"
+              href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               className="whitespace-nowrap mx-auto sm:mx-0"
@@ -90,7 +90,7 @@ const Midlinks = () => {
           </li>
           <li>
             <Link
-              href="www.linkedin.com"
+              href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
               className="whitespace-nowrap mx-auto sm:mx-0"
