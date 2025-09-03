@@ -68,23 +68,23 @@ const data = {
         },
         {
           title: "Digital Marketing & SEO",
-          url: "#",
+          url: "/services/digital-marketing-and-seo",
         },
         {
           title: "Photograpy & Video Editing",
-          url: "#",
+          url: "/services/photography-and-video-editing",
         },
         {
           title: "Building MPVs & Prototypes",
-          url: "#",
+          url: "/services/mvps-and-prototypes",
         },
         {
           title: "UI/UX & Graphic Designing",
-          url: "#",
+          url: "/services/ui-ux-and-graphics-designing",
         },
         {
           title: "Branding & PR Management",
-          url: "#",
+          url: "/services/branding-and-pr-management",
         },
       ],
     },
