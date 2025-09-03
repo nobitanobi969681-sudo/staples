@@ -29,23 +29,6 @@ const Midlinks = () => {
       <div>
         <ul className="mb-8 sm:mb-0 space-y-4 text-sm text-black dark:text-white tracking-wider uppercase text-center sm:text-left">
           <li>
-            <Link href="#features">Features</Link>
-          </li>
-          <li>
-            <Link href="#pricing">Pricing</Link>
-          </li>
-          <li>
-            <Link href="#docs">Documentation</Link>
-          </li>
-          <li>
-            <Link href="#integrations">Integrations</Link>
-          </li>
-        </ul>
-      </div>
-
-      <div>
-        <ul className="mb-8 sm:mb-0 space-y-4 text-sm text-black dark:text-white tracking-wider uppercase text-center sm:text-left">
-          <li>
             <Link href="#about">About Us</Link>
           </li>
           <li>
@@ -60,6 +43,29 @@ const Midlinks = () => {
         </ul>
       </div>
 
+      <div>
+        <ul className="mb-8 sm:mb-0 space-y-4 text-sm text-black dark:text-white tracking-wider uppercase text-center sm:text-left">
+          <li>
+            <Link href="/">Website & App Development</Link>
+          </li>
+          <li>
+            <Link href="/about">Digital Marketing & SEO</Link>
+          </li>
+          <li>
+            <Link href="/contact-us">Photograpy & Video Editing</Link>
+          </li>
+          <li>
+            <Link href="/">Building MPVs & Prototypes</Link>
+          </li>
+          <li>
+            <Link href="/about">UI/UX & Graphic Designing</Link>
+          </li>
+          <li>
+            <Link href="/contact-us">Branding & PR Management</Link>
+          </li>
+        </ul>
+      </div>
+
       <div className="max-w-min inline mx-auto sm:mx-0">
         <ul className="flex flex-row sm:flex-col space-x-4 sm:space-x-0 space-y-4 text-sm text-black dark:text-white tracking-wider text-center sm:text-left mx-auto sm:mx-0">
           <li>
@@ -70,11 +76,6 @@ const Midlinks = () => {
           <li>
             <Link href="#terms" className="whitespace-nowrap mx-auto sm:mx-0">
               INSTAGRAM
-            </Link>
-          </li>
-          <li>
-            <Link href="#privacy" className="whitespace-nowrap mx-auto sm:mx-0">
-              TWITTER
             </Link>
           </li>
           <li>
