@@ -16,8 +16,8 @@ export default function UniqueHeroWithSidebar() {
               <div className="max-w-[800px] space-y-6 text-center xl:text-left">
                 <Prefooter />
                 <p className="mx-auto xl:mx-0 max-w-[560px] text-xl text-muted-foreground mb-16 sm:mb-0 px-2">
-                  We craft scalable, responsive, and user-friendly platforms to
-                  grow your digital presence.
+                  We build high-performance websites and apps designed to scale,
+                  engage users, and deliver business growth.
                 </p>
               </div>
             </div>
@@ -26,7 +26,7 @@ export default function UniqueHeroWithSidebar() {
             <Card className="shadow-lg overflow-hidden  2xl:ml-20 max-w-[580px] rounded-none sm:mx-auto order-1 sm:order-2">
               <CardContent className="p-0 rounded-none">
                 <img
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
+                  src="/services/web-development-full.jpeg"
                   alt="Hero visual"
                   className="object-cover h-full w-full rounded-none"
                 />

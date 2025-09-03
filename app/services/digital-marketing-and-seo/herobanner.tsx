@@ -16,8 +16,8 @@ export default function UniqueHeroWithSidebar() {
               <div className="max-w-[800px] space-y-6 text-center xl:text-left">
                 <Prefooter />
                 <p className="mx-auto xl:mx-0 max-w-[560px] text-xl text-muted-foreground mb-16 sm:mb-0 px-2">
-                  We craft scalable, responsive, and user-friendly platforms to
-                  grow your digital presence.
+                  We craft data-driven digital marketing and SEO strategies that
+                  increase visibility, drive traffic, and accelerate growth.
                 </p>
               </div>
             </div>
