@@ -7,18 +7,20 @@ const Midlinks = () => {
       {/* Brand + Newsletter */}
       <div className="space-y-4">
         <Link href="tel:+919815951565" className="flex">
-          <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
-            <span className="whitespace-pre-wrap text-center text-sm font-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-base">
+          <ShimmerButton className="shadow-2xl min-w-[240px] mx-auto sm:mx-0">
+            <span className="whitespace-pre-wrap text-center text-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-sm">
               +91 9815 95 1565
             </span>
           </ShimmerButton>
         </Link>
-        <ShimmerButton className="shadow-2xl min-w-[220px] mx-auto sm:mx-0">
-          <span className="whitespace-pre-wrap text-center text-sm font-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-base">
-            contact@atm.online
-          </span>
-        </ShimmerButton>
-        <p className="tracking-wider font-semibold text-sm sm:text-md mb-8 sm:mb-0 min-w-[220px] text-center mt-8 text-black dark:text-white">
+        <Link href="mailto:contact@ankushtripathi.com" className="flex">
+          <ShimmerButton className="shadow-2xl min-w-[240px] mx-auto sm:mx-0">
+            <span className="whitespace-pre-wrap text-center text-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-sm">
+              contact@ankushtripathi.com
+            </span>
+          </ShimmerButton>
+        </Link>
+        <p className="tracking-wider font-medium text-sm sm:text-md mb-8 sm:mb-0 min-w-[220px] text-center mt-8 text-black dark:text-white">
           BHOPAL, INDIA 🇮🇳
         </p>
       </div>
