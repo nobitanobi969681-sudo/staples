@@ -155,37 +155,37 @@ export default function SiteHeader() {
                   <div className="grid w-[500px] grid-cols-2 gap-3">
                     <ProductCard
                       title="Website & App Development"
-                      description=""
+                      description="We build fast, scalable, user-focused websites & apps."
                       href="/services/website-and-app-development"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="Digital Marketing & SEO"
-                      description=""
+                      description="We craft campaigns boosting brand reach and business ROI."
                       href="#pro"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="Photograpy & Video Editing"
-                      description=""
+                      description="Photography and videography that tell powerful stories."
                       href="#automation"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="Building MVPs & Prototypes"
-                      description=""
+                      description="Building MVPs and prototypes to test ideas and launch faster."
                       href="#integrations"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="UI/UX & Graphic Designing"
-                      description=""
+                      description="Seamless UI/UX and graphics that enhance brand presence."
                       href="#automation"
                       outerstyle="border-l"
                     />
                     <ProductCard
                       title="Branding & PR Management"
-                      description=""
+                      description="We build brands, & manage PR that shape public perception."
                       href="#integrations"
                       outerstyle="border-l"
                     />
@@ -234,51 +234,20 @@ function ProductCard({
   outerstyle: string;
 }) {
   return (
-    <div>
-      <div className="hidden dark:flex">
-        <MagicCard
-          className={`${outerstyle} group rounded-md  p-4 transition-all hover:shadow-sm w-[240px]`}
-        >
-          <Link href={href} className="">
-            <div className="flex items-start justify-between">
-              <div>
-                <h4 className="text-sm font-medium leading-none tracking-tight">
-                  {title}
-                </h4>
-                <p className="mt-1 text-xs text-muted-foreground">
-                  {description}
-                </p>
-              </div>
-            </div>
-            <div className="mt-3 inline-flex items-center text-xs font-light text-primary">
-              Learn more
-              <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-            </div>
-          </Link>
-        </MagicCard>
-      </div>
-      <div className="flex dark:hidden">
-        <Link
-          href={href}
-          className={`${outerstyle} group rounded-md  p-4 transition-all hover:shadow-sm w-[240px]`}
-        >
-          <div className="flex items-start justify-between">
-            <div>
-              <h4 className="text-sm font-medium leading-none tracking-tight">
-                {title}
-              </h4>
-              <p className="mt-1 text-xs text-muted-foreground">
-                {description}
-              </p>
-            </div>
+    <Link href={href} className="">
+      <div
+        className={`${outerstyle} group rounded-md  p-4 transition-all hover:shadow-sm w-[240px]`}
+      >
+        <div className="flex items-start justify-between">
+          <div>
+            <h4 className="text-sm font-medium leading-none tracking-tight">
+              {title}
+            </h4>
+            <p className="mt-2 text-xs text-muted-foreground">{description}</p>
           </div>
-          <div className="mt-3 inline-flex items-center text-xs font-light text-primary">
-            Learn more
-            <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-          </div>
-        </Link>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
