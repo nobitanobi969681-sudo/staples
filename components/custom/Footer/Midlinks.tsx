@@ -1,4 +1,5 @@
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import { RippleButton } from "@/components/magicui/ripple-button";
+
 import Link from "next/link";
 
 const Midlinks = () => {
@@ -6,26 +7,27 @@ const Midlinks = () => {
     <div className=" hidden sm:flex justify-between mb-8 sm:mb-20 flex-col md:flex-row">
       {/* Brand + Newsletter */}
       <div className="space-y-4">
-        <Link href="tel:+919815951565" className="flex">
-          <ShimmerButton className="shadow-2xl min-w-[240px] mx-auto sm:mx-0">
-            <span className="whitespace-pre-wrap text-center text-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-sm">
-              +91 9815 95 1565
-            </span>
-          </ShimmerButton>
-        </Link>
         <Link
           href="mailto:contact@ankushtripathi.com?subject=Contacting%20from%20ATM%20website&body=Hi%20Ankush%2C%0A%0AI%E2%80%99d%20like%20to%20learn%20more%20about%20the%20services%20your%20agency%20offers.%0A%0ALet%E2%80%99s%20get%20in%20touch.%0A%0AThanks!
 "
           className="flex"
         >
-          <ShimmerButton className="shadow-2xl min-w-[240px] mx-auto sm:mx-0">
-            <span className="whitespace-pre-wrap text-center text-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-sm">
+          <RippleButton className="border-0 min-w-[240px] mx-auto sm:mx-0">
+            <span className="whitespace-pre-wrap text-center text-sm leading-none tracking-tight text-gray-900 dark:text-gray-200 dark:from-white dark:to-slate-900/10 lg:text-sm">
               contact@ankushtripathi.com
             </span>
-          </ShimmerButton>
+          </RippleButton>
         </Link>
-        <p className="tracking-wider font-medium text-sm sm:text-md mb-8 sm:mb-0 min-w-[220px] text-center mt-8 text-black dark:text-white">
-          BHOPAL, INDIA 🇮🇳
+        <Link href="tel:+919815951565" className="flex">
+          <RippleButton className="border-0 min-w-[240px] mx-auto sm:mx-0">
+            <span className="whitespace-pre-wrap text-center text-sm leading-none tracking-tight text-gray-900 dark:text-gray-200 dark:from-white dark:to-slate-900/10 lg:text-sm">
+              +91 9815 95 1565
+            </span>
+          </RippleButton>
+        </Link>
+
+        <p className="tracking-widest font-medium text-sm sm:text-[10px] mb-8 sm:mb-0 min-w-[220px] text-center mt-8 text-black dark:text-gray-400">
+          MADE IN INDIA
         </p>
       </div>
 
