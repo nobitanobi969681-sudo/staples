@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -17,7 +16,8 @@ import { Label } from "@/components/ui/label";
 import { ShineBorder } from "@/components/magicui/shine-border";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
-export default function ShineBorderDemo() {
+export default function QuoteForm() {
+  // form state
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -28,6 +28,7 @@ export default function ShineBorderDemo() {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState<string | null>(null);
 
+  // handle input changes
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -35,22 +36,23 @@ export default function ShineBorderDemo() {
     setFormData((prev) => ({ ...prev, [id]: value }));
   };
 
+  // handle radio change
   const handleServiceChange = (value: string) => {
     setFormData((prev) => ({ ...prev, service: value }));
   };
 
+  // send email
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setStatus(null);
 
     try {
-      // compose email body from form fields
       const res = await fetch("/api/send", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: "your@email.com", // change to your email or array
+          to: "ankushtripathiandcompany@gmail.com",
           subject: `Quote Request from ${formData.name}`,
           message: `
             <strong>Name:</strong> ${formData.name}<br/>
@@ -64,7 +66,8 @@ export default function ShineBorderDemo() {
 
       const data = await res.json();
       if (res.ok) {
-        setStatus("✅ Sent successfully!");
+        setStatus("✅ Email sent successfully!");
+        // reset form
         setFormData({
           name: "",
           email: "",
@@ -77,7 +80,7 @@ export default function ShineBorderDemo() {
       }
     } catch (err) {
       console.error(err);
-      setStatus("❌ Error sending email.");
+      setStatus("❌ Network error sending email");
     } finally {
       setLoading(false);
     }
@@ -112,6 +115,7 @@ export default function ShineBorderDemo() {
               <Input
                 id="email"
                 type="email"
+                placeholder="name@example.com"
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -164,7 +168,9 @@ export default function ShineBorderDemo() {
               </ShimmerButton>
             </CardFooter>
 
-            {status && <p className="text-center mt-2 text-sm">{status}</p>}
+            {status && (
+              <p className="text-center mt-2 text-sm text-gray-700">{status}</p>
+            )}
           </form>
         </CardContent>
       </Card>
