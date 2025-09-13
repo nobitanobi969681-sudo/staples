@@ -6,12 +6,12 @@ import Movingcards from "@/components/custom/Movingcards/Movingcards";
 import Newquote from "@/components/custom/Newquote/Newquote";
 import { Cover } from "@/components/ui/cover";
 import { SparklesText } from "@/components/magicui/sparkles-text";
-import EmailTest from "@/components/custom/Emails/email-test";
+import NewQuote from "@/components/custom/Forms/NewQuote";
 
 export default function HomePage() {
   return (
     <>
-      <EmailTest />
+      <NewQuote />
       <div className="hidden p-4">
         <div className="bg-[url('/images/uiux.jpg')] bg-cover h-64 w-full rounded-3xl "></div>
       </div>
