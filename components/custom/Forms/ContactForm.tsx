@@ -22,7 +22,7 @@ export default function QuoteForm() {
     name: "",
     email: "",
     phone: "",
-    service: "test1",
+    purpose: "",
     message: "",
   });
   const [loading, setLoading] = useState(false);
@@ -58,7 +58,7 @@ export default function QuoteForm() {
             <strong>Name:</strong> ${formData.name}<br/>
             <strong>Email:</strong> ${formData.email}<br/>
             <strong>Phone:</strong> ${formData.phone}<br/>
-            <strong>Service:</strong> ${formData.service}<br/>
+            <strong>Service:</strong> ${formData.purpose}<br/>
             <strong>Message:</strong> ${formData.message}
           `,
         }),
@@ -67,14 +67,14 @@ export default function QuoteForm() {
       const data = await res.json();
       if (res.ok) {
         setStatus(
-          "Thanks for your quote request! We’ll get back to you via email and follow up with a call soon."
+          "Your message is received. Our team will contact you within 24 hours."
         );
         // reset form
         setFormData({
           name: "",
           email: "",
           phone: "",
-          service: "test1",
+          purpose: "",
           message: "",
         });
       } else {
@@ -95,7 +95,7 @@ export default function QuoteForm() {
         <CardHeader>
           <CardTitle>Start Here</CardTitle>
           <CardDescription>
-            Tell us your plan and know the cost to build it.
+            Get in touch with us — we’ll respond quickly to your inquiry.
           </CardDescription>
         </CardHeader>
 
@@ -135,21 +135,6 @@ export default function QuoteForm() {
             </div>
 
             <div className="grid gap-2">
-              <Label>Purpose</Label>
-              <RadioGroup
-                value={formData.service}
-                onValueChange={handleServiceChange}
-              >
-                {["Inquery", "Complaint", "Feedback"].map((val, i) => (
-                  <div key={val} className="flex items-center gap-3">
-                    <RadioGroupItem value={val} id={`r${i}`} />
-                    <Label htmlFor={`r${i}`}>{val}</Label>
-                  </div>
-                ))}
-              </RadioGroup>
-            </div>
-
-            <div className="grid gap-2">
               <Label htmlFor="message">Message</Label>
               <Textarea
                 id="message"
@@ -164,7 +149,7 @@ export default function QuoteForm() {
                 disabled={loading}
                 className=" text-white dark:text-white"
               >
-                {loading ? "Sending..." : "Request Quote"}
+                {loading ? "Sending..." : "Contact Us"}
               </ShimmerButton>
             </CardFooter>
 
