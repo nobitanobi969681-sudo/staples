@@ -3,7 +3,7 @@ import Herobanner from "@/components/custom/herobanner/herobanner";
 import Servicegrid from "@/components/custom/Servicegrid/Servicegrid";
 import Appleslider from "@/components/custom/Appleslider/Appleslider";
 import Movingcards from "@/components/custom/Movingcards/Movingcards";
-import Newquote from "@/components/custom/Newquote/Newquote";
+import NewQuote from "@/components/custom/Forms/NewQuote";
 import { Cover } from "@/components/ui/cover";
 import { SparklesText } from "@/components/magicui/sparkles-text";
 
@@ -32,7 +32,9 @@ export default function HomePage() {
           <Cover>Free Quote</Cover>
         </SparklesText>
       </h1>
-      <Newquote />
+      <div className="mt-12">
+        <NewQuote />
+      </div>
       <Movingcards />
     </>
   );

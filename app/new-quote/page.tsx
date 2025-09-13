@@ -8,7 +8,9 @@ const page = () => {
     <div className="min-h-screen">
       <Herobanner />
       <Features />
-      <NewQuote />
+      <div className="mt-8">
+        <NewQuote />
+      </div>
     </div>
   );
 };

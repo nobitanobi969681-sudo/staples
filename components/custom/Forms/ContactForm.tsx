@@ -135,19 +135,12 @@ export default function QuoteForm() {
             </div>
 
             <div className="grid gap-2">
-              <Label>Service</Label>
+              <Label>Purpose</Label>
               <RadioGroup
                 value={formData.service}
                 onValueChange={handleServiceChange}
               >
-                {[
-                  "Website & App Development",
-                  "Digital Marketing & SEO",
-                  "Photograpy & Video Editing",
-                  "Building MVPs & Prototypes",
-                  "UI/UX & Graphic Designing",
-                  "Branding & PR Management",
-                ].map((val, i) => (
+                {["Inquery", "Complaint", "Feedback"].map((val, i) => (
                   <div key={val} className="flex items-center gap-3">
                     <RadioGroupItem value={val} id={`r${i}`} />
                     <Label htmlFor={`r${i}`}>{val}</Label>
