@@ -12,6 +12,7 @@ export default function HomePage() {
   return (
     <>
       <EmailTest />
+      test
       <div className="hidden p-4">
         <div className="bg-[url('/images/uiux.jpg')] bg-cover h-64 w-full rounded-3xl "></div>
       </div>
@@ -35,7 +36,6 @@ export default function HomePage() {
         </SparklesText>
       </h1>
       <Newquote />
-
       <Movingcards />
     </>
   );
