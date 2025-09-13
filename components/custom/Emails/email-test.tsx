@@ -138,14 +138,19 @@ export default function QuoteForm() {
                 value={formData.service}
                 onValueChange={handleServiceChange}
               >
-                {["test1", "test2", "test3", "test4", "test5", "test6"].map(
-                  (val, i) => (
-                    <div key={val} className="flex items-center gap-3">
-                      <RadioGroupItem value={val} id={`r${i}`} />
-                      <Label htmlFor={`r${i}`}>{val}</Label>
-                    </div>
-                  )
-                )}
+                {[
+                  "Website & App Development",
+                  "Digital Marketing & SEO",
+                  "Photograpy & Video Editing",
+                  "Building MVPs & Prototypes",
+                  "UI/UX & Graphic Designing",
+                  "Branding & PR Management",
+                ].map((val, i) => (
+                  <div key={val} className="flex items-center gap-3">
+                    <RadioGroupItem value={val} id={`r${i}`} />
+                    <Label htmlFor={`r${i}`}>{val}</Label>
+                  </div>
+                ))}
               </RadioGroup>
             </div>
 
@@ -162,7 +167,7 @@ export default function QuoteForm() {
               <ShimmerButton
                 type="submit"
                 disabled={loading}
-                className="shadow-2xl w-full justify-center"
+                className=" text-white dark:text-white"
               >
                 {loading ? "Sending..." : "Request Quote"}
               </ShimmerButton>
