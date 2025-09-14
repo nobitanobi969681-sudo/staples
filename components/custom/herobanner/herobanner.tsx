@@ -2,6 +2,7 @@ import Prefooter from "@/components/custom/Prefooter/Prefooter";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
+import Link from "next/link";
 
 export default function UniqueHeroWithSidebar() {
   return (
@@ -21,9 +22,11 @@ export default function UniqueHeroWithSidebar() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
-                  <ShimmerButton className="text-white dark:text-white">
-                    Get A Quote
-                  </ShimmerButton>
+                  <Link href="/new-quote">
+                    <ShimmerButton className="text-white dark:text-white">
+                      Get A Quote
+                    </ShimmerButton>
+                  </Link>
                 </div>
               </div>
             </div>
