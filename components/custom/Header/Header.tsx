@@ -114,12 +114,20 @@ export default function SiteHeader() {
         {/* Left: Logo + Mobile Menu */}
         <div className="sm:min-w-[300px] flex items-center gap-2">
           <Link href="/" className="group inline-flex items-center gap-4">
-            <div className="relative grid h-8 w-8 place-items-center bg-white">
+            <div className="relative grid h-8 w-8 place-items-center ">
               <Image
                 src="/favicon.svg"
                 alt="Company Logo"
                 width={200}
                 height={80}
+                className="flex dark:hidden"
+              />
+              <Image
+                src="/favicon-white.svg"
+                alt="Company Logo"
+                width={200}
+                height={80}
+                className="hidden dark:flex"
               />
             </div>
             <div className="flex items-baseline gap-2">
