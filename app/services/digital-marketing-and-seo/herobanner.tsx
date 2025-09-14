@@ -12,7 +12,7 @@ export default function UniqueHeroWithSidebar() {
             <div className="flex justify-center xl:justify-end xl:pl-20 order-2 sm:order-1 px-4 xl:px-0">
               <div className="max-w-[800px] space-y-6 text-center xl:text-left">
                 <h1 className="mx-w-sm md:max-w-2xl w-full mx-auto relative z-20 bg-clip-text font-bold text-black dark:text-white text-3xl md:text-4xl xl:text-5xl leading-tight">
-                  Boost online visibility through smart SEO and marketing
+                  Boost brand visibility through smart SEO and marketing
                 </h1>
                 <p className="mx-auto xl:mx-0 max-w-[560px] text-base sm:text-xl text-muted-foreground mb-14 sm:mb-0 px-4 md:px-0">
                   We help brands grow by boosting visibility, driving traffic,
