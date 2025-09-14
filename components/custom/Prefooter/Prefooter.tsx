@@ -10,7 +10,7 @@ export default function CoverDemo({ align }: any) {
           sparklesCount={0}
           className="text-center xl:text-left font-medium text-black dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl px-2 sm:px-0"
         >
-          <span className="leading-relaxed">{align} Building Websites at</span>{" "}
+          <span className="leading-relaxed">{align} Media Solutions @</span>{" "}
           <Cover>warp speed </Cover>
         </SparklesText>
       </h1>

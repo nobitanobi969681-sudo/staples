@@ -26,7 +26,7 @@ export default function UniqueHeroWithSidebar() {
             <Card className="shadow-lg overflow-hidden  2xl:ml-20 max-w-[580px] rounded-none sm:mx-auto order-1 sm:order-2">
               <CardContent className="p-0 rounded-none">
                 <img
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
+                  src="/services/ui-ux-and-graphic-designing.jpg"
                   alt="Hero visual"
                   className="object-cover h-full w-full rounded-none"
                 />
