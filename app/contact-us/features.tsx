@@ -29,19 +29,19 @@ export default function FeaturesSectionDemo() {
 
 const grid = [
   {
-    title: "Call Us",
+    title: "+91.9815.95.1565",
     link: "tel:+919815951565",
     description:
       "Speak directly with our team for quick guidance on projects, collaborations, or services — real people, real solutions.",
   },
   {
-    title: "Mail Us",
+    title: "contact@ankushtripathi.com",
     link: "mailto:contact@ankushtripathi.com",
     description:
       "Drop us an email anytime to discuss ideas, request proposals, or share requirements. We respond fast, with clarity.",
   },
   {
-    title: "Address",
+    title: "Bhopal, India 🇮🇳",
     link: "https://www.google.com/maps?sca_esv=8555f25f11312303&rlz=1C5CHFA_enIN1024IN1024&output=search&q=bhopal+india&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZMLQ4RPdPjLPmOakFCN7X8EE7njRrb2FMGWExx-5ARS2dDjUqH8P7GJI3gXZTNa1e_7m91tt3PtU62rTp6nl-Pm1Hz-Ike-6iODwXZAR4qkdAefymRsK8-aywfdi6MpAoW01fUOoTMccdwszVom5wcBZmb7Y68TZBQ-eJeW3TjxE8O6uyH1H8wv1LgSVc_8WT5cgf8g&entry=mc&ved=1t:200715&ictx=111",
     description:
       "Visit our workspace to explore strategies, brainstorm campaigns, or simply meet the minds shaping your brand’s future.",
