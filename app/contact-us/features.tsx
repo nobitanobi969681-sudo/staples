@@ -7,7 +7,7 @@ export default function FeaturesSectionDemo() {
     <div className="pb-20 px-14 sm:px-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-2 max-w-5xl mx-auto">
         {grid.map((feature) => (
-          <Link href={feature.link}>
+          <Link href={feature.link} target="_blank">
             <div
               key={feature.title}
               className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden"
@@ -42,7 +42,7 @@ const grid = [
   },
   {
     title: "Address",
-    link: "",
+    link: "https://www.google.com/maps?sca_esv=8555f25f11312303&rlz=1C5CHFA_enIN1024IN1024&output=search&q=bhopal+india&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZMLQ4RPdPjLPmOakFCN7X8EE7njRrb2FMGWExx-5ARS2dDjUqH8P7GJI3gXZTNa1e_7m91tt3PtU62rTp6nl-Pm1Hz-Ike-6iODwXZAR4qkdAefymRsK8-aywfdi6MpAoW01fUOoTMccdwszVom5wcBZmb7Y68TZBQ-eJeW3TjxE8O6uyH1H8wv1LgSVc_8WT5cgf8g&entry=mc&ved=1t:200715&ictx=111",
     description:
       "Visit our workspace to explore strategies, brainstorm campaigns, or simply meet the minds shaping your brand’s future.",
   },
