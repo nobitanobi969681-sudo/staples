@@ -114,7 +114,7 @@ export default function SiteHeader() {
         {/* Left: Logo + Mobile Menu */}
         <div className="sm:min-w-[300px] flex items-center gap-2">
           <Link href="/" className="group inline-flex items-center gap-4">
-            <div className="relative grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-primary to-primary/60 text-primary-foreground shadow-sm">
+            <div className="relative grid h-8 w-8 place-items-center bg-white">
               <Image
                 src="/favicon.svg"
                 alt="Company Logo"
