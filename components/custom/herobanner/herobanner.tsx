@@ -1,7 +1,9 @@
-import Prefooter from "@/components/custom/Prefooter/Prefooter";
+"use client";
+
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle2 } from "lucide-react";
+import React from "react";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function UniqueHeroWithSidebar() {
@@ -15,19 +17,41 @@ export default function UniqueHeroWithSidebar() {
 
             <div className="flex justify-center xl:justify-end pl-0 xl:pl-20">
               <div className="max-w-[800px] space-y-6 text-center xl:text-left">
-                <Prefooter />
-                <p className="mx-auto xl:mx-0 max-w-[560px] text-xl  mb-8 px-2 text-white">
+                <motion.h1
+                  initial={{ opacity: 0, y: -30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                >
+                  <h1 className="max-w-2xl mx-auto relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+                    <span className="text-center xl:text-left font-bold leading-tight text-white text-[34px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
+                      Digital Experiences That Inspire
+                    </span>
+                  </h1>
+                </motion.h1>
+
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.3, duration: 0.8 }}
+                  className="mx-auto xl:mx-0 max-w-[560px] text-xl  mb-8 px-2 text-white"
+                >
                   We craft premium digital solutions, blending creativity and
                   technology to elevate your brand’s online presence.
-                </p>
+                </motion.p>
 
-                <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
-                  <Link href="/new-quote">
-                    <ShimmerButton className="text-white dark:text-white">
-                      Get A Quote
-                    </ShimmerButton>
-                  </Link>
-                </div>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.5, duration: 0.8 }}
+                >
+                  <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
+                    <Link href="/new-quote">
+                      <ShimmerButton className="text-white dark:text-white">
+                        Get A Quote
+                      </ShimmerButton>
+                    </Link>
+                  </div>
+                </motion.p>
               </div>
             </div>
 
