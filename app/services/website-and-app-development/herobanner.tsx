@@ -1,7 +1,4 @@
-import Prefooter from "@/components/custom/Prefooter/Prefooter";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle2 } from "lucide-react";
 
 export default function UniqueHeroWithSidebar() {
   return (
@@ -17,7 +14,7 @@ export default function UniqueHeroWithSidebar() {
                 <h1 className="mx-w-sm md:max-w-2xl w-full mx-auto relative z-20 bg-clip-text font-bold text-black dark:text-white text-3xl md:text-4xl xl:text-5xl leading-tight">
                   Smart websites and apps that drive lasting impact
                 </h1>
-                <p className="mx-auto xl:mx-0 max-w-[560px] text-base sm:text-xl text-muted-foreground mb-16 sm:mb-0 px-2">
+                <p className="mx-auto xl:mx-0 max-w-[560px] text-base sm:text-xl text-muted-foreground mb-16 sm:mb-0 px-4 md:px-0">
                   We build high-performance websites and apps designed to scale,
                   engage users, and deliver business growth.
                 </p>
