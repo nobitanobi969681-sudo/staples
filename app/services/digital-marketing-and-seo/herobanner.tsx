@@ -1,7 +1,4 @@
-import Prefooter from "@/components/custom/Prefooter/Prefooter";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle2 } from "lucide-react";
 
 export default function UniqueHeroWithSidebar() {
   return (
@@ -12,18 +9,20 @@ export default function UniqueHeroWithSidebar() {
           <div className=" grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
             {/* Text Content */}
 
-            <div className="flex justify-center xl:justify-end pl-0 xl:pl-20 order-2 sm:order-1">
+            <div className="flex justify-center xl:justify-end xl:pl-20 order-2 sm:order-1 px-4 xl:px-0">
               <div className="max-w-[800px] space-y-6 text-center xl:text-left">
-                <Prefooter />
-                <p className="mx-auto xl:mx-0 max-w-[560px] text-xl text-muted-foreground mb-16 sm:mb-0 px-2">
-                  We craft data-driven digital marketing and SEO strategies that
-                  increase visibility, drive traffic, and accelerate growth.
+                <h1 className="mx-w-sm md:max-w-2xl w-full mx-auto relative z-20 bg-clip-text font-bold text-black dark:text-white text-3xl md:text-4xl xl:text-5xl leading-tight">
+                  Boost online visibility through smart SEO and marketing
+                </h1>
+                <p className="mx-auto xl:mx-0 max-w-[560px] text-base sm:text-xl text-muted-foreground mb-14 sm:mb-0 px-4 md:px-0">
+                  We help brands grow by boosting visibility, driving traffic,
+                  and improving conversions through expert SEO and marketing.
                 </p>
               </div>
             </div>
 
             {/* Visual / Image Block */}
-            <Card className="shadow-lg overflow-hidden border-none 2xl:ml-20 max-w-[580px] rounded-none sm:mx-auto order-1 sm:order-2">
+            <Card className="shadow-lg overflow-hidden  2xl:ml-20 max-w-[640px] rounded-none sm:mx-auto order-1 sm:order-2">
               <CardContent className="p-0 rounded-none">
                 <img
                   src="/services/digital-marketing-full.jpg"
