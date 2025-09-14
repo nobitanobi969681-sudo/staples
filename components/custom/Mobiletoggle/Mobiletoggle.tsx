@@ -88,17 +88,6 @@ const data = {
         },
       ],
     },
-    {
-      title: "Documentation",
-      url: "#",
-      icon: BookOpen,
-      items: [
-        {
-          title: "Business Model",
-          url: "#",
-        },
-      ],
-    },
   ],
 };
 

@@ -14,7 +14,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="px-4 sm:px-0  text-white dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold tracking-tight relative z-10"
           >
-            Framing The Infinity
+            Contact Us
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}

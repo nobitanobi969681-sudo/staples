@@ -1,23 +1,26 @@
 import React from "react";
 import { useId } from "react";
+import Link from "next/link";
 
 export default function FeaturesSectionDemo() {
   return (
     <div className="pb-20 px-14 sm:px-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-2 max-w-5xl mx-auto">
         {grid.map((feature) => (
-          <div
-            key={feature.title}
-            className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden"
-          >
-            <Grid size={20} />
-            <p className="text-base font-bold text-neutral-800 dark:text-white relative z-20">
-              {feature.title}
-            </p>
-            <p className="text-neutral-600 dark:text-neutral-400 mt-4 text-base font-normal relative z-20">
-              {feature.description}
-            </p>
-          </div>
+          <Link href={feature.link}>
+            <div
+              key={feature.title}
+              className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden"
+            >
+              <Grid size={20} />
+              <p className="text-base font-bold text-neutral-800 dark:text-white relative z-20">
+                {feature.title}
+              </p>
+              <p className="text-neutral-600 dark:text-neutral-400 mt-4 text-base font-normal relative z-20">
+                {feature.description}
+              </p>
+            </div>
+          </Link>
         ))}
       </div>
     </div>
@@ -27,16 +30,19 @@ export default function FeaturesSectionDemo() {
 const grid = [
   {
     title: "Call Us",
+    link: "tel:+919815951565",
     description:
       "Speak directly with our team for quick guidance on projects, collaborations, or services — real people, real solutions.",
   },
   {
     title: "Mail Us",
+    link: "mailto:contact@ankushtripathi.com",
     description:
       "Drop us an email anytime to discuss ideas, request proposals, or share requirements. We respond fast, with clarity.",
   },
   {
     title: "Address",
+    link: "",
     description:
       "Visit our workspace to explore strategies, brainstorm campaigns, or simply meet the minds shaping your brand’s future.",
   },
