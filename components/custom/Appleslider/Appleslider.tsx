@@ -40,7 +40,11 @@ const DummyContentOne = () => {
 
             <div className="flex gap-6">
               <Button
-                onClick={() => window.location.replace("/")}
+                onClick={() =>
+                  window.location.replace(
+                    "/services/website-and-app-development/"
+                  )
+                }
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
               >
