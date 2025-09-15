@@ -34,28 +34,31 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Building Experiences That Last",
     description: (
       <>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
+          We are a creative and technology-driven agency dedicated to building
+          meaningful digital experiences. From websites and apps to branding and
+          campaigns, we combine design, strategy, and innovation to help
+          businesses grow and stand out. Every project we take on is built to
+          deliver measurable impact and lasting value.
         </p>
       </>
     ),
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/og-tag-image.png",
   },
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Transforming Ideas Into Impact",
     description: (
       <>
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          Our team thrives on collaboration and clarity. We believe in
+          transparency, premium quality, and solutions tailored to each client’s
+          unique vision. With a focus on usability, aesthetics, and performance,
+          we transform ideas into results—creating digital products and
+          campaigns that not only look exceptional but perform at the highest
+          level.
         </p>
       </>
     ),

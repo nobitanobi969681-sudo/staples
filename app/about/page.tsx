@@ -10,9 +10,6 @@ export default function AboutPage() {
       <Herobanner />
 
       <Content />
-      <div className="max-w-4xl mx-auto mb-0 sm:mb-16">
-        <Banner />
-      </div>
     </>
   );
 }
