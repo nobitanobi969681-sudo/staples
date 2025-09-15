@@ -37,11 +37,26 @@ const DummyContentOne = () => {
               reliable digital solutions that engage users and drive measurable
               growth.
             </p>
-            <Link href="/new-quote">
-              <Button variant="outline" className="text-md cursor-pointer">
-                Get A Quote
-              </Button>
-            </Link>
+
+            <div className="flex gap-6">
+              <Link href="/services/">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Read More
+                </Button>
+              </Link>
+
+              <Link href="/new-quote">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Get A Quote
+                </Button>
+              </Link>
+            </div>
 
             <img
               src="https://assets.aceternity.com/macbook.png"
@@ -74,11 +89,26 @@ const DummyContentTwo = () => {
               polished assets, we deliver cohesive, high-impact designs that
               engage audiences and strengthen your brand presence.
             </p>
-            <Link href="/new-quote">
-              <Button variant="outline" className="text-md cursor-pointer">
-                Get A Quote
-              </Button>
-            </Link>
+
+            <div className="flex gap-6">
+              <Link href="/services/">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Read More
+                </Button>
+              </Link>
+
+              <Link href="/new-quote">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Get A Quote
+                </Button>
+              </Link>
+            </div>
 
             <img
               src="https://assets.aceternity.com/macbook.png"
@@ -111,11 +141,26 @@ const DummyContentThree = () => {
               polished assets, we deliver cohesive, high-impact designs that
               engage audiences and strengthen your brand presence.
             </p>
-            <Link href="/new-quote">
-              <Button variant="outline" className="text-md cursor-pointer">
-                Get A Quote
-              </Button>
-            </Link>
+
+            <div className="flex gap-6">
+              <Link href="/services/">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Read More
+                </Button>
+              </Link>
+
+              <Link href="/new-quote">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Get A Quote
+                </Button>
+              </Link>
+            </div>
 
             <img
               src="https://assets.aceternity.com/macbook.png"
@@ -148,11 +193,26 @@ const DummyContentFour = () => {
               polished assets, we deliver cohesive, high-impact designs that
               engage audiences and strengthen your brand presence.
             </p>
-            <Link href="/new-quote">
-              <Button variant="outline" className="text-md cursor-pointer">
-                Get A Quote
-              </Button>
-            </Link>
+
+            <div className="flex gap-6">
+              <Link href="/services/">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Read More
+                </Button>
+              </Link>
+
+              <Link href="/new-quote">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Get A Quote
+                </Button>
+              </Link>
+            </div>
 
             <img
               src="https://assets.aceternity.com/macbook.png"
@@ -185,11 +245,26 @@ const DummyContentFive = () => {
               polished assets, we deliver cohesive, high-impact designs that
               engage audiences and strengthen your brand presence.
             </p>
-            <Link href="/new-quote">
-              <Button variant="outline" className="text-md cursor-pointer">
-                Get A Quote
-              </Button>
-            </Link>
+
+            <div className="flex gap-6">
+              <Link href="/services/">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Read More
+                </Button>
+              </Link>
+
+              <Link href="/new-quote">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Get A Quote
+                </Button>
+              </Link>
+            </div>
 
             <img
               src="https://assets.aceternity.com/macbook.png"
@@ -222,11 +297,26 @@ const DummyContentSix = () => {
               polished assets, we deliver cohesive, high-impact designs that
               engage audiences and strengthen your brand presence.
             </p>
-            <Link href="/new-quote">
-              <Button variant="outline" className="text-md cursor-pointer">
-                Get A Quote
-              </Button>
-            </Link>
+
+            <div className="flex gap-6">
+              <Link href="/services/">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Read More
+                </Button>
+              </Link>
+
+              <Link href="/new-quote">
+                <Button
+                  variant="outline"
+                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                >
+                  Get A Quote
+                </Button>
+              </Link>
+            </div>
 
             <img
               src="https://assets.aceternity.com/macbook.png"
