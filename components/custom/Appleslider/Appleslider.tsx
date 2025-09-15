@@ -38,7 +38,7 @@ const DummyContentOne = () => {
               growth.
             </p>
             <Link href="/new-quote">
-              <Button variant="outline" className="text-xl cursor-pointer">
+              <Button variant="outline" className="text-md cursor-pointer">
                 Get A Quote
               </Button>
             </Link>
@@ -75,7 +75,7 @@ const DummyContentTwo = () => {
               engage audiences and strengthen your brand presence.
             </p>
             <Link href="/new-quote">
-              <Button variant="outline" className="text-xl cursor-pointer">
+              <Button variant="outline" className="text-md cursor-pointer">
                 Get A Quote
               </Button>
             </Link>
@@ -112,7 +112,7 @@ const DummyContentThree = () => {
               engage audiences and strengthen your brand presence.
             </p>
             <Link href="/new-quote">
-              <Button variant="outline" className="text-xl cursor-pointer">
+              <Button variant="outline" className="text-md cursor-pointer">
                 Get A Quote
               </Button>
             </Link>
@@ -149,7 +149,7 @@ const DummyContentFour = () => {
               engage audiences and strengthen your brand presence.
             </p>
             <Link href="/new-quote">
-              <Button variant="outline" className="text-xl cursor-pointer">
+              <Button variant="outline" className="text-md cursor-pointer">
                 Get A Quote
               </Button>
             </Link>
@@ -186,7 +186,7 @@ const DummyContentFive = () => {
               engage audiences and strengthen your brand presence.
             </p>
             <Link href="/new-quote">
-              <Button variant="outline" className="text-xl cursor-pointer">
+              <Button variant="outline" className="text-md cursor-pointer">
                 Get A Quote
               </Button>
             </Link>
@@ -223,7 +223,7 @@ const DummyContentSix = () => {
               engage audiences and strengthen your brand presence.
             </p>
             <Link href="/new-quote">
-              <Button variant="outline" className="text-xl cursor-pointer">
+              <Button variant="outline" className="text-md cursor-pointer">
                 Get A Quote
               </Button>
             </Link>
