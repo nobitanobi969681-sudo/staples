@@ -47,7 +47,7 @@ export default function UniqueHeroWithSidebar() {
                   <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
                     <Link href="/new-quote">
                       <ShimmerButton className="text-white dark:text-white">
-                        Get A Quote
+                        Let's discuss your project
                       </ShimmerButton>
                     </Link>
                   </div>
