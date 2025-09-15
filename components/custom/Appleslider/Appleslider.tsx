@@ -93,23 +93,25 @@ const DummyContentTwo = () => {
             </p>
 
             <div className="flex gap-6">
-              <Link href="/services/">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Read More
-                </Button>
-              </Link>
+              <Button
+                onClick={() =>
+                  window.location.replace(
+                    "/services/digital-marketing-and-seo/"
+                  )
+                }
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Read More
+              </Button>
 
-              <Link href="/new-quote">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Get A Quote
-                </Button>
-              </Link>
+              <Button
+                onClick={() => window.location.replace("/new-quote")}
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Get A Quote
+              </Button>
             </div>
 
             <img
@@ -145,23 +147,25 @@ const DummyContentThree = () => {
             </p>
 
             <div className="flex gap-6">
-              <Link href="/services/">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Read More
-                </Button>
-              </Link>
+              <Button
+                onClick={() =>
+                  window.location.replace(
+                    "/services/photography-and-video-editing/"
+                  )
+                }
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Read More
+              </Button>
 
-              <Link href="/new-quote">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Get A Quote
-                </Button>
-              </Link>
+              <Button
+                onClick={() => window.location.replace("/new-quote")}
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Get A Quote
+              </Button>
             </div>
 
             <img
@@ -197,23 +201,23 @@ const DummyContentFour = () => {
             </p>
 
             <div className="flex gap-6">
-              <Link href="/services/">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Read More
-                </Button>
-              </Link>
+              <Button
+                onClick={() =>
+                  window.location.replace("/services/mvps-and-prototypes/")
+                }
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Read More
+              </Button>
 
-              <Link href="/new-quote">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Get A Quote
-                </Button>
-              </Link>
+              <Button
+                onClick={() => window.location.replace("/new-quote")}
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Get A Quote
+              </Button>
             </div>
 
             <img
@@ -249,23 +253,25 @@ const DummyContentFive = () => {
             </p>
 
             <div className="flex gap-6">
-              <Link href="/services/">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Read More
-                </Button>
-              </Link>
+              <Button
+                onClick={() =>
+                  window.location.replace(
+                    "/services/ui-ux-and-graphics-designing/"
+                  )
+                }
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Read More
+              </Button>
 
-              <Link href="/new-quote">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Get A Quote
-                </Button>
-              </Link>
+              <Button
+                onClick={() => window.location.replace("/new-quote")}
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Get A Quote
+              </Button>
             </div>
 
             <img
@@ -301,23 +307,25 @@ const DummyContentSix = () => {
             </p>
 
             <div className="flex gap-6">
-              <Link href="/services/">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Read More
-                </Button>
-              </Link>
+              <Button
+                onClick={() =>
+                  window.location.replace(
+                    "/services/branding-and-pr-management/"
+                  )
+                }
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Read More
+              </Button>
 
-              <Link href="/new-quote">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Get A Quote
-                </Button>
-              </Link>
+              <Button
+                onClick={() => window.location.replace("/new-quote")}
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Get A Quote
+              </Button>
             </div>
 
             <img
