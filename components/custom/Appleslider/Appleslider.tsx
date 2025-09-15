@@ -39,23 +39,21 @@ const DummyContentOne = () => {
             </p>
 
             <div className="flex gap-6">
-              <Link href="/services/">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Read More
-                </Button>
-              </Link>
+              <Button
+                onClick={() => window.location.replace("/")}
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Read More
+              </Button>
 
-              <Link href="/new-quote">
-                <Button
-                  variant="outline"
-                  className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-                >
-                  Get A Quote
-                </Button>
-              </Link>
+              <Button
+                onClick={() => window.location.replace("/new-quote")}
+                variant="outline"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+              >
+                Get A Quote
+              </Button>
             </div>
 
             <img
