@@ -19,7 +19,7 @@ export default function TracingBeamDemo() {
                     alt="blog thumbnail"
                     height="1000"
                     width="1000"
-                    className="rounded-lg mb-10 object-cover"
+                    className="mb-10 object-cover"
                   />
                 )}
                 {item.description}
@@ -34,7 +34,7 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Transforming moments into cinematic masterpieces that captivate.",
     description: (
       <>
         <p>

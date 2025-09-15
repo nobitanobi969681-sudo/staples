@@ -1,4 +1,8 @@
+"use client";
+
 import { Card, CardContent } from "@/components/ui/card";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function UniqueHeroWithSidebar() {
   return (
@@ -15,8 +19,8 @@ export default function UniqueHeroWithSidebar() {
                   Smart websites and apps that drive lasting impact
                 </h1>
                 <p className="mx-auto xl:mx-0 max-w-[560px] text-base sm:text-xl text-muted-foreground mb-14 sm:mb-0 px-4 md:px-0">
-                  We build high-performance websites and apps designed to scale,
-                  engage users, and deliver business growth.
+                  We build fast, secure, and scalable websites and apps that
+                  turn your ideas into powerful digital experiences.
                 </p>
               </div>
             </div>
@@ -24,11 +28,19 @@ export default function UniqueHeroWithSidebar() {
             {/* Visual / Image Block */}
             <Card className="shadow-lg overflow-hidden  2xl:ml-20 max-w-[640px] rounded-none sm:mx-auto order-1 sm:order-2">
               <CardContent className="p-0 rounded-none">
-                <img
-                  src="/services/website-and-app-development.jpg"
-                  alt="Hero visual"
-                  className="object-cover h-full w-full rounded-none"
-                />
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0, duration: 0.4 }}
+                >
+                  <Image
+                    src="/services/website-and-app-development.jpg"
+                    alt="Hero visual"
+                    height="1200"
+                    width="1000"
+                    className="object-cover h-full w-full rounded-none"
+                  />
+                </motion.p>
               </CardContent>
             </Card>
           </div>
