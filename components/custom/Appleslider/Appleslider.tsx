@@ -344,38 +344,38 @@ const DummyContentSix = () => {
 
 const data = [
   {
-    category: "Digitize your business",
+    category: "Web + App Power",
     title: "Website & App Development",
     src: "/services/website-development.jpg",
     content: <DummyContentOne />,
   },
   {
-    category: "Designs That Inspire Engagement",
+    category: "Boost Online Reach",
     title: "Digital Marketing & SEO",
     src: "/services/digital-marketing.jpg",
     content: <DummyContentTwo />,
   },
   {
-    category: "Product",
+    category: "Stories In Frames",
     title: "Photograpy & Video Editing",
     src: "/services/graphic-designing.jpg",
     content: <DummyContentThree />,
   },
   {
-    category: "R&D",
+    category: "Ideas Into Actions",
     title: "Building MPVs & Prototypes",
     src: "/services/mvp.jpg",
     content: <DummyContentFour />,
   },
   {
-    category: "Designs That Inspire Engagement",
+    category: "Pixel-Perfect Experiences",
     title: "UI/UX & Graphic Designing",
     src: "/services/uiux.jpg",
     content: <DummyContentFive />,
   },
 
   {
-    category: "Hiring",
+    category: "Reputation. Reach. Results.",
     title: "Branding & PR Management",
     src: "/services/pr.jpg",
     content: <DummyContentSix />,
