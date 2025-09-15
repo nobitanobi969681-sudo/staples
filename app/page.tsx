@@ -28,7 +28,7 @@ export default function HomePage() {
           sparklesCount={0}
           className="text-center font-medium text-black dark:text-white text-[34px] text-2xl md:text-4xl px-2 sm:px-0"
         >
-          <span className="leading-relaxed">Get a Free Quote test</span>{" "}
+          <span className="leading-relaxed">Get a Free Quote</span>{" "}
         </SparklesText>
       </h1>
       <div className="mt-12">
