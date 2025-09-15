@@ -135,15 +135,15 @@ const DummyContentThree = () => {
         return (
           <div key={"dummy-content-three" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We craft{" "}
+              We create{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                intuitive interfaces and stunning visuals
+                stunning visuals and videos
               </span>{" "}
-              that blend creativity with usability. Our UI/UX process
-              prioritizes seamless user journeys, while our graphic design
-              elevates brand identity with precision. From wireframes to
-              polished assets, we deliver cohesive, high-impact designs that
-              engage audiences and strengthen your brand presence.
+              that capture attention and elevate your brand. Our photography and
+              editing services blend creativity, precision, and storytelling to
+              produce striking content for social media, advertising, or
+              campaigns, ensuring your audience stays engaged and your brand
+              leaves a lasting impression.
             </p>
 
             <div className="flex gap-6">
@@ -189,15 +189,15 @@ const DummyContentFour = () => {
         return (
           <div key={"dummy-content-four" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We craft{" "}
+              We help transform your{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                intuitive interfaces and stunning visuals
+                ideas into functional MVPs and prototypes
               </span>{" "}
-              that blend creativity with usability. Our UI/UX process
-              prioritizes seamless user journeys, while our graphic design
-              elevates brand identity with precision. From wireframes to
-              polished assets, we deliver cohesive, high-impact designs that
-              engage audiences and strengthen your brand presence.
+              quickly and efficiently. By validating concepts early and
+              minimizing risk, we accelerate your time to market. Our team
+              focuses on usability, scalability, and innovation to ensure your
+              product captures investors’ interest and customers’ attention from
+              day one.
             </p>
 
             <div className="flex gap-6">
@@ -241,15 +241,15 @@ const DummyContentFive = () => {
         return (
           <div key={"dummy-content-five" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We craft{" "}
+              We design intuitive{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
                 intuitive interfaces and stunning visuals
               </span>{" "}
-              that blend creativity with usability. Our UI/UX process
-              prioritizes seamless user journeys, while our graphic design
-              elevates brand identity with precision. From wireframes to
-              polished assets, we deliver cohesive, high-impact designs that
-              engage audiences and strengthen your brand presence.
+              that deliver seamless, enjoyable experiences. Combining
+              research-driven UX strategies with bold, modern visuals, we create
+              designs that improve usability and build emotional connections.
+              Every detail reflects your brand identity and enhances engagement,
+              resulting in products users love and remember.
             </p>
 
             <div className="flex gap-6">
@@ -295,15 +295,15 @@ const DummyContentSix = () => {
         return (
           <div key={"dummy-content-six" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We craft{" "}
+              We shape powerful brand identities and manage your public image
+              with precision. Our services blend strategy, design, and
+              communication to establish trust,{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                intuitive interfaces and stunning visuals
+                boost awareness, and influence perception.
               </span>{" "}
-              that blend creativity with usability. Our UI/UX process
-              prioritizes seamless user journeys, while our graphic design
-              elevates brand identity with precision. From wireframes to
-              polished assets, we deliver cohesive, high-impact designs that
-              engage audiences and strengthen your brand presence.
+              From creating compelling narratives to executing effective PR
+              campaigns, we position your brand to thrive in competitive markets
+              and stay relevant.
             </p>
 
             <div className="flex gap-6">
