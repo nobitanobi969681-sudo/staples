@@ -34,28 +34,29 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Designing experiences that feel as good as they look.",
+    title: "Designing User Delight",
     description: (
       <>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
+          We create intuitive, visually stunning digital experiences that
+          enhance usability and reinforce brand identity. By applying
+          research-driven insights tailored for Indian and global markets, our
+          designs address real user needs, enabling smoother journeys across
+          mobile, web, and hybrid platforms.
         </p>
       </>
     ),
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "",
   },
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Beyond Aesthetics",
     description: (
       <>
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          Our work goes beyond visuals to integrate strategy and usability. We
+          focus on culturally aware, impactful designs that connect with your
+          audience on an emotional level. This combination elevates your digital
+          presence and drives consistent engagement across all touchpoints.
         </p>
       </>
     ),

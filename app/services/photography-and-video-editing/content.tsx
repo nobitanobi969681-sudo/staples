@@ -34,28 +34,28 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Transforming moments into cinematic masterpieces that captivate.",
+    title: "Capturing Timeless Moments",
     description: (
       <>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
+          We produce photography and video content that speaks to the heart of
+          Indian and global audiences. Every frame is designed to tell a story,
+          highlight your brand’s authenticity, and create a premium feel that
+          resonates in campaigns, social media, and advertising.
         </p>
       </>
     ),
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "",
   },
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Crafted to Perfection",
     description: (
       <>
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          Our post-production and editing expertise transforms raw content into
+          stunning visuals. We pay attention to color, tone, and messaging to
+          ensure each project feels polished and on-brand. From corporate shoots
+          to creative campaigns, we deliver visuals that make a powerful impact.
         </p>
       </>
     ),

@@ -34,28 +34,29 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Turn bold ideas into test-ready products fast.",
+    title: "Accelerating Innovation",
     description: (
       <>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
+          We rapidly design and develop MVPs and prototypes to validate ideas
+          before full-scale development. This helps businesses in India save
+          time, minimize risks, and test concepts in real markets. Our approach
+          speeds up your path to innovation while keeping costs practical.
         </p>
       </>
     ),
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "",
   },
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "From Concept to Reality",
     description: (
       <>
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          By blending strategy, design, and technology, we build functional
+          prototypes that demonstrate your product’s core value. This allows
+          stakeholders, investors, and users to experience your idea early. Our
+          process supports Indian entrepreneurs and established companies alike
+          to stay agile and future-focused.
         </p>
       </>
     ),

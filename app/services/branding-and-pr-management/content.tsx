@@ -34,28 +34,30 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Crafting bold brands and curating unforgettable reputations.",
+    title: "Building Powerful Identities",
     description: (
       <>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
+          We create branding and PR strategies that resonate with Indian markets
+          while maintaining global appeal. From logos to messaging, we shape
+          your identity to stand out, foster loyalty, and adapt across
+          industries. Our campaigns amplify visibility through trusted and
+          relevant media.
         </p>
       </>
     ),
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "",
   },
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Shaping Perception",
     description: (
       <>
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          Our team manages your reputation, strengthens your narrative, and
+          promotes your brand across digital and traditional platforms. We
+          specialize in helping Indian businesses and creators develop a
+          premium, trustworthy image that inspires confidence and long-term
+          relationships with their audiences.
         </p>
       </>
     ),
