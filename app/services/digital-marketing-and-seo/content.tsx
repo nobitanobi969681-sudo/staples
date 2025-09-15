@@ -34,28 +34,30 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Ignite your brand and dominate the digital spotlight.",
+    title: "Maximizing Online Reach",
     description: (
       <>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
+          We craft data-driven marketing campaigns that resonate with India’s
+          diverse audience while appealing to global markets. Our SEO strategies
+          ensure sustainable rankings across search engines, boosting your
+          visibility in both local and international searches. Every campaign is
+          built to create measurable, lasting impact on your brand presence.
         </p>
       </>
     ),
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "",
   },
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Engage. Convert. Dominate.",
     description: (
       <>
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          From social media to search advertising, we help brands connect with
+          the right audience segments. Our team prioritizes engagement,
+          retention, and ROI by blending analytics with creativity. We
+          understand the nuances of Indian consumer behavior and craft campaigns
+          that scale effectively across platforms.
         </p>
       </>
     ),

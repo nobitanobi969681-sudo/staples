@@ -34,28 +34,31 @@ export default function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "Code dreams into sleek, high-performing digital realities.",
+    title: "Innovative Digital Foundations",
     description: (
       <>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
+          We build high-performing websites and apps tailored for Indian
+          businesses and global audiences alike. From fast-loading pages to
+          secure architectures, every project is designed to handle scale,
+          multilingual needs, and diverse user behaviors. Our focus is on
+          creating seamless experiences that help brands thrive in competitive
+          markets.
         </p>
       </>
     ),
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "",
   },
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Tailored for Growth",
     description: (
       <>
         <p>
-          In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-          veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-          reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-          cillum ut mollit.
+          We go beyond code to design products that drive measurable business
+          outcomes. By combining responsive layouts, powerful integrations, and
+          future-ready tech stacks, we ensure your digital presence grows with
+          your goals. Our solutions help Indian brands reach international
+          standards with ease and confidence.
         </p>
       </>
     ),
