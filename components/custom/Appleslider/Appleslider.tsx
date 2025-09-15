@@ -25,10 +25,7 @@ const DummyContentOne = () => {
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
-          <div
-            key={"dummy-content-one" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4"
-          >
+          <div key={"dummy-content-one" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
               We design and develop{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
@@ -65,10 +62,7 @@ const DummyContentTwo = () => {
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
-          <div
-            key={"dummy-content-two" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4"
-          >
+          <div key={"dummy-content-two" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
               We craft{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
@@ -105,10 +99,7 @@ const DummyContentThree = () => {
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
-          <div
-            key={"dummy-content-three" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4"
-          >
+          <div key={"dummy-content-three" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
               We craft{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
@@ -145,10 +136,7 @@ const DummyContentFour = () => {
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
-          <div
-            key={"dummy-content-four" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4"
-          >
+          <div key={"dummy-content-four" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
               We craft{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
@@ -185,10 +173,7 @@ const DummyContentFive = () => {
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
-          <div
-            key={"dummy-content-five" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4"
-          >
+          <div key={"dummy-content-five" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
               We craft{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
@@ -225,10 +210,7 @@ const DummyContentSix = () => {
     <>
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
-          <div
-            key={"dummy-content-six" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-4 md:p-14 rounded-3xl mb-4"
-          >
+          <div key={"dummy-content-six" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
               We craft{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
