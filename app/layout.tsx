@@ -20,10 +20,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ankush Tripathi & Media",
     description: "Premium digital solutions, marketing and branding services.",
-    url: "https://yourwebsite.com",
+    url: "https://ankushtripathi.com",
     images: [
       {
-        url: "https://yourwebsite.com/og-image.jpg",
+        url: "/og-tag-image.png",
         width: 1200,
         height: 630,
         alt: "Ankush Tripathi & Media",
