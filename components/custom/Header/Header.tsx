@@ -131,8 +131,8 @@ export default function SiteHeader() {
               />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className=" tracking-wide text-md font-medium hidden md:block">
-                Ankush Tripathi & Media
+              <span className=" tracking-wide text-[20px] font-bold hidden md:block">
+                Media X Infinity
               </span>
               <Badge variant="secondary" className="hidden text-[10px]  ">
                 ⚡Bolt
