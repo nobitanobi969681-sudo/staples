@@ -131,8 +131,8 @@ export default function SiteHeader() {
               />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className=" tracking-wide text-[20px] font-bold hidden md:block">
-                Media X Infinity
+              <span className="text-[18px] font-semibold hidden md:block tracking-widest">
+                MEDIA X INFINITY
               </span>
               <Badge variant="secondary" className="hidden text-[10px]  ">
                 ⚡Bolt
