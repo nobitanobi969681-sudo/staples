@@ -9,7 +9,7 @@ import ThreeD from "@/components/custom/ThreeD/ThreeD";
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6  overflow-hidden">
+    <div className="relative bg-black p-6  overflow-hidden">
       <Grid size={20} />
       <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover border-b">
         <div className=" pb-12 sm:pb-8 xl:pb-0 w-full min-h-[74vh] flex">
