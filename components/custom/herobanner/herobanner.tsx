@@ -49,8 +49,8 @@ export default function UniqueHeroWithSidebar() {
                   >
                     <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
                       <Link href="/new-quote">
-                        <RainbowButton className="dark:bg-black dark:text-black">
-                          Let's build your website
+                        <RainbowButton className="dark:bg-black dark:text-black capitalize tracking-wider">
+                          LET'S BUILD YOUR WEBSITE
                         </RainbowButton>
                       </Link>
                     </div>
