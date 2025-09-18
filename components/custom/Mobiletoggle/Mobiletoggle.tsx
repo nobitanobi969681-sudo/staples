@@ -70,10 +70,7 @@ const data = {
           title: "Digital Marketing & SEO",
           url: "/services/digital-marketing-and-seo",
         },
-        {
-          title: "Photograpy & Video Editing",
-          url: "/services/photography-and-video-editing",
-        },
+
         {
           title: "Building MPVs & Prototypes",
           url: "/services/mvps-and-prototypes",
@@ -81,10 +78,6 @@ const data = {
         {
           title: "UI/UX & Graphic Designing",
           url: "/services/ui-ux-and-graphics-designing",
-        },
-        {
-          title: "Branding & PR Management",
-          url: "/services/branding-and-pr-management",
         },
       ],
     },
