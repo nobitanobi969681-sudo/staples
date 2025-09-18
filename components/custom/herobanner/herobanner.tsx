@@ -12,13 +12,13 @@ export default function UniqueHeroWithSidebar() {
     <div className="relative bg-black p-6  overflow-hidden">
       <Grid size={20} />
       <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover border-b">
-        <div className=" pb-12 sm:pb-8 xl:pb-0 w-full min-h-[74vh] flex">
+        <div className=" pb-12 sm:pb-8 xl:pb-0 w-full  flex">
           {/* Hero Section */}
-          <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-8 pb-2 sm:py-16">
+          <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-0 pb-2 sm:py-16">
             <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
               {/* Text Content */}
 
-              <div className="flex justify-center xl:justify-end pl-0 xl:pl-20">
+              <div className="flex order-2 sm:order-1 justify-center xl:justify-end pl-0 xl:pl-20">
                 <div className="max-w-[800px] space-y-6 text-center xl:text-left">
                   <motion.h1
                     initial={{ opacity: 0, y: -30 }}
@@ -59,7 +59,7 @@ export default function UniqueHeroWithSidebar() {
               </div>
 
               {/* Visual / Image Block */}
-              <div className=" overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
+              <div className="order-1 sm:order-2 overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
                 <ThreeD />
               </div>
             </div>

@@ -9,7 +9,7 @@ function LogoModel() {
 
 export default function Logo3D() {
   return (
-    <div className="w-[500px] h-[500px] mx-auto max-w-[70%] sm:max-w-[96%]">
+    <div className="w-[200px] h-[200px] mx-auto sm:max-w-[96%]">
       <Canvas shadows camera={{ position: [0, 0, 5], fov: 50 }}>
         {/* Lighting */}
         <ambientLight intensity={0.4} />
