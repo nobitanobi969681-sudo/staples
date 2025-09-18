@@ -43,8 +43,8 @@ const data = {
           url: "/",
         },
         {
-          title: "About Us",
-          url: "/about",
+          title: "Portfolio",
+          url: "/portfolio",
         },
         {
           title: "Contact",
