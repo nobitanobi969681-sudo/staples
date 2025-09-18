@@ -9,9 +9,9 @@ import ThreeD from "@/components/custom/ThreeD/ThreeD";
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className="relative bg-black overflow-hidden">
+    <div className="relative bg-black overflow-hidden border-b ">
       <Grid size={20} />
-      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.6)]">
+      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.6)] pt-6">
         <div className=" pb-12 sm:pb-8 xl:pb-0 w-full  flex">
           {/* Hero Section */}
           <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-0 pb-2 sm:py-0">
