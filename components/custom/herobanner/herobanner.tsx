@@ -11,7 +11,7 @@ export default function UniqueHeroWithSidebar() {
   return (
     <div className="relative bg-black p-6  overflow-hidden">
       <Grid size={20} />
-      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover border-b">
+      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.6)]">
         <div className=" pb-12 sm:pb-8 xl:pb-0 w-full  flex">
           {/* Hero Section */}
           <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-0 pb-2 sm:py-0">
@@ -25,9 +25,9 @@ export default function UniqueHeroWithSidebar() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                   >
-                    <div className="max-w-2xl mx-auto relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+                    <div className="max-w-2xl mx-auto relative z-20">
                       <span className="text-center xl:text-left font-bold leading-tight text-white text-[34px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
-                        Digital Experiences That Inspire
+                        Let's go <span className="text-red-600">Red</span>.
                       </span>
                     </div>
                   </motion.h1>
@@ -38,8 +38,8 @@ export default function UniqueHeroWithSidebar() {
                     transition={{ delay: 0.3, duration: 0.8 }}
                     className="mx-auto xl:mx-0 max-w-[560px] text-xl  mb-8 px-2 text-white"
                   >
-                    We craft premium digital solutions, blending creativity and
-                    technology to elevate your brand’s online presence.
+                    Media X Infinity crafts premium digital solutions, blending
+                    creativity and technology to elevate your brand.
                   </motion.p>
 
                   <motion.p
@@ -86,7 +86,7 @@ export const Grid = ({
   ];
   return (
     <div className="pointer-events-none absolute left-1/2 top-0  -ml-20 -mt-2 h-full w-full [mask-image:linear-gradient(white,transparent)]">
-      <div className="absolute inset-0 bg-gradient-to-r  [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] dark:from-zinc-900/30 from-zinc-100/30 to-zinc-300/30 dark:to-zinc-900/30 opacity-100">
+      <div className="absolute inset-0 bg-gradient-to-r  [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] dark:from-zinc-900/30 from-zinc-800/30 to-zinc-800/30 dark:to-zinc-900/0 opacity-100">
         <GridPattern
           width={size ?? 20}
           height={size ?? 20}

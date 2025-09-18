@@ -43,7 +43,6 @@ import {
   Headphones,
 } from "lucide-react";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
 
 import Mobiletoggle from "@/components/custom/Mobiletoggle/Mobiletoggle";
 
@@ -109,7 +108,7 @@ export default function SiteHeader() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/99">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/100 backdrop-blur supports-[backdrop-filter]:bg-background/99">
       <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-4 sm:px-8 py-10">
         {/* Left: Logo + Mobile Menu */}
         <div className="sm:min-w-[300px] flex items-center gap-2">
@@ -131,7 +130,7 @@ export default function SiteHeader() {
               />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className="text-[18px] font-semibold hidden md:block tracking-widest">
+              <span className="text-[16px] font-semibold hidden md:block tracking-widest">
                 MEDIA X INFINITY
               </span>
               <Badge variant="secondary" className="hidden text-[10px]  ">
@@ -220,9 +219,9 @@ export default function SiteHeader() {
           </div>
 
           <Link href="/new-quote">
-            <ShimmerButton className="text-white dark:text-white py-2 px-4 tracking-wider text-md text-sm sm:text-md">
+            <RainbowButton className=" py-2 px-4 tracking-wider text-md text-sm sm:text-md">
               + QUOTE
-            </ShimmerButton>
+            </RainbowButton>
           </Link>
         </div>
       </div>

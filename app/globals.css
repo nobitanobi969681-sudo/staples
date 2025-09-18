@@ -153,7 +153,12 @@
     opacity: 1;}
   100% {
     transform: scale(2);
-    opacity: 0;}}}
+    opacity: 0;}}
+  @keyframes rainbow {
+  0% {
+    background-position: 0%;}
+  100% {
+    background-position: 200%;}}}
 
 @media (prefers-color-scheme:dark ) {
   :root {
@@ -253,4 +258,12 @@
 ::view-transition-old(root), ::view-transition-new(root) {
     animation: none;
     mix-blend-mode: normal;
+}
+
+@font-face {
+  font-family: 'PaytoneOne';
+  src: url('/fonts/PaytoneOne.ttf') format('ttf');
+  font-weight: 400; /* or variable */
+  font-style: normal;
+  font-display: swap; /* better performance */
 }
