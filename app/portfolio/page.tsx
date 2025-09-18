@@ -26,4 +26,9 @@ export const products = [
     link: "https://ankushtripathi.com",
     thumbnail: "/portfolio/atm.png",
   },
+  {
+    title: "Cocotier",
+    link: "https://cis-ind.com/",
+    thumbnail: "/portfolio/cocotier.png",
+  },
 ];
