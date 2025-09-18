@@ -150,8 +150,8 @@ export default function SiteHeader() {
                 </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavLink href="/about" className="tracking-widest">
-                  ABOUT
+                <NavLink href="/portfolio" className="tracking-widest">
+                  PORTFOLIO
                 </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>

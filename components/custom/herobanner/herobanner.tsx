@@ -26,7 +26,7 @@ export default function UniqueHeroWithSidebar() {
                     transition={{ duration: 0.8 }}
                   >
                     <div className="max-w-2xl mx-auto relative z-20">
-                      <span className="text-center xl:text-left font-bold leading-tight text-white text-[34px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
+                      <span className="text-center xl:text-left font-bold leading-tight text-white text-[42px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
                         Let's go <span className="text-red-600">Red</span>.
                       </span>
                     </div>
