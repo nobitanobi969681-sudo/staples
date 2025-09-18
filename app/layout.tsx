@@ -16,18 +16,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ankush Tripathi & Media",
-  description: "Premium digital solutions, marketing and branding services.",
+  title: "Media X Infinity",
+  description: "Powerful brands with creative, data-driven strategies.",
   openGraph: {
-    title: "Ankush Tripathi & Media",
-    description: "Premium digital solutions, marketing and branding services.",
-    url: "https://ankushtripathi.com",
+    title: "Media X Infinity",
+    description: "Powerful brands with creative, data-driven strategies.",
+    url: "https://mediaxinfinity.com",
     images: [
       {
         url: "/og-tag-image.png",
         width: 1200,
         height: 630,
-        alt: "Ankush Tripathi & Media",
+        alt: "Media X Infinity",
       },
     ],
     type: "website",
