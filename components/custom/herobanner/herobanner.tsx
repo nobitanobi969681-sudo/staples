@@ -1,6 +1,6 @@
 "use client";
 
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
 import { Card, CardContent } from "@/components/ui/card";
 import React from "react";
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ import ThreeD from "@/components/custom/ThreeD/ThreeD";
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className="relative bg-black p-6  overflow-hidden">
+    <div className="relative bg-black overflow-hidden">
       <Grid size={20} />
       <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.6)]">
         <div className=" pb-12 sm:pb-8 xl:pb-0 w-full  flex">
@@ -49,9 +49,9 @@ export default function UniqueHeroWithSidebar() {
                   >
                     <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
                       <Link href="/new-quote">
-                        <ShimmerButton className="text-white dark:text-white">
+                        <RainbowButton className="">
                           Let's discuss your project
-                        </ShimmerButton>
+                        </RainbowButton>
                       </Link>
                     </div>
                   </motion.p>
