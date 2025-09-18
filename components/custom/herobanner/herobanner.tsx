@@ -11,7 +11,10 @@ export default function UniqueHeroWithSidebar() {
   return (
     <div className="relative bg-black overflow-hidden border-b-[1px] border-gray-600">
       <Grid size={20} />
-      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.6)] pt-6">
+      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.6)] pt-0">
+        <div className="block sm:hidden sm:px-4 mb-4 sm:mb-0">
+          <div className="bg-[url('/services/digital-marketing.jpg')] bg-cover bg-center h-60 w-full rounded-0"></div>
+        </div>
         <div className=" pb-12 sm:pb-8 xl:pb-0 w-full  flex">
           {/* Hero Section */}
           <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-0 pb-2 sm:py-0">
@@ -59,7 +62,7 @@ export default function UniqueHeroWithSidebar() {
               </div>
 
               {/* Visual / Image Block */}
-              <div className="order-1 sm:order-2 overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
+              <div className="mb-[-40px] sm:mb-0 order-1 sm:order-2 overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
                 <ThreeD />
               </div>
             </div>
