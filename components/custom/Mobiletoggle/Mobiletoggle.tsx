@@ -93,7 +93,7 @@ export default function SheetDemo() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className="tracking-widest">AT&M</SheetTitle>
+          <SheetTitle className="tracking-widest">MXI</SheetTitle>
           <SheetDescription>
             We craft bold, refined brands through cutting-edge design, digital
             strategy, and flawless execution.
