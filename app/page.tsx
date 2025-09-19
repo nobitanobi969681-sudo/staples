@@ -22,7 +22,7 @@ export default function HomePage() {
       <Appleslider />
 
       <div className="block sm:hidden px-4 mb-16">
-        <Image src="/aakash.png" height="800" width="800" alt="" />
+        <Image src="/aakash-2.png" height="800" width="800" alt="" />
       </div>
 
       <div className="mt-12">
