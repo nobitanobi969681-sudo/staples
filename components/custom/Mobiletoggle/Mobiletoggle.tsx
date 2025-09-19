@@ -104,14 +104,14 @@ export default function SheetDemo() {
         </div>
         <SheetFooter>
           <Link
-            href="mailto:contact@ankushtripathi.com?subject=Contacting%20from%20ATM%20website&body=Hi%20Ankush%2C%0A%0AI%E2%80%99d%20like%20to%20learn%20more%20about%20the%20services%20your%20agency%20offers.%0A%0ALet%E2%80%99s%20get%20in%20touch.%0A%0AThanks!
+            href="mailto:contact@mediaxinfinity.com?subject=Contacting%20from%20MXI%20website&body=Hi%20Aakash%2C%0A%0AI%E2%80%99d%20like%20to%20learn%20more%20about%20the%20services%20your%20agency%20offers.%0A%0ALet%E2%80%99s%20get%20in%20touch.%0A%0AThanks!
 "
           >
             <Button variant="outline" className="mb-0 w-full">
               Mail Us
             </Button>
           </Link>
-          <Link href="tel:+919815951565">
+          <Link href="tel:+917984375115">
             <Button variant="outline" className="mb-4 w-full">
               Call Us
             </Button>
