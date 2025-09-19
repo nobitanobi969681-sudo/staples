@@ -20,15 +20,20 @@ export default function DockDemo() {
   return (
     <div className="relative">
       <Dock direction="middle">
-        <DockIcon>
-          <Icons.gitHub className="size-6" />
-        </DockIcon>
-        <DockIcon>
-          <Icons.googleDrive className="size-6" />
-        </DockIcon>
-        <DockIcon>
-          <Icons.notion className="size-6" />
-        </DockIcon>
+        <div className="hidden">
+          <DockIcon>
+            <Icons.googleDrive className="size-6" />
+          </DockIcon>
+
+          <DockIcon>
+            <Icons.notion className="size-6" />
+          </DockIcon>
+        </div>
+        <Link href="https://www.instagram.com/mediaxinfinity/">
+          <DockIcon>
+            <Icons.instagram className="size-6" />
+          </DockIcon>
+        </Link>
         <Link href="https://wa.me/917984375115">
           <DockIcon>
             <Icons.whatsapp className="size-6" />
@@ -148,6 +153,79 @@ const Icons = {
         fillRule="evenodd"
         d="M68.772 55.603c-1.378-3.061-2.828-3.123-4.137-3.176l-3.524-.043c-1.226 0-3.218.46-4.902 2.3s-6.435 6.287-6.435 15.332 6.588 17.785 7.506 19.013 12.718 20.381 31.405 27.75c15.529 6.124 18.689 4.906 22.061 4.6s10.877-4.447 12.408-8.74 1.532-7.971 1.073-8.74-1.685-1.226-3.525-2.146-10.877-5.367-12.562-5.981-2.91-.919-4.137.921-4.746 5.979-5.819 7.206-2.144 1.381-3.984.462-7.76-2.861-14.784-9.124c-5.465-4.873-9.154-10.891-10.228-12.73s-.114-2.835.808-3.751c.825-.824 1.838-2.147 2.759-3.22s1.224-1.84 1.836-3.065.307-2.301-.153-3.22-4.032-10.011-5.666-13.647"
       />
+    </svg>
+  ),
+  instagram: (props: IconProps) => (
+    <svg
+      {...props}
+      viewBox="0 0 551.034 551.034"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient
+          id="ig-grad-1"
+          x1="275.517"
+          y1="4.5714"
+          x2="275.517"
+          y2="549.7202"
+          gradientTransform="matrix(1 0 0 -1 0 554)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#E09B3D" />
+          <stop offset="0.3" stopColor="#C74C4D" />
+          <stop offset="0.6" stopColor="#C21975" />
+          <stop offset="1" stopColor="#7024C4" />
+        </linearGradient>
+        <linearGradient
+          id="ig-grad-2"
+          x1="275.517"
+          y1="4.5714"
+          x2="275.517"
+          y2="549.7202"
+          gradientTransform="matrix(1 0 0 -1 0 554)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#E09B3D" />
+          <stop offset="0.3" stopColor="#C74C4D" />
+          <stop offset="0.6" stopColor="#C21975" />
+          <stop offset="1" stopColor="#7024C4" />
+        </linearGradient>
+        <linearGradient
+          id="ig-grad-3"
+          x1="418.306"
+          y1="4.5714"
+          x2="418.306"
+          y2="549.7202"
+          gradientTransform="matrix(1 0 0 -1 0 554)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#E09B3D" />
+          <stop offset="0.3" stopColor="#C74C4D" />
+          <stop offset="0.6" stopColor="#C21975" />
+          <stop offset="1" stopColor="#7024C4" />
+        </linearGradient>
+      </defs>
+
+      <path
+        fill="url(#ig-grad-1)"
+        d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722c0,90.516,73.64,164.156,
+      164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156
+      C551.033,73.64,477.393,0,386.878,0z
+      M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156
+      c-60.045,0-108.722-48.677-108.722-108.722V164.156
+      c0-60.046,48.677-108.722,108.722-108.722h222.722
+      c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"
+      />
+      <path
+        fill="url(#ig-grad-2)"
+        d="M275.517,133C196.933,133,133,196.933,133,275.516
+      s63.933,142.517,142.517,142.517S418.034,354.1,418.034,275.516S354.101,133,275.517,133z
+      M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083
+      s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083
+      C362.6,323.611,323.611,362.6,275.517,362.6z"
+      />
+      <circle fill="url(#ig-grad-3)" cx="418.306" cy="134.072" r="34.149" />
     </svg>
   ),
 };
