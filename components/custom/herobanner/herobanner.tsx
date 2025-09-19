@@ -29,7 +29,7 @@ export default function UniqueHeroWithSidebar() {
                     transition={{ duration: 0.8 }}
                   >
                     <div className="max-w-2xl mx-auto relative z-20">
-                      <span className="text-center xl:text-left font-bold leading-tight text-white text-[42px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
+                      <span className="text-center xl:text-left font-bold leading-tight text-white text-[36px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
                         Let's go <span className="text-red-600">Red</span>.
                       </span>
                     </div>
@@ -62,7 +62,7 @@ export default function UniqueHeroWithSidebar() {
               </div>
 
               {/* Visual / Image Block */}
-              <div className="mb-[-40px] sm:mb-0 order-1 sm:order-2 overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
+              <div className="mb-[-20px] sm:mb-0 order-1 sm:order-2 overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
                 <ThreeD />
               </div>
             </div>
