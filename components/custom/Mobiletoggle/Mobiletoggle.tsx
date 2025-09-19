@@ -89,10 +89,7 @@ export default function SheetDemo() {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
-        <Button variant="outline" className="rounded-full">
-          <Menu className="w-6 h-6" />
-          MENU
-        </Button>
+        <Menu className="w-10 h-10" />
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
