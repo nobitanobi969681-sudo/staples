@@ -23,8 +23,8 @@ export default function AboutPage() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-white px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
           >
-            We build next-gen digital experiences with performance, aesthetics,
-            and cutting-edge technology.
+            Reach out to us today for quick support, inquiries, feedback, ideas,
+            or collaborations.
           </motion.p>
         </div>
       </div>

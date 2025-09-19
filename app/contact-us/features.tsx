@@ -29,22 +29,19 @@ export default function FeaturesSectionDemo() {
 
 const grid = [
   {
-    title: "+91.9815.95.1565",
-    link: "tel:+919815951565",
-    description:
-      "Speak directly with our team for quick guidance on projects, collaborations, or services — real people, real solutions.",
+    title: "+91-7984-37-5115",
+    link: "tel:+917984375115",
+    description: "Call Us",
   },
   {
-    title: "contact@ankushtripathi.com",
-    link: "mailto:contact@ankushtripathi.com",
-    description:
-      "Drop us an email anytime to discuss ideas, request proposals, or share requirements. We respond fast, with clarity.",
+    title: "contact@mediaxinfinity.com",
+    link: "mailto:contact@mediaxinfinity.com",
+    description: "Mail Us",
   },
   {
     title: "Surat, Gujrat 🇮🇳",
     link: "https://www.google.com/maps?sca_esv=8f37aa539897307f&rlz=1C5CHFA_enIN1024IN1024&output=search&q=surat+gujarat+google+map&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIetxLMeWi1u_d0OMRvkClUbaKftIbDTsCvcgQ9k2f2SfCc69Ldrpqf0teIC_VmixhsQYIUW2fNE9ibFX-ysqAEIRZx2krWNw-_Qs75sRjKk8RwIqgFlvilhDTZSegdWXVMaj67ZIh_RqGUkZTsF_bFMvwFPlDkRo3mvxV_cHf_wO0CqYXKw&entry=mc&ved=1t:200715&ictx=111",
-    description:
-      "Visit our workspace to explore strategies, brainstorm campaigns, or simply meet the minds shaping your brand’s future.",
+    description: "Reach Us",
   },
 ];
 
