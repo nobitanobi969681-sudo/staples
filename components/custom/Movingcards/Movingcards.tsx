@@ -41,7 +41,7 @@ const testimonials = [
   },
   {
     quote:
-      "AT&M delivered exactly what our brand needed. Every solution was tailored, modern, and impactful. Their approach to branding and PR gave us confidence, clarity, and visible results within weeks. Truly a dependable partner for ambitious projects.",
+      "MXI delivered exactly what our brand needed. Every solution was tailored, modern, and impactful. Their approach to branding and PR gave us confidence, clarity, and visible results within weeks. Truly a dependable partner for ambitious projects.",
     name: "Simran Khurana",
     title: "Digital Experience Curator",
   },
