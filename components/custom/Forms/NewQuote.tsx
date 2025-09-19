@@ -91,7 +91,7 @@ export default function QuoteForm() {
   return (
     <div className="mx-4">
       <Card className="relative overflow-hidden max-w-[480px] w-full mx-auto mb-16 py-8">
-        <ShineBorder shineColor={["#FF0000"]} borderWidth={2} />
+        <ShineBorder shineColor={["#FF0000"]} borderWidth={1} />
         <CardHeader>
           <CardTitle>Start Here</CardTitle>
           <CardDescription>
