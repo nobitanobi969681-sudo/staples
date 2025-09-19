@@ -12,10 +12,10 @@ export default function UniqueHeroWithSidebar() {
     <div className="relative bg-black overflow-hidden border-b-[1px] border-gray-600">
       <Grid size={20} />
       <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.6)] pt-0">
-        <div className="block sm:hidden sm:px-4 mb-4 sm:mb-0">
+        <div className="block sm:hidden sm:px-4 mb-10 sm:mb-0">
           <div className="bg-[url('/mob-home-hero.png')] bg-cover bg-center h-80 bg-cover w-full rounded-0"></div>
         </div>
-        <div className=" pb-12 sm:pb-8 xl:pb-0 w-full  flex">
+        <div className="pb-16 sm:pb-8 xl:pb-0 w-full flex">
           {/* Hero Section */}
           <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-0 pb-2 sm:py-0">
             <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">

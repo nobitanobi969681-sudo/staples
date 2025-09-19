@@ -39,7 +39,7 @@ export default function FeaturesSectionDemo() {
     },
   ];
   return (
-    <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-4  relative z-10 pb-10 pt-0 sm:py-10 px-0 md:px-8 mx-auto">
+    <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-4 relative z-10 pb-[-20px] pt-0 sm:py-10 px-0 md:px-8 mx-auto">
       {features.map((feature, index) => (
         <Feature key={feature.title} {...feature} index={index} />
       ))}
@@ -78,7 +78,7 @@ const Feature = ({
       </div>
       <div className="text-lg font-bold mb-2 relative z-10 px-4 sm:px-10">
         <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral-700 group-hover/feature:bg-blue-500 transition-all duration-200 origin-center" />
-        <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-neutral-800 dark:text-neutral-100">
+        <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-neutral-800 dark:text-neutral-100 max-w-[100px]">
           {title}
         </span>
       </div>
