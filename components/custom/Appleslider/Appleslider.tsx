@@ -355,29 +355,17 @@ const data = [
     src: "/services/digital-marketing.jpg",
     content: <DummyContentTwo />,
   },
-  {
-    category: "Stories In Frames",
-    title: "Photograpy & Video Editing",
-    src: "/services/graphic-designing.jpg",
-    content: <DummyContentThree />,
-  },
-  {
-    category: "Ideas Into Actions",
-    title: "Building MPVs & Prototypes",
-    src: "/services/mvp.jpg",
-    content: <DummyContentFour />,
-  },
+
   {
     category: "Pixel-Perfect Experiences",
     title: "UI/UX & Graphic Designing",
     src: "/services/uiux.jpg",
     content: <DummyContentFive />,
   },
-
   {
-    category: "Reputation. Reach. Results.",
-    title: "Branding & PR Management",
-    src: "/services/pr.jpg",
-    content: <DummyContentSix />,
+    category: "Ideas Into Actions",
+    title: "Building MPVs & Prototypes",
+    src: "/services/mvp.jpg",
+    content: <DummyContentFour />,
   },
 ];
