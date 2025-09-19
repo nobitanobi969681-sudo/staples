@@ -122,7 +122,7 @@ export default function SiteHeader() {
                 className="flex dark:hidden"
               />
               <Image
-                src="/favicon-white.svg"
+                src="/favicon-red-2.svg"
                 alt="Company Logo"
                 width={200}
                 height={80}
