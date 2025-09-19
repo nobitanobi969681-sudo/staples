@@ -14,7 +14,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { ShineBorder } from "@/components/magicui/shine-border";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
 
 export default function QuoteForm() {
   // form state
@@ -166,13 +166,13 @@ export default function QuoteForm() {
             </div>
 
             <CardFooter className="p-0 mt-4">
-              <ShimmerButton
+              <RainbowButton
                 type="submit"
                 disabled={loading}
-                className=" text-white dark:text-white"
+                className="tracking-wider"
               >
-                {loading ? "Sending..." : "Request Quote"}
-              </ShimmerButton>
+                {loading ? "Sending..." : "REQUEST A QUOTE"}
+              </RainbowButton>
             </CardFooter>
 
             {status && (

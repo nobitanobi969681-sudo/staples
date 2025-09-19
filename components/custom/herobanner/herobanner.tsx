@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
@@ -62,7 +63,15 @@ export default function UniqueHeroWithSidebar() {
               </div>
 
               {/* Visual / Image Block */}
-              <div className="mb-[-20px] sm:mb-0 order-1 sm:order-2 overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto "></div>
+              <div className="mb-[-20px] sm:mb-0 order-1 sm:order-2 overflow-hidden  2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
+                <Image
+                  src="/mob-home-hero.png"
+                  height="1080"
+                  width="1080"
+                  alt="Hero Image"
+                  className="hidden sm:flex"
+                />
+              </div>
             </div>
           </main>
         </div>
