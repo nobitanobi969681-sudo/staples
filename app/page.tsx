@@ -6,7 +6,7 @@ import Movingcards from "@/components/custom/Movingcards/Movingcards";
 import NewQuote from "@/components/custom/Forms/NewQuote";
 import { Cover } from "@/components/ui/cover";
 import { SparklesText } from "@/components/magicui/sparkles-text";
-
+import Image from "next/image";
 export default function HomePage() {
   return (
     <>
@@ -22,7 +22,7 @@ export default function HomePage() {
       <Appleslider />
 
       <div className="block sm:hidden px-4 mb-16">
-        <div className="bg-[url('/images/uiux.jpg')] bg-cover h-60 w-full "></div>
+        <Image src="/aakash.png" height="800" width="800" alt="" />
       </div>
 
       <div className="mt-12">
