@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import React from "react";
 
 import { Dock, DockIcon } from "@/components/ui/dock";
-
+import Link from "next/link";
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export default function DockDemo() {
@@ -29,9 +29,11 @@ export default function DockDemo() {
         <DockIcon>
           <Icons.notion className="size-6" />
         </DockIcon>
-        <DockIcon>
-          <Icons.whatsapp className="size-6" />
-        </DockIcon>
+        <Link href="https://wa.me/917984375115">
+          <DockIcon>
+            <Icons.whatsapp className="size-6" />
+          </DockIcon>
+        </Link>
       </Dock>
     </div>
   );
