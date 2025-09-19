@@ -18,7 +18,7 @@ export default function UniqueHeroWithSidebar() {
         </div>
         <div className="pb-16 sm:pb-8 xl:pb-0 w-full flex">
           {/* Hero Section */}
-          <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-0 pb-2 sm:py-0">
+          <main className="flex-1 flex items-center justify-center px-1 sm:px-6 py-0 pb-2 sm:py-8 2xl:py-20">
             <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
               {/* Text Content */}
 
