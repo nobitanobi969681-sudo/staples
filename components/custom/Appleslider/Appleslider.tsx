@@ -11,7 +11,7 @@ export default function AppleCardsCarouselDemo() {
   ));
 
   return (
-    <div className="w-full h-full pt-12 sm:pt-16 pb-0 mb:pb-4">
+    <div className="w-full h-full pt-12 sm:pt-16 pb-12 mb:pb-4">
       <h2 className="text-center max-w-7xl pl-4 mx-auto text-2xl md:text-4xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         Our Servies
       </h2>
