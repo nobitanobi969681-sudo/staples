@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import ThreeD from "@/components/custom/ThreeD/ThreeD";
+
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
@@ -62,9 +62,7 @@ export default function UniqueHeroWithSidebar() {
               </div>
 
               {/* Visual / Image Block */}
-              <div className="mb-[-20px] sm:mb-0 order-1 sm:order-2 overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
-                <ThreeD />
-              </div>
+              <div className="mb-[-20px] sm:mb-0 order-1 sm:order-2 overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto "></div>
             </div>
           </main>
         </div>
