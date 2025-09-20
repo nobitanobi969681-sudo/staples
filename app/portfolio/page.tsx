@@ -37,16 +37,10 @@ export const products = [
     thumbnail: "/portfolio/fate-music.png",
   },
   {
-    title: "Vizion Craft",
-    link: "https://sites.google.com/view/vizion-craft/",
-    thumbnail: "/portfolio/vizion-craft.png",
-  },
-  {
     title: "Frozen Snap",
     link: "https://frozensnap.com/",
     thumbnail: "/portfolio/frozen-snap.png",
   },
-
   {
     title: "Neuromotion",
     link: "https://nmspl.co/",
@@ -60,6 +54,6 @@ export const products = [
   {
     title: "Banga Knitwear",
     link: "https://bangakntiwear.com/",
-    thumbnail: "/portfolio/bangaknitwear.png",
+    thumbnail: "/portfolio/banga-knitwear.png",
   },
 ];
