@@ -53,7 +53,7 @@ export const products = [
   },
   {
     title: "Banga Knitwear",
-    link: "https://bangakntiwear.com/",
+    link: "https://bangaknitwear.com/",
     thumbnail: "/portfolio/banga-knitwear.png",
   },
 ];
