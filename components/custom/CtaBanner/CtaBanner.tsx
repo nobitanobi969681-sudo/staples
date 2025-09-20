@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import { RainbowButton } from "@/components/magicui/rainbow-button";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -27,12 +27,18 @@ export default function AboutPage() {
           >
             Turn your ideas into reality—get a tailored quote built to your
             goals, budget, and timelines.
-            <Link href="/new-quote/">
-              <ShimmerButton className="mt-8 shadow-2xl mx-auto">
-                <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+          >
+            <Link href="/new-quote/" className="inline">
+              <RainbowButton className="mt-8 shadow-2xl mx-auto">
+                <span className="leading-none tracking-wider uppercase">
                   Get A Quote
                 </span>
-              </ShimmerButton>
+              </RainbowButton>
             </Link>
           </motion.p>
         </div>

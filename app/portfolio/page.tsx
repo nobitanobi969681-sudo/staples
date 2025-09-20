@@ -18,17 +18,32 @@ export const products = [
   },
   {
     title: "AT&Co.",
-    link: "https://ankushtripathiandcompany.com",
+    link: "https://ankushtripathiandcompany.com/",
     thumbnail: "/portfolio/ankushtripathiandcompany.png",
   },
   {
     title: "AT&M",
-    link: "https://ankushtripathi.com",
+    link: "https://ankushtripathi.com/",
     thumbnail: "/portfolio/atm.png",
   },
   {
     title: "Cocotier",
     link: "https://cis-ind.com/",
     thumbnail: "/portfolio/cocotier.png",
+  },
+  {
+    title: "Fate Music",
+    link: "https://sites.google.com/view/fate-music/",
+    thumbnail: "/portfolio/fate-music.png",
+  },
+  {
+    title: "Vizion Craft",
+    link: "https://sites.google.com/view/vizion-craft/",
+    thumbnail: "/portfolio/vizion-craft.png",
+  },
+  {
+    title: "Frozen Snap",
+    link: "https://frozensnap.com/",
+    thumbnail: "/portfolio/frozen-snap.png",
   },
 ];
