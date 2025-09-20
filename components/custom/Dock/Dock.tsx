@@ -24,11 +24,14 @@ export default function DockDemo() {
           <DockIcon>
             <Icons.googleDrive className="size-6" />
           </DockIcon>
+        </div>
 
+        <Link href="https://www.notion.so/Media-X-Infinity-Public-274948ef5c8e804da29dec3032a96d20?source=copy_link">
           <DockIcon>
             <Icons.notion className="size-6" />
           </DockIcon>
-        </div>
+        </Link>
+
         <Link href="https://www.instagram.com/mediaxinfinity/">
           <DockIcon>
             <Icons.instagram className="size-6" />
