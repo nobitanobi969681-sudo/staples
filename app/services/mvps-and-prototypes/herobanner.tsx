@@ -34,7 +34,7 @@ export default function UniqueHeroWithSidebar() {
                   transition={{ delay: 0, duration: 0.4 }}
                 >
                   <Image
-                    src="/services/mvps-and-prototypes.png"
+                    src="/services/mvps-and-prototypes.jpg"
                     alt="Hero visual"
                     height="1200"
                     width="1000"
