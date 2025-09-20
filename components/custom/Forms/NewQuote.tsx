@@ -143,10 +143,8 @@ export default function QuoteForm() {
                 {[
                   "Website & App Development",
                   "Digital Marketing & SEO",
-                  "Photograpy & Video Editing",
                   "Building MVPs & Prototypes",
                   "UI/UX & Graphic Designing",
-                  "Branding & PR Management",
                 ].map((val, i) => (
                   <div key={val} className="flex items-center gap-3">
                     <RadioGroupItem value={val} id={`r${i}`} />
