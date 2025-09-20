@@ -46,4 +46,20 @@ export const products = [
     link: "https://frozensnap.com/",
     thumbnail: "/portfolio/frozen-snap.png",
   },
+
+  {
+    title: "Neuromotion",
+    link: "https://nmspl.co/",
+    thumbnail: "/portfolio/neuromotion.png",
+  },
+  {
+    title: "EMS Health Solution",
+    link: "https://emshealthsolution.com",
+    thumbnail: "/portfolio/ems-health-solution.png",
+  },
+  {
+    title: "Banga Knitwear",
+    link: "https://bangakntiwear.com/",
+    thumbnail: "/portfolio/bangaknitwear.png",
+  },
 ];
