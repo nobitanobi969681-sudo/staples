@@ -40,11 +40,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antiliased bg-[url('/images/fullbg.jpg')] bg-cover bg-center font-PaytoneOne`}
       >
-        {/*
         <Header />
         {children}
         <div className="">
@@ -54,8 +53,7 @@ export default function RootLayout({
             </button>
           </div>
           <Footer />
-          </div>
-        */}
+        </div>
       </body>
     </html>
   );

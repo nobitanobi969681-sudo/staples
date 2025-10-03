@@ -112,17 +112,17 @@ export default function SiteHeader() {
       <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-4 sm:px-8 py-10">
         {/* Left: Logo + Mobile Menu */}
         <div className="sm:min-w-[300px] flex items-center gap-2">
-          <Link href="/" className="group inline-flex items-center gap-4">
+          <Link href="/" className="group inline-flex items-center gap-2">
             <div className="relative grid h-8 w-8 place-items-center ">
               <Image
-                src="/favicon.svg"
+                src="/favicon.png"
                 alt="Company Logo"
                 width={200}
                 height={80}
                 className="flex dark:hidden"
               />
               <Image
-                src="/favicon-red-2.svg"
+                src="/favicon.png"
                 alt="Company Logo"
                 width={200}
                 height={80}
@@ -130,8 +130,8 @@ export default function SiteHeader() {
               />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className="text-[16px] font-semibold hidden md:block tracking-widest">
-                MEDIA X INFINITY
+              <span className="text-[16px] font-semibold hidden md:block tracking-wider">
+                Jai Maa Kaali Trading Company
               </span>
               <Badge variant="secondary" className="hidden text-[10px]  ">
                 ⚡Bolt
@@ -151,12 +151,12 @@ export default function SiteHeader() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavLink href="/portfolio" className="tracking-widest">
-                  PORTFOLIO
+                  ABOUT
                 </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="tracking-widest">
-                  SERVICES
+                  PRODUCTS
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="p-4">
                   <div className="grid w-[500px] grid-cols-2 gap-3">
@@ -209,7 +209,7 @@ export default function SiteHeader() {
 
           <Link href="/new-quote">
             <RainbowButton className=" py-2 px-4 tracking-wider text-md text-sm sm:text-md">
-              + QUOTE
+              + ORDER
             </RainbowButton>
           </Link>
         </div>

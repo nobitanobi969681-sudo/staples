@@ -14,7 +14,7 @@ export default function UniqueHeroWithSidebar() {
       <Grid size={20} />
       <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.5)] pt-0">
         <div className="block sm:hidden sm:px-4 mb-4 sm:mb-0">
-          <div className="bg-[url('/mob-home-hero.png')] bg-cover bg-center h-60 bg-cover w-full rounded-0"></div>
+          <div className="bg-[url('/home-hero.png')] bg-cover bg-center h-60 bg-cover w-full rounded-0"></div>
         </div>
         <div className="pb-16 sm:pb-8 xl:pb-0 w-full flex">
           {/* Hero Section */}
@@ -22,16 +22,17 @@ export default function UniqueHeroWithSidebar() {
             <div className=" grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
               {/* Text Content */}
 
-              <div className="flex order-2 sm:order-1 justify-center xl:justify-end pl-0 xl:pl-20">
+              <div className="flex order-2 sm:order-1 justify-center xl:justify-between pl-0 xl:pl-20">
                 <div className="max-w-[800px] space-y-6 text-center xl:text-left">
                   <motion.h1
                     initial={{ opacity: 0, y: -30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                   >
-                    <div className="max-w-2xl mx-auto relative z-20">
+                    <div className="max-w-[500px] mx-auto md:mx-0 relative z-20">
                       <span className="text-center xl:text-left font-bold leading-tight text-white text-[36px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
-                        Let's go <span className="text-red-600">Red</span>.
+                        Pure <span className="text-[#ffffff]">pulses</span>,
+                        pure taste.
                       </span>
                     </div>
                   </motion.h1>
@@ -42,8 +43,8 @@ export default function UniqueHeroWithSidebar() {
                     transition={{ delay: 0.3, duration: 0.8 }}
                     className="mx-auto xl:mx-0 max-w-[360px] sm:max-w-[560px] text-sm sm:text-xl  mb-8 px-2 text-white"
                   >
-                    Media X Infinity crafts premium digital solutions,
-                    creativity and technology to elevate your brand.
+                    High-quality pulses for businesses across India, ensuring
+                    consistent supply, purity, and competitive pricing.
                   </motion.p>
 
                   <motion.p
@@ -54,7 +55,7 @@ export default function UniqueHeroWithSidebar() {
                     <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
                       <Link href="/new-quote">
                         <RainbowButton className="dark:bg-black dark:text-black capitalize tracking-wider">
-                          LET'S BUILD YOUR WEBSITE
+                          PLACE ORDER
                         </RainbowButton>
                       </Link>
                     </div>
@@ -65,7 +66,7 @@ export default function UniqueHeroWithSidebar() {
               {/* Visual / Image Block */}
               <div className="mb-[-20px] sm:mb-0 order-1 sm:order-2 overflow-hidden  2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
                 <Image
-                  src="/mob-home-hero.png"
+                  src="/home-hero.png"
                   height="1080"
                   width="1080"
                   alt="Hero Image"
