@@ -155,40 +155,6 @@ export default function SiteHeader() {
                 </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="tracking-widest">
-                  PRODUCTS
-                </NavigationMenuTrigger>
-                <NavigationMenuContent className="p-4">
-                  <div className="grid w-[500px] grid-cols-2 gap-3">
-                    <ProductCard
-                      title="Website & App Development"
-                      description="We build fast, scalable, user-focused websites & apps."
-                      href="/services/website-and-app-development"
-                      outerstyle="border-l"
-                    />
-                    <ProductCard
-                      title="Digital Marketing & SEO"
-                      description="We craft campaigns boosting brand reach and business ROI."
-                      href="/services/digital-marketing-and-seo"
-                      outerstyle="border-l"
-                    />
-
-                    <ProductCard
-                      title="Building MVPs & Prototypes"
-                      description="Building MVPs and prototypes to test ideas and launch faster."
-                      href="/services/mvps-and-prototypes"
-                      outerstyle="border-l"
-                    />
-                    <ProductCard
-                      title="UI/UX & Graphic Designing"
-                      description="Seamless UI/UX and graphics that enhance brand presence."
-                      href="/services/ui-ux-and-graphics-designing"
-                      outerstyle="border-l"
-                    />
-                  </div>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
                 <NavLink href="/contact-us" className="tracking-widest">
                   CONTACT
                 </NavLink>

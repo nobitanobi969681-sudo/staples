@@ -345,8 +345,8 @@ const DummyContentSix = () => {
 const data = [
   {
     category: "Web + App Power",
-    title: "Website & App Development",
-    src: "/services/website-development.jpg",
+    title: "Rice",
+    src: "/products/rice.jpg",
     content: <DummyContentOne />,
   },
   {
