@@ -16,18 +16,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Media X Infinity",
-  description: "Powerful brands with creative, data-driven strategies.",
+  title: "Jai Maa Kaali Trading Company",
+  description: "Quality grains, trusted taste.",
   openGraph: {
-    title: "Media X Infinity",
-    description: "Powerful brands with creative, data-driven strategies.",
-    url: "https://mediaxinfinity.com",
+    title: "Jai Maa Kaali Trading Company",
+    description: "Quality grains, trusted taste.",
+    url: "https://jmktco.com",
     images: [
       {
         url: "/og-tag-image.png",
         width: 1200,
         height: 630,
-        alt: "Media X Infinity",
+        alt: "Jai Maa Kaali Trading Company",
       },
     ],
     type: "website",
