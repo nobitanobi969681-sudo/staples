@@ -44,6 +44,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antiliased bg-[url('/images/fullbg.jpg')] bg-cover bg-center font-PaytoneOne`}
       >
+        {/*
         <Header />
         {children}
         <div className="">
@@ -52,9 +53,9 @@ export default function RootLayout({
               <Dock />
             </button>
           </div>
-
           <Footer />
-        </div>
+          </div>
+        */}
       </body>
     </html>
   );
