@@ -33,7 +33,7 @@ import Link from "next/link";
 const data = {
   navMain: [
     {
-      title: "Company",
+      title: "Navigation",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
@@ -56,31 +56,6 @@ const data = {
         },
       ],
     },
-    {
-      title: "Services",
-      url: "#",
-      icon: Bot,
-      isActive: false,
-      items: [
-        {
-          title: "Website & App Development",
-          url: "/services/website-and-app-development",
-        },
-        {
-          title: "Digital Marketing & SEO",
-          url: "/services/digital-marketing-and-seo",
-        },
-
-        {
-          title: "Building MPVs & Prototypes",
-          url: "/services/mvps-and-prototypes",
-        },
-        {
-          title: "UI/UX & Graphic Designing",
-          url: "/services/ui-ux-and-graphics-designing",
-        },
-      ],
-    },
   ],
 };
 
@@ -93,7 +68,7 @@ export default function SheetDemo() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className="tracking-widest">MXI</SheetTitle>
+          <SheetTitle className="">Jai Maa Kaali Trading Co.</SheetTitle>
           <SheetDescription>
             We craft bold, refined brands through cutting-edge design, digital
             strategy, and flawless execution.
