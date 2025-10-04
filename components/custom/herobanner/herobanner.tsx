@@ -10,9 +10,9 @@ import Image from "next/image";
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className="relative bg-black overflow-hidden border-b-[1px] border-gray-600">
+    <div className="relative  overflow-hidden border-b-[1px] border-gray-600">
       <Grid size={20} />
-      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0.5)] pt-0">
+      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0)] pt-0">
         <div className="block sm:hidden sm:px-4 mb-4 sm:mb-0">
           <div className="bg-[url('/home-hero.png')] bg-cover bg-center h-60 bg-cover w-full rounded-0"></div>
         </div>
@@ -30,9 +30,9 @@ export default function UniqueHeroWithSidebar() {
                     transition={{ duration: 0.8 }}
                   >
                     <div className="max-w-[500px] mx-auto md:mx-0 relative z-20">
-                      <span className="text-center xl:text-left font-bold leading-tight text-white text-[36px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
-                        Pure <span className="text-[#ffffff]">pulses</span>,
-                        pure taste.
+                      <span className="text-center xl:text-left font-bold leading-tight text-black text-[36px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
+                        Pure <span className="text-black">pulses</span>, pure
+                        taste.
                       </span>
                     </div>
                   </motion.h1>
@@ -41,7 +41,7 @@ export default function UniqueHeroWithSidebar() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.8 }}
-                    className="mx-auto xl:mx-0 max-w-[360px] sm:max-w-[560px] text-sm sm:text-xl  mb-8 px-2 text-white"
+                    className="mx-auto xl:mx-0 max-w-[360px] sm:max-w-[560px] text-sm sm:text-xl  mb-8 px-2 text-black"
                   >
                     High-quality pulses for businesses across India, ensuring
                     consistent supply, purity, and competitive pricing.
