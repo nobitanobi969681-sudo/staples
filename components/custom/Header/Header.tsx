@@ -111,8 +111,9 @@ export default function SiteHeader() {
               />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className="text-[16px] font-semibold hidden md:block tracking-wider">
-                Jai Maa Kaali Trading Company
+              <span className="text-[13px] font-semibold md:block tracking-wider">
+                Jai Maa Kaali <br />
+                Trading Company
               </span>
               <Badge variant="secondary" className="hidden text-[10px]  ">
                 ⚡Bolt

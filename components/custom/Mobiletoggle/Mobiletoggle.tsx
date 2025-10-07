@@ -41,8 +41,8 @@ const data = {
           url: "/",
         },
         {
-          title: "Portfolio",
-          url: "/portfolio",
+          title: "About",
+          url: "/about-us",
         },
         {
           title: "Contact",
@@ -69,8 +69,8 @@ export default function SheetDemo() {
         <SheetHeader>
           <SheetTitle className="">Jai Maa Kaali Trading Co.</SheetTitle>
           <SheetDescription>
-            We craft bold, refined brands through cutting-edge design, digital
-            strategy, and flawless execution.
+            Supplying high-quality pulses across India, ensuring purity,
+            consistency, and reliable delivery for businesses.
           </SheetDescription>
         </SheetHeader>
         <div className="grid flex-1 auto-rows-min gap-6 px-4">
