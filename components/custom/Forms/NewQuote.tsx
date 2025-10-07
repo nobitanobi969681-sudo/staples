@@ -58,7 +58,6 @@ export default function QuoteForm() {
             <strong>Name:</strong> ${formData.name}<br/>
             <strong>Email:</strong> ${formData.email}<br/>
             <strong>Phone:</strong> ${formData.phone}<br/>
-            <strong>Service:</strong> ${formData.service}<br/>
             <strong>Message:</strong> ${formData.message}
           `,
         }),
@@ -74,7 +73,6 @@ export default function QuoteForm() {
           name: "",
           email: "",
           phone: "",
-          service: "test1",
           message: "",
         });
       } else {
@@ -95,7 +93,7 @@ export default function QuoteForm() {
         <CardHeader>
           <CardTitle>Start Here</CardTitle>
           <CardDescription>
-            Tell us your plan and know the cost to build it.
+            Tell us your order, we will deliver.
           </CardDescription>
         </CardHeader>
 
@@ -132,26 +130,6 @@ export default function QuoteForm() {
                 value={formData.phone}
                 onChange={handleChange}
               />
-            </div>
-
-            <div className="grid gap-2">
-              <Label>Service</Label>
-              <RadioGroup
-                value={formData.service}
-                onValueChange={handleServiceChange}
-              >
-                {[
-                  "Website & App Development",
-                  "Digital Marketing & SEO",
-                  "Building MVPs & Prototypes",
-                  "UI/UX & Graphic Designing",
-                ].map((val, i) => (
-                  <div key={val} className="flex items-center gap-3">
-                    <RadioGroupItem value={val} id={`r${i}`} />
-                    <Label htmlFor={`r${i}`}>{val}</Label>
-                  </div>
-                ))}
-              </RadioGroup>
             </div>
 
             <div className="grid gap-2">
