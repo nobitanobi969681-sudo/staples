@@ -7,7 +7,8 @@ const Bottomlinks = () => {
   return (
     <div className="tracking-wider text-gray-900 uppercase flex flex-col items-center justify-between gap-4 text-xs sm:text-sm  dark:text-gray-400 md:flex-row">
       <p className="">
-        © {new Date().getFullYear()} MXI. All rights reserved.
+        <Link href="/privacy-policy">Privacy Policy</Link> |{" "}
+        <Link href="/terms">T&C</Link>
       </p>
       <div className="flex gap-4 text-xs sm:text-sm tracking-wider text-gray-900 dark:text-gray-400 ">
         <Link href="/">Home</Link>
