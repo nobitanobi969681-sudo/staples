@@ -11,10 +11,10 @@ import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
     <div className="bg-[url('/banner/home-hero.jpg')] bg-center min-h-full relative overflow-hidden border-b-[1px] border-gray-600">
-      <Grid size={20} />
-      <div className="mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0)] pt-0">
+      <Grid size={0} />
+      <div className="min-h-[90vh] max-h-[700px] mx-auto relative flex align-end justify-end flex-col md:flex-row bg-center bg-cover bg-[rgba(0,0,0,0)] pt-0">
         <div className="block sm:hidden sm:px-4 mb-4 sm:mb-0">
-          <div className="bg-[url('/banner/home-hero.jpg')] bg-cover bg-center h-60 w-full rounded-0"></div>
+          <div className="bg-[url('/banner/home-hero.jpg')] bg-cover bg-center h-60 w-full rounded-0 hidden"></div>
         </div>
         <div className="pb-16 sm:pb-8 xl:pb-0 w-full flex">
           {/* Hero Section */}
@@ -23,14 +23,14 @@ export default function UniqueHeroWithSidebar() {
               {/* Text Content */}
 
               <div className="flex order-2 sm:order-1 justify-center xl:justify-between pl-0 xl:pl-20">
-                <div className="max-w-[800px] space-y-6 text-center xl:text-left">
+                <div className="max-w-[800px] space-y-6 text-left">
                   <motion.h1
                     initial={{ opacity: 0, y: -30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                   >
-                    <div className="max-w-[500px] mx-auto md:mx-0 relative z-20">
-                      <span className="text-center xl:text-left font-bold leading-tight text-black text-[36px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
+                    <div className="max-w-[500px] md:mx-0 relative z-20">
+                      <span className="text-left font-bold leading-tight text-black text-[36px] sm:text-6xl 2xl:text-7xl px-2 sm:px-0">
                         Pure <span className="text-black">pulses</span>, pure
                         taste.
                       </span>
@@ -41,7 +41,7 @@ export default function UniqueHeroWithSidebar() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.8 }}
-                    className="mx-auto xl:mx-0 max-w-[360px] sm:max-w-[560px] text-sm sm:text-xl  mb-8 px-2 text-black"
+                    className="flex justify-left xl:mx-0 max-w-[360px] sm:max-w-[560px] text-sm sm:text-xl  mb-8 px-2 text-black"
                   >
                     High-quality pulses for businesses across India, ensuring
                     consistent supply, purity, and competitive pricing.
@@ -52,7 +52,7 @@ export default function UniqueHeroWithSidebar() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.8 }}
                   >
-                    <div className="flex flex-col sm:flex-row items-center gap-3 justify-center xl:justify-start">
+                    <div className="flex flex-col sm:flex-row gap-3 justify-start xl:justify-start">
                       <Link href="/new-quote">
                         <RainbowButton className="dark:bg-black dark:text-black capitalize tracking-wider">
                           PLACE ORDER
