@@ -10,7 +10,7 @@ import Image from "next/image";
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className="bg-[url('/banner/home-hero.jpg')] bg-center min-h-full relative overflow-hidden border-b-[1px] border-gray-600">
+    <div className="bg-[url('/banner/home-hero-mob.png')] bg-top bg-cover xl:bg-[url('/banner/home-hero.jpg')] xl:bg-center xl:bg-cover min-h-full relative overflow-hidden border-b-[1px] border-gray-600">
       <Grid size={0} />
       <div className="min-h-[90vh] max-h-[700px] mx-auto relative flex align-end justify-end flex-col md:flex-row bg-center bg-cover bg-[rgba(0,0,0,0)] pt-0">
         <div className="block sm:hidden sm:px-4 mb-4 sm:mb-0">
@@ -52,7 +52,7 @@ export default function UniqueHeroWithSidebar() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.8 }}
                   >
-                    <div className="flex flex-col sm:flex-row gap-3 justify-start xl:justify-start">
+                    <div className="flex flex-col sm:flex-row gap-3 justify-start xl:justify-start px-2">
                       <Link href="/new-quote">
                         <RainbowButton className="dark:bg-black dark:text-black capitalize tracking-wider">
                           PLACE ORDER
