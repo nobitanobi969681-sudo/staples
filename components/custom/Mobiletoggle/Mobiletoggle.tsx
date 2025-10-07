@@ -78,7 +78,9 @@ export default function SheetDemo() {
         </div>
         <SheetFooter>
           <Link href="/new-quote">
-            <Button className="mb-0 w-full">Order Now</Button>
+            <Button onClick={() => setOpen(false)} className="mb-0 w-full">
+              Order Now
+            </Button>
           </Link>
           <Link href="tel:+917984375115">
             <Button variant="outline" className="mb-4 w-full">

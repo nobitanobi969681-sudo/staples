@@ -10,7 +10,7 @@ import Image from "next/image";
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className="bg-[url('/banner/home-hero-mob.png')] bg-top bg-cover xl:bg-[url('/banner/home-hero.jpg')] xl:bg-center xl:bg-cover min-h-full relative overflow-hidden border-b-[1px] border-gray-600">
+    <div className="bg-[url('/banner/home-hero-mob.png')] bg-top bg-cover xl:bg-[url('/banner/home-hero-dsktp.png')] xl:bg-center xl:bg-cover min-h-full relative overflow-hidden border-b-[1px] border-gray-600">
       <Grid size={0} />
       <div className="min-h-[84vh] max-h-[700px] mx-auto relative flex align-end justify-end flex-col md:flex-row bg-center bg-cover bg-[rgba(0,0,0,0)] pt-0">
         <div className="block sm:hidden sm:px-4 mb-4 sm:mb-0">

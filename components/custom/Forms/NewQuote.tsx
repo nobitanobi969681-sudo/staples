@@ -22,7 +22,6 @@ export default function QuoteForm() {
     name: "",
     email: "",
     phone: "",
-    service: "test1",
     message: "",
   });
   const [loading, setLoading] = useState(false);
