@@ -17,32 +17,32 @@ export default function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "The team delivered beyond expectations. Their understanding of branding and digital strategy is sharp and result-oriented. We’ve seen measurable growth, and their attention to detail makes them stand apart in a crowded market.",
+      "Working with the company has been a great experience. Their focus on purity, packaging, and consistency reflects real professionalism. Even as a new supplier, they deliver across India with impressive efficiency and trustworthiness.",
     name: "Ananya Mehra",
-    title: "Strategic Vision Architect",
+    title: "Procurement Manager",
   },
   {
     quote:
-      "Working with them was seamless. They translated complex requirements into elegant solutions. Their web development and marketing strategies truly aligned with our goals, giving our brand a fresh identity and clear digital presence.",
+      "The company might be new, but their commitment to quality is exceptional. Every consignment of pulses was clean, fresh, and delivered on time. Their dedication to building long-term business relationships is clearly visible.",
     name: "Raghav Bhandari",
-    title: "Innovation Growth Catalyst",
+    title: "Operations Head",
   },
   {
     quote:
-      "A brilliant mix of design, technology, and insight. They made our campaigns more impactful than we imagined. Every step was transparent, professional, and driven by results. Highly reliable and innovative in every aspect.",
+      "We were impressed by their attention to quality and detail. The pulses were well-sorted, neatly packed, and delivered promptly. For a new company, their professionalism and service quality already match experienced suppliers.",
     name: "Kavya Iyer",
-    title: "Creative Impact Strategist",
+    title: "Home maker",
   },
   {
     quote:
-      "Their ability to merge creativity with strategy is outstanding. From web design to digital campaigns, everything felt cohesive and purposeful. The team understood our vision clearly and executed it with precision, boosting our market presence.",
+      "From packaging to delivery, everything was handled with care. The company ensures premium-quality pulses and transparent communication. Their growing distribution network across India shows strong potential for future partnerships.",
     name: "Arjun Malhotra",
-    title: "Brand Transformation Lead",
+    title: "Distribution Partner",
   },
   {
     quote:
-      "MXI delivered exactly what our brand needed. Every solution was tailored, modern, and impactful. Their approach to branding and PR gave us confidence, clarity, and visible results within weeks. Truly a dependable partner for ambitious projects.",
+      "Even as a new entrant, the company stands out for its quality-first approach. Their service is reliable, delivery is smooth, and the pulses are consistently fresh. A promising name for businesses seeking dependable supply.",
     name: "Simran Khurana",
-    title: "Digital Experience Curator",
+    title: "Wholesale Partner",
   },
 ];
