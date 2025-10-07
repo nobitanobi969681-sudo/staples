@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import {
   Sheet,
   SheetClose,
@@ -29,6 +27,7 @@ import {
   SquareTerminal,
 } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const data = {
   navMain: [
@@ -61,6 +60,7 @@ const data = {
 
 export default function SheetDemo() {
   const [open, setOpen] = useState(false);
+  const router = useRouter();
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
@@ -78,12 +78,9 @@ export default function SheetDemo() {
           <NavMain setOpen={setOpen} items={data.navMain} />
         </div>
         <SheetFooter>
-          <Link
-            href="mailto:contact@mediaxinfinity.com?subject=Contacting%20from%20MXI%20website&body=Hi%20Aakash%2C%0A%0AI%E2%80%99d%20like%20to%20learn%20more%20about%20the%20services%20your%20agency%20offers.%0A%0ALet%E2%80%99s%20get%20in%20touch.%0A%0AThanks!
-"
-          >
-            <Button variant="outline" className="mb-0 w-full">
-              Mail Us
+          <Link href="/new-quote">
+            <Button onClick={() => router.reload()} className="mb-0 w-full">
+              Order Now
             </Button>
           </Link>
           <Link href="tel:+917984375115">

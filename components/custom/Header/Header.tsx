@@ -43,9 +43,7 @@ import {
   Headphones,
 } from "lucide-react";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
-
 import Mobiletoggle from "@/components/custom/Mobiletoggle/Mobiletoggle";
-
 import Image from "next/image";
 import { MagicCard } from "@/components/magicui/magic-card";
 import { AnimatedThemeToggler } from "@/components/magicui/animated-theme-toggler";

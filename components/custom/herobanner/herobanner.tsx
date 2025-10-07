@@ -10,11 +10,11 @@ import Image from "next/image";
 import { useId } from "react";
 export default function UniqueHeroWithSidebar() {
   return (
-    <div className="relative  overflow-hidden border-b-[1px] border-gray-600">
+    <div className="bg-[url('/banner/home-hero.jpg')] bg-center min-h-full relative overflow-hidden border-b-[1px] border-gray-600">
       <Grid size={20} />
-      <div className="  mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0)] pt-0">
+      <div className="mx-auto relative flex justify-center flex-col md:flex-row  bg-center bg-cover bg-[rgba(0,0,0,0)] pt-0">
         <div className="block sm:hidden sm:px-4 mb-4 sm:mb-0">
-          <div className="bg-[url('/hero-banner.jpg')] bg-cover bg-center h-60 bg-cover w-full rounded-0"></div>
+          <div className="bg-[url('/banner/home-hero.jpg')] bg-cover bg-center h-60 w-full rounded-0"></div>
         </div>
         <div className="pb-16 sm:pb-8 xl:pb-0 w-full flex">
           {/* Hero Section */}
@@ -65,6 +65,7 @@ export default function UniqueHeroWithSidebar() {
 
               {/* Visual / Image Block */}
               <div className="mb-[-20px] sm:mb-0 order-1 sm:order-2 overflow-hidden  2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
+                {/* 
                 <Image
                   src="/hero-banner.jpg"
                   height="1080"
@@ -72,6 +73,7 @@ export default function UniqueHeroWithSidebar() {
                   alt="Hero Image"
                   className="hidden sm:flex"
                 />
+                */}
               </div>
             </div>
           </main>
