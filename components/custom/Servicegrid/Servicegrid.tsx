@@ -8,6 +8,10 @@ import {
   IconHelp,
   IconRouteAltLeft,
   IconTerminal2,
+  IconCurrencyRupee,
+  IconTruck,
+  IconBoxSeam,
+  IconHeadset,
 } from "@tabler/icons-react";
 
 export default function FeaturesSectionDemo() {
@@ -15,27 +19,26 @@ export default function FeaturesSectionDemo() {
     {
       title: "Transparent Pricing",
       description:
-        "Clear, upfront pricing ensures you always know the cost, with no hidden charges or unexpected surprises ever.",
-
-      icon: <IconCurrencyDollar />,
+        "Clear, upfront pricing for every order, ensuring you know exact costs with no hidden charges or surprises.",
+      icon: <IconCurrencyRupee />,
     },
     {
       title: "Quick Delivery",
       description:
-        "Fast turnaround on every project, maintaining top quality while ensuring your brand launches right on schedule.",
-      icon: <IconEaseInOut />,
+        "Swift and reliable dispatch across India, ensuring your bulk pulse orders arrive fresh and on time.",
+      icon: <IconTruck />,
     },
     {
-      title: "Tailored Strategies",
+      title: "50g & 100g Packets",
       description:
-        "We design every solution around your goals, ensuring measurable impact and campaigns that deliver real business results.",
-      icon: <IconTerminal2 />,
+        "Available in multiple packet sizes, designed for retail, wholesale, and private-label business requirements.",
+      icon: <IconBoxSeam />,
     },
     {
       title: "End-to-End Support",
       description:
-        "From planning to execution, we guide every step, ensuring your projects run smoothly, efficiently, and stress-free.",
-      icon: <IconCloud />,
+        "From order to delivery, our team ensures a seamless experience, prioritizing quality, and trust.",
+      icon: <IconHeadset />,
     },
   ];
   return (
@@ -77,7 +80,7 @@ const Feature = ({
         {icon}
       </div>
       <div className="text-base sm:text-lg font-bold mb-2 relative z-10 px-4 sm:px-10">
-        <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral-700 group-hover/feature:bg-blue-500 transition-all duration-200 origin-center" />
+        <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral-700 group-hover/feature:bg-[#623607] transition-all duration-200 origin-center" />
         <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-neutral-800 dark:text-neutral-100 max-w-[100px]">
           {title}
         </span>
