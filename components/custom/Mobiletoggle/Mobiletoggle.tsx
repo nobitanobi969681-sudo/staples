@@ -27,7 +27,6 @@ import {
   SquareTerminal,
 } from "lucide-react";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 const data = {
   navMain: [
@@ -60,7 +59,7 @@ const data = {
 
 export default function SheetDemo() {
   const [open, setOpen] = useState(false);
-  const router = useRouter();
+
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
@@ -79,9 +78,7 @@ export default function SheetDemo() {
         </div>
         <SheetFooter>
           <Link href="/new-quote">
-            <Button onClick={() => router.reload()} className="mb-0 w-full">
-              Order Now
-            </Button>
+            <Button className="mb-0 w-full">Order Now</Button>
           </Link>
           <Link href="tel:+917984375115">
             <Button variant="outline" className="mb-4 w-full">

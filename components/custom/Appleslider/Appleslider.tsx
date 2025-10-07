@@ -344,28 +344,40 @@ const DummyContentSix = () => {
 
 const data = [
   {
-    category: "Web + App Power",
+    category: "Best quality",
     title: "Rice",
-    src: "/products/rice.jpg",
+    src: "/products/1.png",
     content: <DummyContentOne />,
   },
   {
-    category: "Boost Online Reach",
-    title: "Digital Marketing & SEO",
-    src: "/services/digital-marketing.jpg",
+    category: "Red Lentils",
+    title: "Masoor Dal",
+    src: "/products/2.png",
     content: <DummyContentTwo />,
   },
 
   {
     category: "Pixel-Perfect Experiences",
-    title: "UI/UX & Graphic Designing",
-    src: "/services/uiux.jpg",
+    title: "Arahar Dal",
+    src: "/products/3.png",
     content: <DummyContentFive />,
   },
   {
     category: "Ideas Into Actions",
-    title: "Building MPVs & Prototypes",
-    src: "/services/mvp.jpg",
+    title: "Moong Dal",
+    src: "/products/4.png",
+    content: <DummyContentFour />,
+  },
+  {
+    category: "Ideas Into Actions",
+    title: "Chana Dal",
+    src: "/products/5.png",
+    content: <DummyContentFour />,
+  },
+  {
+    category: "Ideas Into Actions",
+    title: "Rajma",
+    src: "/products/6.png",
     content: <DummyContentFour />,
   },
 ];
