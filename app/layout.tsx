@@ -47,11 +47,7 @@ export default function RootLayout({
         <Header />
         {children}
         <div className="">
-          <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-50">
-            <button className="px-4 py-2">
-              <Dock />
-            </button>
-          </div>
+          <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-50"></div>
           <Footer />
         </div>
       </body>
