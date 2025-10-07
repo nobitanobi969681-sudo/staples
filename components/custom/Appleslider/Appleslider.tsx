@@ -344,16 +344,16 @@ const DummyContentSix = () => {
 
 const data = [
   {
-    category: "Best quality",
-    title: "Rice",
-    src: "/products/1.png",
-    content: <DummyContentOne />,
-  },
-  {
     category: "Red Lentils",
     title: "Masoor Dal",
     src: "/products/2.png",
     content: <DummyContentTwo />,
+  },
+  {
+    category: "Best quality",
+    title: "Rice",
+    src: "/products/1.png",
+    content: <DummyContentOne />,
   },
 
   {
