@@ -29,7 +29,7 @@ export default function FeaturesSectionDemo() {
       icon: <IconTruck />,
     },
     {
-      title: "50g & 100g Packets",
+      title: "5Kg to bulk orders",
       description:
         "Available in multiple packet sizes, designed for retail, wholesale, and private-label business requirements.",
       icon: <IconBoxSeam />,

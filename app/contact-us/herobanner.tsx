@@ -6,8 +6,8 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default function AboutPage() {
   return (
-    <div className=" dark:bg-black mx-auto relative  md:flex-row  bg-top bg-cover border-b-[1px] border-gray-600">
-      <div className="bg-[rgba(255,255,255,0)] dark:bg-[rgba(0,0,0,0.8)] min-h-[280px] sm:min-h-[400px]   xl:pb-0 w-full flex justify-center flex-col">
+    <div className=" dark:bg-black mx-auto relative  md:flex-row  bg-top bg-cover border-gray-600">
+      <div className="bg-[rgba(255,255,255,0)] dark:bg-[rgba(0,0,0,0.8)] min-h-[280px] sm:min-h-[400px] xl:pb-0 w-full flex justify-center flex-col">
         <div className="relative w-full max-w-4xl text-center mx-auto">
           <motion.h1
             initial={{ opacity: 0, y: -30 }}
