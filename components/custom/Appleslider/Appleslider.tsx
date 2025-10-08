@@ -27,15 +27,12 @@ const DummyContentOne = () => {
         return (
           <div key={"dummy-content-one" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We design and develop{" "}
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                high-performance websites and apps
-              </span>{" "}
-              tailored to your business goals. Our approach blends clean code,
-              intuitive UI/UX, and scalable architecture, ensuring seamless
-              functionality across devices. From concept to launch, we deliver
-              reliable digital solutions that engage users and drive measurable
-              growth.
+              We supply premium Massoor Dal across India, catering to retailers,
+              wholesalers, and distributors. With consistent quality,
+              competitive pricing, and reliable delivery, our pulses help
+              businesses boost sales, satisfy customers, and strengthen their
+              product range. Partner with us for a trusted and profitable
+              Massoor Dal supply.
             </p>
 
             <div className="flex gap-6">
@@ -44,17 +41,9 @@ const DummyContentOne = () => {
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
               >
-                Get A Quote
+                Order Now
               </Button>
             </div>
-
-            <img
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain hidden"
-            />
           </div>
         );
       })}
@@ -69,15 +58,12 @@ const DummyContentTwo = () => {
         return (
           <div key={"dummy-content-two" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We craft{" "}
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                intuitive interfaces and stunning visuals
-              </span>{" "}
-              that blend creativity with usability. Our UI/UX process
-              prioritizes seamless user journeys, while our graphic design
-              elevates brand identity with precision. From wireframes to
-              polished assets, we deliver cohesive, high-impact designs that
-              engage audiences and strengthen your brand presence.
+              We supply premium rice across India, delivering orders from 5 Kg
+              to bulk quantities for retailers, wholesalers, and distributors.
+              With consistent quality, competitive pricing, and timely delivery,
+              our rice helps businesses boost sales, satisfy customers, and
+              expand their product range. Trust us for a reliable and profitable
+              rice supply.
             </p>
 
             <div className="flex gap-6">
@@ -86,17 +72,9 @@ const DummyContentTwo = () => {
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
               >
-                Get A Quote
+                Order Now
               </Button>
             </div>
-
-            <img
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain hidden"
-            />
           </div>
         );
       })}
@@ -111,15 +89,12 @@ const DummyContentThree = () => {
         return (
           <div key={"dummy-content-three" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We create{" "}
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                stunning visuals and videos
-              </span>{" "}
-              that capture attention and elevate your brand. Our photography and
-              editing services blend creativity, precision, and storytelling to
-              produce striking content for social media, advertising, or
-              campaigns, ensuring your audience stays engaged and your brand
-              leaves a lasting impression.
+              We supply high-quality Arhar Dal across India, delivering orders
+              from 5 Kg to bulk quantities for retailers, wholesalers, and
+              distributors. With consistent quality, competitive pricing, and
+              timely delivery, our Arhar Dal helps businesses boost sales,
+              satisfy customers, and expand their product range. Rely on us for
+              a trusted supply.
             </p>
 
             <div className="flex gap-6">
@@ -128,17 +103,9 @@ const DummyContentThree = () => {
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
               >
-                Get A Quote
+                Order Now
               </Button>
             </div>
-
-            <img
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain hidden"
-            />
           </div>
         );
       })}
@@ -153,15 +120,12 @@ const DummyContentFour = () => {
         return (
           <div key={"dummy-content-four" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We help transform your{" "}
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                ideas into functional MVPs and prototypes
-              </span>{" "}
-              quickly and efficiently. By validating concepts early and
-              minimizing risk, we accelerate your time to market. Our team
-              focuses on usability, scalability, and innovation to ensure your
-              product captures investors’ interest and customers’ attention from
-              day one.
+              Our high-quality Moong Dal is delivered across India, from 5 Kg to
+              bulk orders, serving retailers, wholesalers, and distributors.
+              With guaranteed freshness, competitive pricing, and timely
+              delivery, our Moong Dal helps businesses increase sales, delight
+              customers, and enhance their product lineup. Depend on us for
+              consistent supply.
             </p>
 
             <div className="flex gap-6">
@@ -170,17 +134,9 @@ const DummyContentFour = () => {
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
               >
-                Get A Quote
+                Order Now
               </Button>
             </div>
-
-            <img
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain hidden"
-            />
           </div>
         );
       })}
@@ -195,15 +151,11 @@ const DummyContentFive = () => {
         return (
           <div key={"dummy-content-five" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We design intuitive{" "}
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                intuitive interfaces and stunning visuals
-              </span>{" "}
-              that deliver seamless, enjoyable experiences. Combining
-              research-driven UX strategies with bold, modern visuals, we create
-              designs that improve usability and build emotional connections.
-              Every detail reflects your brand identity and enhances engagement,
-              resulting in products users love and remember.
+              We supply premium Chana Dal across India, fulfilling orders from
+              5 Kg to bulk quantities for retailers, wholesalers, and
+              distributors. With consistent quality, competitive pricing, and
+              timely delivery, our Chana Dal helps businesses boost sales,
+              satisfy customers, and expand their product offerings reliably.
             </p>
 
             <div className="flex gap-6">
@@ -212,17 +164,9 @@ const DummyContentFive = () => {
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
               >
-                Get A Quote
+                Order Now
               </Button>
             </div>
-
-            <img
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain hidden"
-            />
           </div>
         );
       })}
@@ -237,15 +181,12 @@ const DummyContentSix = () => {
         return (
           <div key={"dummy-content-six" + index} className="">
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
-              We shape powerful brand identities and manage your public image
-              with precision. Our services blend strategy, design, and
-              communication to establish trust,{" "}
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
-                boost awareness, and influence perception.
-              </span>{" "}
-              From creating compelling narratives to executing effective PR
-              campaigns, we position your brand to thrive in competitive markets
-              and stay relevant.
+              We provide high-quality Rajma across India, delivering orders from
+              5 Kg to bulk quantities for retailers, wholesalers, and
+              distributors. With consistent quality, competitive pricing, and
+              timely delivery, our Rajma helps businesses increase sales,
+              delight customers, and expand their product range with a trusted
+              supply.
             </p>
 
             <div className="flex gap-6">
@@ -254,17 +195,9 @@ const DummyContentSix = () => {
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
               >
-                Get A Quote
+                Order Now
               </Button>
             </div>
-
-            <img
-              src="https://assets.aceternity.com/macbook.png"
-              alt="Macbook mockup from Aceternity UI"
-              height="500"
-              width="500"
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain hidden"
-            />
           </div>
         );
       })}
@@ -277,20 +210,20 @@ const data = [
     category: "Red Lentils",
     title: "Masoor Dal",
     src: "/products/2.png",
-    content: <DummyContentTwo />,
+    content: <DummyContentOne />,
   },
   {
     category: "Best quality",
     title: "Rice",
     src: "/products/1.png",
-    content: <DummyContentOne />,
+    content: <DummyContentTwo />,
   },
 
   {
     category: "Pigeon Pea",
     title: "Arahar Dal",
     src: "/products/3.png",
-    content: <DummyContentFive />,
+    content: <DummyContentThree />,
   },
   {
     category: "Split Green Gram",
@@ -302,12 +235,12 @@ const data = [
     category: "Split Bengal Gram",
     title: "Chana Dal",
     src: "/products/5.png",
-    content: <DummyContentFour />,
+    content: <DummyContentFive />,
   },
   {
     category: "Kidney Beans",
     title: "Rajma",
     src: "/products/6.png",
-    content: <DummyContentFour />,
+    content: <DummyContentSix />,
   },
 ];
