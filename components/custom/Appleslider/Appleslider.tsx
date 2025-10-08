@@ -287,25 +287,25 @@ const data = [
   },
 
   {
-    category: "Pixel-Perfect Experiences",
+    category: "Pigeon Pea",
     title: "Arahar Dal",
     src: "/products/3.png",
     content: <DummyContentFive />,
   },
   {
-    category: "Ideas Into Actions",
+    category: "Split Green Gram",
     title: "Moong Dal",
     src: "/products/4.png",
     content: <DummyContentFour />,
   },
   {
-    category: "Ideas Into Actions",
+    category: "Split Bengal Gram",
     title: "Chana Dal",
     src: "/products/5.png",
     content: <DummyContentFour />,
   },
   {
-    category: "Ideas Into Actions",
+    category: "Kidney Beans",
     title: "Rajma",
     src: "/products/6.png",
     content: <DummyContentFour />,
