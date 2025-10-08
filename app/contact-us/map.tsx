@@ -10,7 +10,7 @@ const markers = [
 
 export default function Component() {
   return (
-    <div className="relative md:h-[500px] w-full overflow-hidden">
+    <div className="relative  w-full overflow-hidden">
       <div className="to-background absolute inset-0 bg-radial from-transparent to-70%" />
       <DottedMap markers={markers} />
     </div>
