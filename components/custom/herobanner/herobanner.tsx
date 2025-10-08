@@ -52,7 +52,7 @@ export default function UniqueHeroWithSidebar() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.8 }}
                   >
-                    <div className="flex flex-col sm:flex-row gap-3 justify-start xl:justify-start px-2">
+                    <div className="flex flex-col sm:flex-row gap-3 justify-center xl:justify-start px-2">
                       <Link href="/new-quote">
                         <RainbowButton className="dark:bg-black dark:text-black capitalize tracking-wider">
                           PLACE ORDER

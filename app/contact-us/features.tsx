@@ -29,13 +29,13 @@ export default function FeaturesSectionDemo() {
 
 const grid = [
   {
-    title: "+91-7984-37-5115",
-    link: "tel:+917984375115",
+    title: "+91 9005 7490 57",
+    link: "tel:+919005749057",
     description: "Call Us",
   },
   {
-    title: "contact@mediaxinfinity.com",
-    link: "mailto:contact@mediaxinfinity.com",
+    title: "contact@jmktco",
+    link: "mailto:contact@jmktco",
     description: "Mail Us",
   },
   {

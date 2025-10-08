@@ -13,7 +13,7 @@ export default function AboutPage() {
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="px-4 sm:px-0  text-white dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold tracking-tight relative z-10"
+            className="px-4 sm:px-0  text-black dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold tracking-tight relative z-10"
           >
             Contact Us
           </motion.h1>
@@ -21,10 +21,10 @@ export default function AboutPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-white px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
+            className="text-black px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
           >
-            Reach out to us today for quick support, inquiries, feedback, ideas,
-            or collaborations.
+            Reach out to us today for quick support, inquiries, feedback, or
+            orders.
           </motion.p>
         </div>
       </div>
