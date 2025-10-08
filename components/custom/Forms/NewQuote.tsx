@@ -132,7 +132,7 @@ export default function QuoteForm() {
             </div>
 
             <div className="grid gap-2">
-              <Label htmlFor="message">Message</Label>
+              <Label htmlFor="message">Order</Label>
               <Textarea
                 id="message"
                 value={formData.message}
@@ -146,7 +146,7 @@ export default function QuoteForm() {
                 disabled={loading}
                 className="tracking-wider"
               >
-                {loading ? "Sending..." : "REQUEST A QUOTE"}
+                {loading ? "Sending..." : "SEND PRICE"}
               </RainbowButton>
             </CardFooter>
 
