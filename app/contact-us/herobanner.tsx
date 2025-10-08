@@ -23,8 +23,8 @@ export default function AboutPage() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-black px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
           >
-            Reach out to us today for quick support, inquiries, feedback, or
-            orders.
+            Reach out to us today for quick support, product inquiries,
+            feedback, or to place your orders easily.
           </motion.p>
         </div>
       </div>

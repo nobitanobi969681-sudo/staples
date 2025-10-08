@@ -34,13 +34,13 @@ const grid = [
     description: "Call Us",
   },
   {
-    title: "contact@jmktco",
-    link: "mailto:contact@jmktco",
+    title: "contact@jmktco.com",
+    link: "mailto:contact@jmktco.com",
     description: "Mail Us",
   },
   {
-    title: "Surat, Gujrat 🇮🇳",
-    link: "https://www.google.com/maps?sca_esv=8f37aa539897307f&rlz=1C5CHFA_enIN1024IN1024&output=search&q=surat+gujarat+google+map&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIetxLMeWi1u_d0OMRvkClUbaKftIbDTsCvcgQ9k2f2SfCc69Ldrpqf0teIC_VmixhsQYIUW2fNE9ibFX-ysqAEIRZx2krWNw-_Qs75sRjKk8RwIqgFlvilhDTZSegdWXVMaj67ZIh_RqGUkZTsF_bFMvwFPlDkRo3mvxV_cHf_wO0CqYXKw&entry=mc&ved=1t:200715&ictx=111",
+    title: "Lucknow, UP 🇮🇳",
+    link: "https://www.google.com/maps/place/Lucknow,+Uttar+Pradesh/data=!4m2!3m1!1s0x399bfd991f32b16b:0x93ccba8909978be7?sa=X&ved=1t:242&ictx=111",
     description: "Reach Us",
   },
 ];

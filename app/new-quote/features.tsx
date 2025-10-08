@@ -30,7 +30,7 @@ const grid = [
     description: "",
   },
   {
-    title: "Speed",
+    title: "Trust",
     description: "",
   },
   {

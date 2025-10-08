@@ -16,7 +16,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="px-4 sm:px-0   text-black dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold relative z-10"
           >
-            Quote. Decide. Build.
+            Review & Place Order
           </motion.h1>
 
           <motion.p
@@ -25,8 +25,8 @@ export default function AboutPage() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="px-8 sm:px-0 mt-6 text-lg md:text-xl text-muted-foreground relative z-10 max-w-md mx-auto"
           >
-            See the numbers first, then decide confidently if we should move
-            ahead together.
+            Review your details, confirm selections, and place your order
+            securely in seconds.
           </motion.p>
         </div>
       </div>

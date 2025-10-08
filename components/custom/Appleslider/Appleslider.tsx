@@ -40,18 +40,6 @@ const DummyContentOne = () => {
 
             <div className="flex gap-6">
               <Button
-                onClick={() =>
-                  window.location.replace(
-                    "/services/website-and-app-development/"
-                  )
-                }
-                variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-              >
-                Read More
-              </Button>
-
-              <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
@@ -93,18 +81,6 @@ const DummyContentTwo = () => {
             </p>
 
             <div className="flex gap-6">
-              <Button
-                onClick={() =>
-                  window.location.replace(
-                    "/services/digital-marketing-and-seo/"
-                  )
-                }
-                variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-              >
-                Read More
-              </Button>
-
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
@@ -148,18 +124,6 @@ const DummyContentThree = () => {
 
             <div className="flex gap-6">
               <Button
-                onClick={() =>
-                  window.location.replace(
-                    "/services/photography-and-video-editing/"
-                  )
-                }
-                variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-              >
-                Read More
-              </Button>
-
-              <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
@@ -201,16 +165,6 @@ const DummyContentFour = () => {
             </p>
 
             <div className="flex gap-6">
-              <Button
-                onClick={() =>
-                  window.location.replace("/services/mvps-and-prototypes/")
-                }
-                variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-              >
-                Read More
-              </Button>
-
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
@@ -254,18 +208,6 @@ const DummyContentFive = () => {
 
             <div className="flex gap-6">
               <Button
-                onClick={() =>
-                  window.location.replace(
-                    "/services/ui-ux-and-graphics-designing/"
-                  )
-                }
-                variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-              >
-                Read More
-              </Button>
-
-              <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
                 className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
@@ -307,18 +249,6 @@ const DummyContentSix = () => {
             </p>
 
             <div className="flex gap-6">
-              <Button
-                onClick={() =>
-                  window.location.replace(
-                    "/services/branding-and-pr-management/"
-                  )
-                }
-                variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
-              >
-                Read More
-              </Button>
-
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
