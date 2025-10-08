@@ -1,45 +1,59 @@
-"use client";
+import React from "react";
 
-import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
-
-export default function PrivacyPolicyPage() {
+const PrivacyPolicy = () => {
   return (
-    <div className="relative flex min-h-screen w-full items-center justify-center bg-gradient-to-br from-zinc-950 via-black to-zinc-900 px-6 py-20">
-      <motion.div
-        initial={{ opacity: 0, y: 60 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="w-full max-w-4xl"
-      >
-        <Card className="border border-white/10 bg-zinc-900/80 shadow-2xl backdrop-blur-xl">
-          <CardContent className="p-10 sm:p-14">
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2, duration: 0.6 }}
-              className="text-center text-4xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 via-fuchsia-400 to-emerald-300 bg-clip-text text-transparent sm:text-5xl"
-            >
-              Privacy Policy
-            </motion.h1>
+    <section className="bg-gray-50 py-16 px-4">
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-2xl font-bold mb-8 text-center text-gray-900">
+          Privacy Policy
+        </h1>
+        <div className="text-sm md:text-md text-justify">
+          <p className="mb-6 text-gray-700">
+            We are deeply committed to protecting your privacy and ensuring the
+            security of your personal information. Any data collected through
+            our website is used strictly to process orders, improve our
+            services, and enhance your overall experience. We take every measure
+            to maintain confidentiality and handle your information responsibly.
+          </p>
 
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 0.8 }}
-              className="mt-8 text-lg leading-8 text-zinc-300 sm:text-xl"
-            >
-              We respect your privacy and are committed to protecting your personal
-              information. This Privacy Policy explains how your data is collected,
-              used, and safeguarded when you interact with our services. By using
-              this platform, you consent to the practices described here. We employ
-              technical and organizational safeguards to secure your data and ensure
-              transparency in how it is processed. If you have any questions
-              regarding this policy, please reach out to us directly.
-            </motion.p>
-          </CardContent>
-        </Card>
-      </motion.div>
-    </div>
+          <p className="mb-6 text-gray-700">
+            We do not sell, trade, or share your personal information with third
+            parties under any circumstances. Cookies and other tracking
+            technologies may be used to optimize website performance and provide
+            a personalized browsing experience, but they never compromise your
+            privacy.
+          </p>
+
+          <p className="mb-6 text-gray-700">
+            All customer data is stored securely using industry-standard
+            security measures to prevent unauthorized access. You have the right
+            to request access to your personal information, correct
+            inaccuracies, or ask for data deletion at any time. Our goal is to
+            maintain transparency and build trust with all our users and
+            clients.
+          </p>
+
+          <p className="mb-8 text-gray-700">
+            By continuing to use our website, you consent to the collection and
+            use of information in accordance with this privacy policy. We
+            encourage you to review this policy periodically as we may update it
+            to reflect changes in our practices or legal requirements.
+          </p>
+        </div>
+
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">
+          Contact Information
+        </h2>
+        <div className="space-y-2 text-gray-700">
+          <div className="text-sm md:text-md leading-loose">
+            <p>📞 Phone: +91 9005 7490 57</p>
+            <p>📧 Email: jmk111gopal@gmail.com</p>
+            <p>📍 Address: Lucknow, UP, India 🇮🇳</p>
+          </div>
+        </div>
+      </div>
+    </section>
   );
-}
+};
+
+export default PrivacyPolicy;
