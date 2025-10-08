@@ -34,8 +34,8 @@ const grid = [
     description: "Call Us",
   },
   {
-    title: "contact@jmktco.com",
-    link: "mailto:contact@jmktco.com",
+    title: "jmk111gopal@gmail.com",
+    link: "mailto:jmk111gopal@gmail.com",
     description: "Mail Us",
   },
   {
