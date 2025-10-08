@@ -23,7 +23,7 @@ export default function HomePage() {
 
       <div className="block sm:hidden px-4 mb-16">
         <Image
-          src="/banner/home-banner-one.png"
+          src="/banner/home-banner-two.png"
           height="800"
           width="800"
           alt=""
