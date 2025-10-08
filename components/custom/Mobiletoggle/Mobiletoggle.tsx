@@ -48,10 +48,6 @@ const data = {
           title: "Contact",
           url: "/contact-us",
         },
-        {
-          title: "New Quote",
-          url: "/new-quote",
-        },
       ],
     },
   ],
