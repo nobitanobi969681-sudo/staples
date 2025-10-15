@@ -51,7 +51,7 @@ export default function QuoteForm() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: "mediaxinfinity010@gmail.com",
+          to: "nobitanobi969681@gmail.com",
           subject: `Quote Request from ${formData.name}`,
           message: `
             <strong>Name:</strong> ${formData.name}<br/>
