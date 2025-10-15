@@ -50,7 +50,7 @@ export default function ShineBorderDemo() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          to: "your@email.com", // change to your email or array
+          to: "nobitanobi969681@gmail.com", // change to your email or array
           subject: `Quote Request from ${formData.name}`,
           message: `
             <strong>Name:</strong> ${formData.name}<br/>
