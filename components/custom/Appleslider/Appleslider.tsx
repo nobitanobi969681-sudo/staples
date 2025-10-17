@@ -34,6 +34,7 @@ const DummyContentOne = () => {
               product range. Partner with us for a trusted and profitable
               Massoor Dal supply.
             </p>
+            <h2>Availble in 5Kg and 10Kg packaging</h2>
 
             <div className="flex gap-6">
               <Button
@@ -65,6 +66,7 @@ const DummyContentTwo = () => {
               expand their product range. Trust us for a reliable and profitable
               rice supply.
             </p>
+            <h2>Availble in 5Kg and 10Kg packaging</h2>
 
             <div className="flex gap-6">
               <Button
@@ -96,6 +98,7 @@ const DummyContentThree = () => {
               satisfy customers, and expand their product range. Rely on us for
               a trusted supply.
             </p>
+            <h2>Availble in 5Kg and 10Kg packaging</h2>
 
             <div className="flex gap-6">
               <Button
@@ -127,6 +130,7 @@ const DummyContentFour = () => {
               customers, and enhance their product lineup. Depend on us for
               consistent supply.
             </p>
+            <h2>Availble in 5Kg and 10Kg packaging</h2>
 
             <div className="flex gap-6">
               <Button
@@ -157,6 +161,7 @@ const DummyContentFive = () => {
               timely delivery, our Chana Dal helps businesses boost sales,
               satisfy customers, and expand their product offerings reliably.
             </p>
+            <h2>Availble in 5Kg and 10Kg packaging</h2>
 
             <div className="flex gap-6">
               <Button
@@ -188,6 +193,7 @@ const DummyContentSix = () => {
               delight customers, and expand their product range with a trusted
               supply.
             </p>
+            <h2>Availble in 5Kg and 10Kg packaging</h2>
 
             <div className="flex gap-6">
               <Button
