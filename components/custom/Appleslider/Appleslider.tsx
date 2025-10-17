@@ -35,7 +35,8 @@ const DummyContentOne = () => {
               Massoor Dal supply.
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
-              Availble in 5Kg and 10Kg packs.
+              Availble in <span className="font-black">5Kg and 10Kg packs</span>
+              .
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
               Place bulk order.
@@ -72,7 +73,8 @@ const DummyContentTwo = () => {
               rice supply.
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
-              Availble in 5Kg and 10Kg packs.
+              Availble in <span className="font-black">5Kg and 10Kg packs</span>
+              .
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
               Place bulk order.
@@ -109,7 +111,8 @@ const DummyContentThree = () => {
               a trusted supply.
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
-              Availble in 5Kg and 10Kg packs.
+              Availble in <span className="font-black">5Kg and 10Kg packs</span>
+              .
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
               Place bulk order.
@@ -146,7 +149,8 @@ const DummyContentFour = () => {
               consistent supply.
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
-              Availble in 5Kg and 10Kg packs.
+              Availble in <span className="font-black">5Kg and 10Kg packs</span>
+              .
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
               Place bulk order.
@@ -182,7 +186,8 @@ const DummyContentFive = () => {
               satisfy customers, and expand their product offerings reliably.
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
-              Availble in 5Kg and 10Kg packs.
+              Availble in <span className="font-black">5Kg and 10Kg packs</span>
+              .
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
               Place bulk order.
@@ -219,7 +224,8 @@ const DummyContentSix = () => {
               supply.
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
-              Availble in 5Kg and 10Kg packs.
+              Availble in <span className="font-black">5Kg and 10Kg packs</span>
+              .
             </p>
             <p className="text-neutral-600 dark:text-neutral-400 text-xl md:text-3xl font-sans mb-8">
               Place bulk order.
