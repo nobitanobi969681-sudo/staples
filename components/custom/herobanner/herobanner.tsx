@@ -41,10 +41,14 @@ export default function UniqueHeroWithSidebar() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.8 }}
-                    className="flex justify-left xl:mx-0 max-w-[360px] sm:max-w-[560px] text-sm sm:text-xl  mb-8 px-2 text-black"
+                    className=" justify-left xl:mx-0 max-w-[360px] sm:max-w-[560px] text-sm sm:text-xl  mb-8 px-2 text-black"
                   >
-                    High-quality pulses for businesses across India, ensuring
-                    consistent supply, purity, and competitive pricing.
+                    High-quality pulses for businesses across India. Available
+                    in{" "}
+                    <span className="font-black">
+                      5Kg, 10Kg packages & bulk order
+                    </span>
+                    .
                   </motion.p>
 
                   <motion.p
