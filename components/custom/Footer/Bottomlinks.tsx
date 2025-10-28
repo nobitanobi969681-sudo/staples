@@ -8,7 +8,8 @@ const Bottomlinks = () => {
     <div className="tracking-wider text-gray-900 uppercase flex flex-col items-center justify-between gap-4 text-xs sm:text-sm  dark:text-gray-400 md:flex-row">
       <p className="">
         <Link href="/privacy-policy">Privacy Policy</Link> |{" "}
-        <Link href="/terms-of-use">T&C</Link>
+        <Link href="/terms-of-use">T&C</Link> |{" "}
+        <Link href="/refund-policy">Refund Policy</Link>
       </p>
       <div className="flex gap-4 text-xs sm:text-sm tracking-wider text-gray-900 dark:text-gray-400 ">
         <Link href="/">Home</Link>
